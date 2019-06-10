@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+.swiper1{
+  height:80rpx;
+}
+.swiper-item1{
+  width:100rpx;
+}
+.text{
+  display: block;
+  width:100rpx;
+}
+.swiper2{
+  height: 400rpx;
+}
+
+.back{
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
