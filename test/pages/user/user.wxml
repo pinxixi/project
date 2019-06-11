@@ -1,0 +1,14 @@
+<!--pages/user/user.wxml-->
+<view class="page" wx:if="{{!pageShow}}">
+  <view class="header">
+    <view class="image-box">
+      <image class="image" src='/pages/image/user.jpg'></image>
+    </view>
+    <view class="content">
+      <view class='name'>霊夢</view> 
+      <view class='info'>
+        <view class="i">更新资料</view>
+      </view>
+    </view>
+  </view>
+</view>
