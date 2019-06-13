@@ -2,6 +2,8 @@
 .cart_container {
   display: flex;
   flex-direction: row;
+  height: 288rpx;
+  border-bottom: 20rpx solid #dddee1;
 }
 .scroll {
   margin-bottom: 120rpx;

@@ -1,3 +1,0 @@
-<!--pages/address/address.wxml-->
-<text>pages/address/address.wxml</text>
-<button bindtap='getLocation'>获取位置</button>

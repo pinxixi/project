@@ -3,7 +3,6 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/cart/cart",
-    "pages/address/address",
     "pages/demo/demo"
   ],
   "permission": {
@@ -15,7 +14,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "购物车",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#faf",
@@ -33,15 +33,8 @@
         "text": "cart",
         "iconPath": "pages/images/镜子.jpg",
         "selectedIconPath": "pages/images/镜子.jpg"
-      },
-      {
-        "pagePath": "pages/address/address",
-        "text": "address",
-        "iconPath": "pages/images/镜子.jpg",
-        "selectedIconPath": "pages/images/镜子.jpg"
       }
     ]
   },
-  "sitemapLocation": "sitemap.json",
-  "enablePullDownRefresh": true
+  "sitemapLocation": "sitemap.json"
 }
