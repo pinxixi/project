@@ -1,9 +1,6 @@
 // pages/user/user.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
     map: null,
     mapData:{},
@@ -22,7 +19,7 @@ Page({
       markers:[]
     },
     newMarker: {
-      iconPath: "/pages/image/icon8.gif",
+      iconPath: "/pages/image/icon-1.gif",
       id: 0,
       latitude: 0,
       longitude: 0,
@@ -52,6 +49,25 @@ Page({
           icon: "/pages/image/icon5.gif",
           num: "0"
         }
+      ],
+      list2: [
+        {
+          name: "优惠券",
+          pathName: "ticket",
+          icon: "/pages/image/icon6.gif"
+        }, {
+          name: "商品收藏",
+          pathName: "favorite",
+          icon: "/pages/image/icon7.gif"
+        }, {
+          name: "历史浏览",
+          pathName: "history",
+          icon: "/pages/image/icon8.gif"
+        }, {
+          name: "商品售后",
+          pathName: "afterSale",
+          icon: "/pages/image/icon9.gif"
+        }
       ]
     }
   },
@@ -61,6 +77,11 @@ Page({
    */
   onLoad: function (options) {
     this.data.map = wx.createMapContext("map");
+    wx.getUserInfo({
+      success:res=>{
+        console.log(res.userInfo)
+      }
+    })
     this.setData({
       map: this.data.map
     })
@@ -94,48 +115,13 @@ Page({
     })
     
   },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  toPage(e){  
+    let path = e.currentTarget.dataset.pathname||"user";
+    console.log(path)
+    wx.navigateTo({
+      url: `/pages/${path}/${path}`,
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
   /**
    * 用户点击右上角分享
    */

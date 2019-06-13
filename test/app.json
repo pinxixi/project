@@ -2,20 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-
     "pages/cart/cart",
     "pages/demo/demo",
-
     "pages/home/home",
-
-
     "pages/detail/detail",
-
-
     "pages/news/news",
     "pages/buycar/buycar",
-    "pages/user/user"
-
+    "pages/user/user",
+    "pages/ticket/ticket"
   ],
   "permission": {
     "scope.userLocation": {
@@ -53,5 +47,4 @@
     ]
   },
   "sitemapLocation": "sitemap.json"
-  
 }

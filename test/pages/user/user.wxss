@@ -1,50 +1,55 @@
 /* pages/user/user.wxss */
-page{
-  background: #f3f3f3;
-}
 .header{
-  display: flex;
-  padding: 0 25rpx;
-  background:#fff;
-  padding-bottom: 90rpx;
+  padding: 10rpx 0;
+  background:#1ca95e;
+  padding-bottom: 48rpx;
+  margin-bottom: 19rpx;
 }
 .image-box{
-  width: 84rpx;
-  height: 84rpx;
-  margin-right: 25rpx;
+  width: 129rpx;
+  height: 129rpx;
+  margin: 0 auto ;
+  border: 7rpx solid #fff; 
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.image-box .icon{
+  color: #fff;
+  font-size: 20rpx;
+  padding: 0 11rpx;
+  line-height: 40rpx;
+  background: #ff516d;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .image-box .image{
   width: 100%;
-  height:100%;
+  height: 100%;
   border-radius: 50%;
   background: red;
   display: block;
 }
 .header .content{
-  color: #111;
-  padding-top: 20rpx;
+  color: #fff;
+  margin: 0 auto;
 }
 .header .name{
-  width: 2rem;
+  text-align: center;
   font-size: 38rpx;
   line-height: 1;
 }
 .header .info{
   display: flex;
 }
-.header .info .i{
-  color: #fff;
-  font-size: 12rpx;
-  padding: 0 20rpx;
-  line-height: 18rpx;
-  background: #fbb;
-  border-radius: 9rpx;
-  margin: 5rpx;
-}
 .list{
   background: #fff;
-  padding: 0 20rpx;
   font-size: 30rpx;
+}
+.list .content{
+  border-top: 1px solid #f8f8f8;
 }
 .list .title{
   color: #111;
@@ -52,23 +57,31 @@ page{
   justify-content: space-between;
 }
 .list .title .more{
-  color: #666;
-  font-size: 26rpx;
+  color: #ababab;
+  font-size: 24rpx;
+}
+.list .more .icon{
+  margin-left: 20rpx;
 }
 .list1{
   color: #666;
 }
+.list1 .title{
+  padding: 17rpx 26rpx 23rpx; 
+}
+.list1 .title-name{
+  margin-left: 34rpx;
+}
 .list1 .content{
   display: flex;
-  padding: 20rpx 0;
-  justify-content: space-around;
+  padding: 25rpx 37rpx 32rpx;
+  justify-content: space-between;
 }
 .list1 .item{
   flex: 1;
-  
   position: relative;
 }
-.list1 .icon{
+.list1 .content .icon{
   color: #c55;
   padding: 5rpx 10rpx;
   font-size: 20rpx;
@@ -86,7 +99,31 @@ page{
   display: block;
 }
 .list1 .name{
-  font-size: 20rpx;
-  line-height: 1.5;
+  font-size: 25rpx;
+  line-height: 2;
   text-align:center;
+}
+.list2 .item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23rpx 28rpx 22rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.list .item .l{
+  display: flex
+}
+.list2 .img{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 29rpx;
+  display: block;
+}
+.list2 .name{
+  font-size: 30rpx;
+  color: #747474;
+}
+.list2 .item .more{
+  color: #b7b7b7;
+  font-size: 30rpx;
 }

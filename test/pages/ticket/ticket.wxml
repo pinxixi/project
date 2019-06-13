@@ -1,0 +1,36 @@
+<!--pages/ticket/ticket.wxml-->
+<view class="ticket">
+  <view class="list-title">
+    <view class="icon"></view>
+    可用红包<text class="num">5</text>个
+  </view>
+  <view class="list">
+    <view class="item modul1">
+      <jag num="10" class="jag"/>
+      <view class="l">
+        <view class="num-box">
+          <text class="i">￥</text><text class="num">5</text><text class="text">购物券</text>
+        </view>
+        <view class="title">收藏+关注</view>
+      </view>
+      <view class="r"><view class="btn">立即使用</view></view>
+      <jag num="10" class="jag jag-r"/>
+    </view>
+    <view class="item modul2">
+      <jag num="10" class="jag"/>
+      <view class="l">
+        <view class="title">满199立减</view>
+        <view class="num-box">
+          <text></text>
+          <view>
+            <text class="i">￥</text>
+            <text class="num">20</text>
+          </view>
+          <text class="text">购物券</text>
+        </view>
+      </view>
+      <view class="r"><view class="btn">立即使用</view></view>
+      <jag num="10" class="jag jag-r"/>
+    </view>
+  </view>
+</view>
