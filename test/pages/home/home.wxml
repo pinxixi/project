@@ -29,3 +29,19 @@
   <image src="../homeImg/zhang-kaiyv-661828-unsplash.jpg" class="group-bgImg"></image>
 </view>
 <!-- 拼团 -->
+<view class="goods">
+  <view class="imgbox">
+    <image src="../homeImg/dd3a44612340bb5eed301d5fdf127606f3878c0425813-DdrfUz_fw658.jpg" class="img"></image>
+  </view>
+  <view class="textbox">
+    <text class="detail">双面透气设计呵护颈椎健康泰国乳胶薄款平面枕头</text>
+    <view class="pic">
+      <text class="redsmall">￥</text>
+      <text class="redbig">228</text>
+      <text class="gray">￥150</text>
+    </view>
+    <text class="limit">限时抢购</text>
+  </view>
+</view>
+<!-- 三角形 -->
+<view class="triangle"></view>

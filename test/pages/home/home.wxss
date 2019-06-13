@@ -55,3 +55,52 @@
   width:750rpx;
 }
 /* 拼团 */
+.goods{
+  display:flex;
+  width:658rpx;
+  height:282rpx;
+
+}
+.imgbox{
+  width:240rpx;
+  height:240rpx;
+}
+.img{
+  width:240rpx;
+  height:240rpx;
+}
+.textbox{
+  flex:1;
+}
+.detail{
+  width:100%;
+  font-size:26rpx;
+}
+.pic{
+  font-size:24rpx;
+  color:rgb(255,31,0);
+}
+.redsmall{
+  
+}
+.redbig{
+  font-size:40rpx;
+}
+.gray{
+  font-size:20rpx;
+  text-decoration: line-through;
+  color:#b5b5b5;
+}
+.limit{
+  padding:5rpx;
+  font-size:20rpx;
+  color:#cf3d1e;
+  border:2rpx solid #cf3d1e;
+}
+.triangle{
+  width:0;
+  height:0;
+  border-left:50rpx solid transparent;
+  border-right:50rpx solid transparent;
+  border-top:50rpx solid #f00;
+}
