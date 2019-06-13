@@ -369,3 +369,142 @@
   background: #fb3609;
   color: #fff;
 }
+.cartJoin{
+  width: 100%;
+  height: 835rpx;
+}
+.cartJoin .addCart{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+}
+.cartJoin .addCart image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.cartJoin .addCart .priceStyle{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+.cartJoin .addCart .priceStyle .price{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color: #f00;
+}
+.cartJoin .addCart .priceStyle .select{
+  font-size: 30rpx;
+  color: #333;
+}
+.cartJoin .mainInfo{
+  width: 100%;
+  height: 300rpx;
+}
+.cartJoin .mainInfo .group{
+  width: 100%;
+  height: 100rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.cartJoin .mainInfo .group .sel{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  font-size: 34rpx;
+  color: #333;
+  margin-top: 20rpx;
+}
+.cartJoin .mainInfo .group .sel text{
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin-right: 30rpx;
+  background: #ccc;
+  color: #333;
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+}
+.cartJoin .mainInfo .color{
+  width: 100%;
+  height: 300rpx;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.cartJoin .mainInfo .color .sele{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.cartJoin .mainInfo .color .sele text{
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #333;
+  background: #ccc;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+}
+.cartJoin .count{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+}
+.cartJoin .count .countText{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  margin-right: 300rpx;
+}
+.cartJoin .count .btnCount{
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+}
+.cartJoin .count .btnCount text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80rpx;
+  height: 100%;
+}
+.cartJoin .count .btnCount text:nth-child(1){
+  background: #eee;
+  color: rgb(7,17,27);
+}
+.cartJoin .count .btnCount text:nth-child(2){
+  background: #fff;
+  color: #333;
+}
+.cartJoin .count .btnCount text:nth-child(3){
+  background: #ccc;
+  color: #333;
+}
+.cartJoin .sureBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 36rpx;
+}

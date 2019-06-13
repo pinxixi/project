@@ -8,7 +8,8 @@
     "pages/detail/detail",
     "pages/news/news",
     "pages/buycar/buycar",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/select/select"
   ],
   "permission": {
     "scope.userLocation": {

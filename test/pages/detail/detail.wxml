@@ -1,8 +1,10 @@
 <!--index.wxml-->
 <view class="container">
+  <!--轮播-->
   <view class='img'>
     <image src='../img/1.jpg'></image>
   </view>
+  <!--价格-->
   <view class='countPrice'>
     <view class='price'>
       <text class='nowPrice'>￥29.8</text>
@@ -12,6 +14,7 @@
       <text>已拼单1.6万</text>
     </view>
   </view>
+  <!--描述-->
   <view class='description'>
     <view>123</view>
     <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
@@ -21,13 +24,16 @@
     <text>返现</text>
     <text class='discount'>店铺内消费满40返2元</text>
   </view>
+  <!--拼单-->
   <view class='success'>
     <image src='../img/2.jpg'></image>
     <text>lorem 24分前拼单成功</text>
   </view>
+  <!--拼单-->
   <view class='join'>
     <text>2人在拼单，可直接参与</text>
   </view>
+  <!--拼单-->
   <view class='join1'>
     <image src='../img/1.jpg'></image>
     <text class='name'>Lorem</text>
@@ -37,6 +43,7 @@
     </view>
     <text class='goJoin' bindtap='goSize'>去拼单</text>
   </view>
+  <!--评价-->
   <view class='seller'>
     <view class='total'>
       <text>商品评价(8888)</text>
@@ -128,6 +135,7 @@
       </view>
     </view>
   </view>
+  <!--商品详情-->
   <view class='detailImg'>
     <image src='../img/1.jpg'></image>
     <image src='../img/2.jpg'></image>
@@ -140,6 +148,7 @@
     <image src='../img/6.jpg'></image>
     <image src='../img/1.jpg'></image>
   </view>
+  <!--底部导航-->
   <view class='bottom'>
     <view class='icon'>
       <text>首页</text>
@@ -153,8 +162,51 @@
     <view class='goSpell' bindtap='goSize'>
       <text>发起拼单</text>
     </view>
-    <van-button class='goBuy' size='large' bindtap='goSize' type='danger'>
+    <van-button bindtap='goSize' class='goBuy' size='large' type='danger'>
       单独购买
     </van-button>
   </view>
+</view>
+<!--加入购物车-->
+<view class='cartJoin'>
+  <van-popup show='{{show}}' position='bottom' bind:close='goSize'>
+    <view class='addCart'>
+      <image src='../img/1.jpg'></image>
+      <view class='priceStyle'>
+        <text class='price'>￥8.8-18.8</text>
+        <text class='select'>请选择：组合 颜色</text>
+      </view>
+    </view>
+     <scroll-view scroll-y="true" scroll-into-view="" scroll-with-animation='true'>
+      <view class='mainInfo'>
+        <view class='group'>
+          <text>组合</text>
+          <view class='sel'>
+            <text>单件装</text>
+            <text>套装</text>
+          </view>
+        </view>
+        <view class='color'>
+          <text>颜色</text>
+          <view class='sele'>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class='count'>
+      <text class='countText'>数量</text>
+      <view class='btnCount'>
+        <text>-</text>
+        <text>1</text>
+        <text>+</text>
+      </view>
+    </view>
+    <view class='sureBtn'>确定</view>
+  </van-popup>
 </view>
