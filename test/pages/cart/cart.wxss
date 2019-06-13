@@ -84,7 +84,7 @@
 .button-red {
   background-color: #f44336; /* 红色 */
 }
-button {
+.row button {
   position: fixed;
   right: 0;
   color: white;
@@ -133,3 +133,27 @@ margin-top: 15px;
   flex-direction: row;
 }
 
+.noOne{
+  width: 284rpx;
+  height: 385rpx;
+  margin: 347rpx 256rpx 376rpx 210rpx;
+}
+.noOne image{
+  width: 284rpx;
+  height: 170rpx;
+  /* margin-top: 49rpx; */
+}
+.noOne text{
+  display: block;
+  font-size: 30rpx;
+  color: #999;
+  margin: 49rpx  6rpx 0rpx 75rpx;
+}
+.noOne button{
+  width: 202rpx;
+  height: 78rpx;
+  margin: 58rpx 17rpx 58rpx 65rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background: #278c58;
+}
