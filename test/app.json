@@ -9,7 +9,6 @@
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-    "pages/select/select",
     "pages/recommend/recommend"
   ],
   "permission": {
