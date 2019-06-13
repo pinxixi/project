@@ -1,10 +1,16 @@
 <!--index.wxml-->
 <view class="container">
+<<<<<<< HEAD
   <!--轮播-->
   <view class='img'>
     <image src='../img/1.jpg'></image>
   </view>
   <!--价格-->
+=======
+  <view class='img'>
+    <image src='../img/1.jpg'></image>
+  </view>
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class='countPrice'>
     <view class='price'>
       <text class='nowPrice'>￥29.8</text>
@@ -14,7 +20,10 @@
       <text>已拼单1.6万</text>
     </view>
   </view>
+<<<<<<< HEAD
   <!--描述-->
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class='description'>
     <view>123</view>
     <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
@@ -24,16 +33,25 @@
     <text>返现</text>
     <text class='discount'>店铺内消费满40返2元</text>
   </view>
+<<<<<<< HEAD
   <!--拼单-->
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class='success'>
     <image src='../img/2.jpg'></image>
     <text>lorem 24分前拼单成功</text>
   </view>
+<<<<<<< HEAD
   <!--拼单-->
   <view class='join'>
     <text>2人在拼单，可直接参与</text>
   </view>
   <!--拼单-->
+=======
+  <view class='join'>
+    <text>2人在拼单，可直接参与</text>
+  </view>
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class='join1'>
     <image src='../img/1.jpg'></image>
     <text class='name'>Lorem</text>
@@ -41,9 +59,14 @@
       <text>差三人拼成</text>
       <view>剩余<text>2天</text>结束</view>
     </view>
+<<<<<<< HEAD
     <text class='goJoin' bindtap='goSize'>去拼单</text>
   </view>
   <!--评价-->
+=======
+    <text class='goJoin'>去拼单</text>
+  </view>
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class='seller'>
     <view class='total'>
       <text>商品评价(8888)</text>
@@ -54,6 +77,7 @@
       <text>质量好(215)</text>
       <text>服务态度好(999)</text>
     </view>
+<<<<<<< HEAD
     <view class='sellers'>
       <view class='infos'>
         <view class='info'>
@@ -209,4 +233,7 @@
     </view>
     <view class='sureBtn'>确定</view>
   </van-popup>
+=======
+  </view>
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 </view>

@@ -1,6 +1,10 @@
 <!--pages/cart/cart.wxml-->
 <!-- <text>pages/cart/cart.wxml</text> -->
+<<<<<<< HEAD
 <scroll-view class="scroll" scroll-y="true" wx:if="{{carts}}">
+=======
+<scroll-view class="scroll" scroll-y="true">
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   <view class="separate"></view>
   <view wx:for="{{carts}}" wx:key="id">
     <view class="cart_container">
@@ -34,6 +38,7 @@
     </view>
     <view class="separate"></view>
   </view>
+<<<<<<< HEAD
   <!-- <button open-type='getUserInfo' lang="zh_CN" bindgetuserinfo='getUser'>获取用户信息</button> -->
 
 
@@ -43,6 +48,18 @@
   <view class="row">
     <view class='iconAll'>
       <icon  wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" data-index="{{index}}" />
+=======
+  <button open-type='getUserInfo' lang="zh_CN" bindgetuserinfo='getUser'>获取用户信息</button>
+
+
+</scroll-view>
+<view class="bottom_total">
+  <view class="bottom_line"></view>
+
+  <view class="row">
+    <view class='iconAll'>
+    <icon  wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" data-index="{{index}}" />
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
         <icon wx:else type="circle" bindtap="selectAll" data-index="{{index}}"/>
     </view>
     <text class="small_text">全选</text>
@@ -51,8 +68,11 @@
     <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
   </view>
 </view>
+<<<<<<< HEAD
 <view class='noOne' wx:else>
   <image src='../images/shop.jpg'></image>
   <text>购物车是空的~</text>
   <button>去逛逛</button>
 </view>
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4

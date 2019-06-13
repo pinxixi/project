@@ -84,7 +84,11 @@
 .button-red {
   background-color: #f44336; /* 红色 */
 }
+<<<<<<< HEAD
 .row button {
+=======
+button {
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   position: fixed;
   right: 0;
   color: white;
@@ -133,6 +137,7 @@ margin-top: 15px;
   flex-direction: row;
 }
 
+<<<<<<< HEAD
 .noOne{
   width: 284rpx;
   height: 385rpx;
@@ -157,3 +162,5 @@ margin-top: 15px;
   color: #fff;
   background: #278c58;
 }
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4

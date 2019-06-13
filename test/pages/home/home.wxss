@@ -1,122 +1,57 @@
-/* tab选项 */
-.tab{
-  height:80rpx;
+/*轮播图下面的背景 */
+.bg{
+  position:relative;
+  top:-120rpx;
+  width:750rpx;
 }
-.swiper-item1{
-  width:100rpx;
-  line-height:80rpx;
-  text-align: center;
-
-}
-.text{
-  display: block;
-  width:100rpx;
+.bgimg{
+  width:750rpx;
 }
 /* 轮播图 */
-.slider{
-  height: 400rpx;
-}
-.back{
-  width: 750rpx;
-  height: 400rpx;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav{
-  color:#f00;
-}
-/* 拼团
-.title-box{
-  display:flex;
-  font-size:24rpx;
-}
-
-
-.spell .spell-box{
-  display:flex;       
-  width: 750rpx;
-  height: 400rpx;
-}
-.spell-left{
- width:200rpx;
- display:flex;
-}
-
- 
-.spell-left text{
-  line-height:200rpx;
-  margin-left:10rpx;
-}
-.spell-right{
- flex:1;
+.swiper{
+  position:absolute;
+  top:45rpx;
+  left:60rpx;
+  width:629rpx;
+  height:360rpx;
+  margin:10rpx auto;
+  border-radius: 30rpx;
+  overflow: hidden;
+  margin-bottom:103rpx;
 
 }
-.spell-r-t{
-  height:80rpx;
-  line-height:80rpx;
-} */
-
-/* 拼团 */
-.spell{
-  height: 400rpx;
-  font-size:24rpx;
+.swiperImg{
+  width:700rpx;
+  height:40r0px;
 }
-.title-box{
-  height:80rpx;
-  line-height:80rpx;
-  border-top:20rpx solid #ccc;
+/* 轮播图左右灰色竖条 */
+.suspension{
+  position:absolute;
+  width:750rpx;
 }
-.title-b-l{
-  flex:1;
-  font-size:26rpx;
-  margin-left:30rpx;
+.suspension-this{
+  position:absolute;
+  top:-430rpx;
+  width:73rpx;
+  height:360rpx;
+  border-radius:30rpx; 
+  background: #bfbfbf;
 }
-.title-b-r{
-  width:140rpx;
-  color:rgb(185, 183, 183);
+.suspension-l{
+  left:-36rpx;
 }
-
-
-.spellPlay{
-  height:280rpx;
-  background: #ccc;
-}
-.autoplay{
-  display:flex;
-  height:100rpx !important;
-  padding:20rpx 0;
-}
-.img{
-  width:100rpx;
-  height:100rpx;
-  border-radius: 50%;
-  margin-left:10rpx;
-}
-.spellTitle{
-  width:200rpx;
-  height:100rpx;
-  line-height:100rpx;
-  margin-left:10rpx;
+.suspension-r{
+  right:-36rpx;
 }
 
-.spellTimer{
-  width:300rpx;
-  text-align: center;
+/* 拼团背景图 */
+.groupbg{
+  width:750rpx;
+  height:250rpx;
+  overflow: hidden;
+  margin-top:50rpx;
 }
-.short,.timer{
-  line-height:50rpx;
-}
-.goSpelltxt{
-  padding:10rpx ;
-  line-height:100rpx;
-  font-size:26rpx;
-  color:#fff;
-  background: #f00;
-
-  border-radius: 8rpx;
+.group-bgImg{
+  width:750rpx;
+  /* height:250rpx; */
 }

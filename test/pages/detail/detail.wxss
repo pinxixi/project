@@ -4,8 +4,11 @@
 .container{
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background: #ccc;
   overflow: hidden;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .img{
   display: flex;
@@ -25,7 +28,10 @@
   width: 100%;
   height: 60rpx;
   margin-top: 20rpx;
+<<<<<<< HEAD
   background: #fff;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .countPrice .price{
   margin-left: 20rpx;
@@ -52,7 +58,10 @@
   color: rgb(74,74,74);
   font-size: 34rpx;
   margin-top: 40rpx;
+<<<<<<< HEAD
   background: #fff;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .description view{
   width: 100rpx;
@@ -77,7 +86,10 @@
   width: 100%;
   height: 40rpx;
   margin-top: 20rpx;
+<<<<<<< HEAD
   background: #fff;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .discounts text:first-child{
   width: 80rpx;
@@ -124,9 +136,15 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
   height: 120rpx;
   margin-top: 20rpx;
   background: #fff;
+=======
+  height: 60rpx;
+  z-index: -1;
+  margin-top: 20rpx;
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .join text{
   width: 100%;
@@ -138,14 +156,23 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
   height: 120rpx;
   background: #fff;
+=======
+  height: 60rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .join1 image{
   width: 80rpx;
   height: 80rpx;
   border-radius: 50%;
+<<<<<<< HEAD
   margin-left: 20rpx;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   margin-right: 20rpx;
 }
 .container .join1 .name{
@@ -187,7 +214,10 @@
 .container .seller{
   width: 100%;
   margin-top: 40rpx;
+<<<<<<< HEAD
   background: #fff;
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }
 .container .seller .total{
   width: 100%;
@@ -220,6 +250,7 @@
   font-size: 30rpx;
   border-radius: 10rpx;
 }
+<<<<<<< HEAD
 .container .seller .sellers{
   display: flex;
   flex-wrap: wrap;
@@ -508,3 +539,5 @@
   color: #fff;
   font-size: 36rpx;
 }
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4

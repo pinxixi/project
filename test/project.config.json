@@ -10,7 +10,10 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+<<<<<<< HEAD
 		"nodeModules": true,
+=======
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -23,14 +26,18 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
+<<<<<<< HEAD
 	"appid": "wxf8d2fe133e7d6baf",
 	"projectname": "miniprogram-test-1",
+=======
+	"appid": "wx1ad232f825b0c409",
+	"projectname": "test",
+	"cloudfunctionTemplateRoot": "",
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -45,16 +52,31 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
+<<<<<<< HEAD
 			"current": -1,
 			"list": [
 				{
 					"id": -1,
 					"name": "detail",
 					"pathName": "pages/detail/detail",
+=======
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "新品",
+					"pathName": "pages/recommend/recommend",
+>>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 					"query": "",
 					"scene": null
 				},
