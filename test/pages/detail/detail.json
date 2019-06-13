@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "usingComponents": {   "van-button":"../../miniprogram_npm/vant-weapp/button/index",
   "van-popup": "/miniprogram_npm/vant-weapp/popup/index"
   }
-=======
-  "usingComponents": {}
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
 }

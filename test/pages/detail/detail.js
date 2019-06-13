@@ -5,11 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
     show: false
-=======
-
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   },
 
   /**
@@ -25,15 +21,11 @@ Page({
   onReady: function () {
 
   },
-<<<<<<< HEAD
   goSize:function(){
     this.setData({
       show: !this.data.show
     });
   },
-=======
-
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   /**
    * 生命周期函数--监听页面显示
    */

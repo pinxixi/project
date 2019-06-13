@@ -9,11 +9,8 @@
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-<<<<<<< HEAD
-    "pages/select/select"
-=======
+    "pages/select/select",
     "pages/recommend/recommend"
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   ],
   "permission": {
     "scope.userLocation": {
@@ -23,37 +20,8 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-<<<<<<< HEAD
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
-  },
-  "tabBar": {
-    "color": "#faf",
-    "selectedColor": "#F0a",
-    "position": "bottom",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "index",
-        "iconPath": "pages/images/镜子.jpg",
-        "selectedIconPath": "pages/images/镜子.jpg"
-      },
-      {
-        "pagePath": "pages/cart/cart",
-        "text": "cart",
-        "iconPath": "pages/images/镜子.jpg",
-        "selectedIconPath": "pages/images/镜子.jpg"
-      },
-      {
-        "pagePath": "pages/user/user",
-        "text": "我的"
-      }
-    ]
-=======
-    "navigationBarTitleText": "生态家居馆",
-    "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": true
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
