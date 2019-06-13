@@ -31,7 +31,7 @@
 }
 .suspension-this{
   position:absolute;
-  top:-430rpx;
+  top:-440rpx;
   width:73rpx;
   height:360rpx;
   border-radius:30rpx; 
