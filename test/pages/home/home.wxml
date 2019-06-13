@@ -24,6 +24,8 @@
   <view class="arrowLeft"></view>
   <view class="arrowRight"></view>
 </view>
+<!-- 拼团背景 -->
 <view class="groupbg">
   <image src="../homeImg/zhang-kaiyv-661828-unsplash.jpg" class="group-bgImg"></image>
 </view>
+<!-- 拼团 -->
