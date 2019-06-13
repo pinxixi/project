@@ -2,8 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+<<<<<<< HEAD
     "pages/cart/cart",
     "pages/demo/demo"
+=======
+    "pages/home/home"
+>>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
   ],
   "permission": {
     "scope.userLocation": {

@@ -1,0 +1,122 @@
+/* tab选项 */
+.tab{
+  height:80rpx;
+}
+.swiper-item1{
+  width:100rpx;
+  line-height:80rpx;
+  text-align: center;
+
+}
+.text{
+  display: block;
+  width:100rpx;
+}
+/* 轮播图 */
+.slider{
+  height: 400rpx;
+}
+.back{
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  color:#f00;
+}
+/* 拼团
+.title-box{
+  display:flex;
+  font-size:24rpx;
+}
+
+
+.spell .spell-box{
+  display:flex;       
+  width: 750rpx;
+  height: 400rpx;
+}
+.spell-left{
+ width:200rpx;
+ display:flex;
+}
+
+ 
+.spell-left text{
+  line-height:200rpx;
+  margin-left:10rpx;
+}
+.spell-right{
+ flex:1;
+
+}
+.spell-r-t{
+  height:80rpx;
+  line-height:80rpx;
+} */
+
+/* 拼团 */
+.spell{
+  height: 400rpx;
+  font-size:24rpx;
+}
+.title-box{
+  height:80rpx;
+  line-height:80rpx;
+  border-top:20rpx solid #ccc;
+}
+.title-b-l{
+  flex:1;
+  font-size:26rpx;
+  margin-left:30rpx;
+}
+.title-b-r{
+  width:140rpx;
+  color:rgb(185, 183, 183);
+}
+
+
+.spellPlay{
+  height:280rpx;
+  background: #ccc;
+}
+.autoplay{
+  display:flex;
+  height:100rpx !important;
+  padding:20rpx 0;
+}
+.img{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin-left:10rpx;
+}
+.spellTitle{
+  width:200rpx;
+  height:100rpx;
+  line-height:100rpx;
+  margin-left:10rpx;
+}
+
+.spellTimer{
+  width:300rpx;
+  text-align: center;
+}
+.short,.timer{
+  line-height:50rpx;
+}
+.goSpelltxt{
+  padding:10rpx ;
+  line-height:100rpx;
+  font-size:26rpx;
+  color:#fff;
+  background: #f00;
+
+  border-radius: 8rpx;
+}
