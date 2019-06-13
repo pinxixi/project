@@ -4,6 +4,8 @@
 .container{
   width: 100%;
   height: 100%;
+  background: #ccc;
+  overflow: hidden;
 }
 .container .img{
   display: flex;
@@ -23,6 +25,7 @@
   width: 100%;
   height: 60rpx;
   margin-top: 20rpx;
+  background: #fff;
 }
 .container .countPrice .price{
   margin-left: 20rpx;
@@ -49,6 +52,7 @@
   color: rgb(74,74,74);
   font-size: 34rpx;
   margin-top: 40rpx;
+  background: #fff;
 }
 .container .description view{
   width: 100rpx;
@@ -73,6 +77,7 @@
   width: 100%;
   height: 40rpx;
   margin-top: 20rpx;
+  background: #fff;
 }
 .container .discounts text:first-child{
   width: 80rpx;
@@ -119,9 +124,9 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 60rpx;
-  z-index: -1;
+  height: 120rpx;
   margin-top: 20rpx;
+  background: #fff;
 }
 .container .join text{
   width: 100%;
@@ -133,14 +138,14 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 60rpx;
-  margin-left: 20rpx;
-  margin-top: 40rpx;
+  height: 120rpx;
+  background: #fff;
 }
 .container .join1 image{
   width: 80rpx;
   height: 80rpx;
   border-radius: 50%;
+  margin-left: 20rpx;
   margin-right: 20rpx;
 }
 .container .join1 .name{
@@ -182,6 +187,7 @@
 .container .seller{
   width: 100%;
   margin-top: 40rpx;
+  background: #fff;
 }
 .container .seller .total{
   width: 100%;
@@ -213,4 +219,46 @@
   color: #333;
   font-size: 30rpx;
   border-radius: 10rpx;
+}
+.container .seller .sellers{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .seller .sellers .infos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40rpx;
+}
+.container .seller .sellers .infos .info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 20rpx;
+}
+.container .seller .sellers .infos .info image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.container .seller .sellers .infos .info .name{
+  color: #333;
+  font-size: 40rpx;
+}
+.container .seller .sellers .infos text{
+  width: 100%;
+  text-align: left;
+  margin: 0 10rpx;
+}
+.container .info{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.container .info text{
+  width: 100%;
+  margin-left: 20rpx;
+  color: #ccc;
 }

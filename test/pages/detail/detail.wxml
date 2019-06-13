@@ -47,5 +47,31 @@
       <text>质量好(215)</text>
       <text>服务态度好(999)</text>
     </view>
+    <view class='sellers'>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/2.jpg'></image>
+          <text class='name'>Lorem</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/3.jpg'></image>
+          <text class='name'>墨城</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>陌城</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+    </view>
+    <view class='info'>
+      <text>商品详情</text>
+    </view>
   </view>
 </view>
