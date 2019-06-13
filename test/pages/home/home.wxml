@@ -39,6 +39,31 @@
   </swiper>
 </view> 
 <!-- 商品列表 -->
-
-
-
+<view class="list">
+  <view class="list-item">
+    <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
+    <text class="detail">2019新款波西米亚蕾丝仙女沙滩裙网纱一字肩吊带刺绣</text>
+    <view class="pic">
+      <text class="money">
+      <text class="sizesmall">￥</text>
+      
+        <text class="sizebig">149</text>
+      </text>
+      <text class="num">已拼941件</text>
+      <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
+    </view>
+  </view>
+  <view class="list-item">
+    <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
+    <text class="detail">2019新款波西米亚蕾丝仙女沙滩裙网纱一字肩吊带刺绣</text>
+    <view class="pic">
+      <text class="money">
+      <text class="sizesmall">￥</text>
+      
+        <text class="sizebig">149</text>
+      </text>
+      <text class="num">已拼941件</text>
+      <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
+    </view>
+  </view>
+</view>
