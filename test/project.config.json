@@ -24,10 +24,14 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"appid": "wxf8d2fe133e7d6baf",
 	"projectname": "%E6%8B%BC%E5%A4%9A%E5%A4%9A",
 =======
 	"appid": "wx5c6de5b19967bb81",
+=======
+	"appid": "wxf030878b5e45aa63",
+>>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
 	"projectname": "test",
 >>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
 	"debugOptions": {
@@ -55,6 +59,7 @@
 		},
 		"miniprogram": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"current": -1,
 			"list": [
 				{
@@ -63,13 +68,20 @@
 					"pathName": "pages/cart/cart",
 					"query": "",
 =======
+=======
+>>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
 			"current": 0,
 			"list": [
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "首页",
 					"pathName": "pages/home/home",
 >>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
+=======
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+>>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
 					"scene": null
 				}
 			]

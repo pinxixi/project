@@ -3,11 +3,15 @@
     "pages/index/index",
     "pages/logs/logs",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "pages/cart/cart",
     "pages/demo/demo"
 =======
     "pages/home/home"
 >>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
+=======
+    "pages/detail/detail"
+>>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
   ],
   "permission": {
     "scope.userLocation": {

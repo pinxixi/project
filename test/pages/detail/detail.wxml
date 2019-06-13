@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='img'>
+    <image src='../img/1.jpg'></image>
+  </view>
+  <view class='countPrice'>
+    <view class='price'>
+      <text class='nowPrice'>￥29.8</text>
+      <text class='oldPrice'>￥139</text>
+    </view>
+    <view class='count'>
+      <text>已拼单1.6万</text>
+    </view>
+  </view>
+  <view class='description'>
+    <view>123</view>
+    <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
+    <view class='share'>分享</view>
+  </view>
+  <view class='discounts'>
+    <text>返现</text>
+    <text class='discount'>店铺内消费满40返2元</text>
+  </view>
+  <view class='success'>
+    <image src='../img/2.jpg'></image>
+    <text>lorem 24分前拼单成功</text>
+  </view>
+  <view class='join'>
+    <text>2人在拼单，可直接参与</text>
+  </view>
+  <view class='join1'>
+    <image src='../img/1.jpg'></image>
+    <text class='name'>Lorem</text>
+    <view class='count'>
+      <text>差三人拼成</text>
+      <view>剩余<text>2天</text>结束</view>
+    </view>
+    <text class='goJoin'>去拼单</text>
+  </view>
+  <view class='seller'>
+    <view class='total'>
+      <text>商品评价(8888)</text>
+      <text>查看更多</text>
+    </view>
+    <view class='btn'>
+      <text>便宜(111)</text>
+      <text>质量好(215)</text>
+      <text>服务态度好(999)</text>
+    </view>
+  </view>
+</view>
