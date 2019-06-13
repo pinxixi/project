@@ -30,6 +30,39 @@
 .nav{
   color:#f00;
 }
+<<<<<<< HEAD
+=======
+/* 拼团
+.title-box{
+  display:flex;
+  font-size:24rpx;
+}
+
+
+.spell .spell-box{
+  display:flex;       
+  width: 750rpx;
+  height: 400rpx;
+}
+.spell-left{
+ width:200rpx;
+ display:flex;
+}
+
+ 
+.spell-left text{
+  line-height:200rpx;
+  margin-left:10rpx;
+}
+.spell-right{
+ flex:1;
+
+}
+.spell-r-t{
+  height:80rpx;
+  line-height:80rpx;
+} */
+>>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
 
 /* 拼团 */
 .spell{
@@ -90,6 +123,7 @@
 
   border-radius: 8rpx;
 }
+<<<<<<< HEAD
 
 /* 列表 */
 .list{
@@ -136,3 +170,5 @@
   border-radius: 50%;
   margin:10rpx;
 }
+=======
+>>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d

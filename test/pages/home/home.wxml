@@ -39,6 +39,7 @@
   </swiper>
 </view> 
 <!-- 商品列表 -->
+<<<<<<< HEAD
 <view class="list">
   <view class="list-item">
     <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
@@ -67,3 +68,8 @@
     </view>
   </view>
 </view>
+=======
+
+
+
+>>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
