@@ -35,7 +35,7 @@
       <text>差三人拼成</text>
       <view>剩余<text>2天</text>结束</view>
     </view>
-    <text class='goJoin'>去拼单</text>
+    <text class='goJoin' bindtap='goSize'>去拼单</text>
   </view>
   <view class='seller'>
     <view class='total'>
@@ -150,11 +150,11 @@
     <view class='icon'>
       <text>客服</text>
     </view>
-    <view class='goSpell'>
+    <view class='goSpell' bindtap='goSize'>
       <text>发起拼单</text>
     </view>
-    <view class='goBuy'>
-      <text>单独购买</text>
-    </view>
+    <van-button class='goBuy' size='large' bindtap='goSize' type='danger'>
+      单独购买
+    </van-button>
   </view>
 </view>

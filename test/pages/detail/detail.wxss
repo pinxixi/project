@@ -337,7 +337,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 120rpx;
+  height: 100rpx;
   background: #fff;
 }
 .container .bottom .icon{

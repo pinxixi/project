@@ -14,6 +14,13 @@ Page({
   onLoad: function (options) {
 
   },
+  //点击跳转到选项页面
+  goSize(e){
+    console.log(e);
+    // wx.navigateTo({
+    //   url: '../size/size',
+    // })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
