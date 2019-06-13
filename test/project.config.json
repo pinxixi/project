@@ -10,6 +10,7 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -22,7 +23,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wx1ad232f825b0c409",
+	"appid": "wxf8d2fe133e7d6baf",
 	"projectname": "test",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -48,15 +49,16 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
-					"name": "首页",
-					"pathName": "pages/home/home",
-					"scene": null
-				}
-			]
+					"name": "cart",
+					"pathName": "pages/cart/cart",
+					"query": "",
+			"current": 0,
+        }
+      ]
 		}
-	}
+  }
 }

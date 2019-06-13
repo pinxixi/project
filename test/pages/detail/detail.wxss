@@ -1,0 +1,216 @@
+/* pages/detail/detail.wxss */
+/* pages/detail/detail.wxss */
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+}
+.container .img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 600rpx;
+}
+.container .img image{
+  width: 100%;
+  height: 100%;
+}
+.container .countPrice{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  margin-top: 20rpx;
+}
+.container .countPrice .price{
+  margin-left: 20rpx;
+  margin-right: 360rpx;
+}
+.container .countPrice .price .nowPrice{
+  font-size: 36rpx;
+  color: #f00;
+  margin-right: 8rpx;
+}
+.container .countPrice .price .oldPrice{
+  font-size: 28rpx;
+  color: rgb(138,138,138);
+  text-decoration: line-through;
+}
+.container .count{
+  font-size: 28rpx;
+  color: rgb(138,138,138);
+}
+.container .description{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(74,74,74);
+  font-size: 34rpx;
+  margin-top: 40rpx;
+}
+.container .description view{
+  width: 100rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.container .description .share{
+  color: #ccc;
+}
+.container .description text{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  flex: 1;
+}
+.container .discounts{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+.container .discounts text:first-child{
+  width: 80rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  background: #f00;
+  color: #fff;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}
+.container .discounts .discount{
+  font-size: 32rpx;
+  color: #ccc;
+}
+.container .success{
+  position: fixed;
+  top: 800rpx;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100rpx;
+  text-align: left;
+  background: rgba(0,0,0,.1);
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+}
+.container .success image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+.container .success text{
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+}
+.container .join{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  z-index: -1;
+  margin-top: 20rpx;
+}
+.container .join text{
+  width: 100%;
+  height: 20rpx;
+  margin-left: 20rpx;
+}
+.container .join1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.container .join1 image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.container .join1 .name{
+  color: #333;
+  margin-right: 100rpx;
+}
+.container .join1 .count{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200rpx;
+  margin-right: 60rpx;
+}
+.container .join1 .count text:first-child{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  color: #333;
+  font-size: 30rpx;
+}
+.container .join1 .count view{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  color: #333;
+}
+.container .join1 .count view text:last-child{
+  color: #f00;
+}
+.container .join1 .goJoin{
+  width: 130rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background: #f00;
+}
+.container .seller{
+  width: 100%;
+  margin-top: 40rpx;
+}
+.container .seller .total{
+  width: 100%;
+  height: 40rpx;
+}
+.container .seller .total text:first-child{
+  float: left;
+  color: #333;
+  margin-left: 20rpx;
+}
+.container .seller .total text:last-child{
+  float: right;
+  color: #ccc;
+  margin-right: 20rpx;
+}
+.container .seller .btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+}
+.container .seller .btn text{
+  width: 33%;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  background: #fcd8d1;
+  color: #333;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+}
