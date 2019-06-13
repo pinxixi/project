@@ -73,5 +73,88 @@
     <view class='info'>
       <text>商品详情</text>
     </view>
+    <view class='imgText'>
+      <view class='textImg'>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+      </view>
+      <view class='textImg'>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='detailImg'>
+    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/3.jpg'></image>
+    <image src='../img/4.jpg'></image>
+    <image src='../img/5.jpg'></image>
+    <image src='../img/6.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/4.jpg'></image>
+    <image src='../img/6.jpg'></image>
+    <image src='../img/1.jpg'></image>
+  </view>
+  <view class='bottom'>
+    <view class='icon'>
+      <text>首页</text>
+    </view>
+    <view class='icon'>
+      <text>收藏</text>
+    </view>
+    <view class='icon'>
+      <text>客服</text>
+    </view>
+    <view class='goSpell'>
+      <text>发起拼单</text>
+    </view>
+    <view class='goBuy'>
+      <text>单独购买</text>
+    </view>
   </view>
 </view>
