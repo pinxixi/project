@@ -2,22 +2,20 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     "pages/cart/cart",
-    "pages/demo/demo"
-=======
-    "pages/home/home"
->>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
-=======
-    "pages/detail/detail"
->>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
-=======
+    "pages/demo/demo",
+
+    "pages/home/home",
+
+
+    "pages/detail/detail",
+
+
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user"
->>>>>>> 6b4bc5e08f7d9eebd3bff5170d31c034669808b2
+
   ],
   "permission": {
     "scope.userLocation": {
@@ -47,25 +45,13 @@
         "text": "cart",
         "iconPath": "pages/images/镜子.jpg",
         "selectedIconPath": "pages/images/镜子.jpg"
-      }
-    ]
-  },
-  "permission":{
-    "scope.userLocation":{
-      "desc": "你的位置信息将会被获取"
-    }
-  },
-  "sitemapLocation": "sitemap.json",
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
       },
       {
         "pagePath": "pages/user/user",
         "text": "我的"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
+  
 }

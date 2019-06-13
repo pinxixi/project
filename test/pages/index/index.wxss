@@ -1,6 +1,5 @@
 /**index.wxss**/
-<<<<<<< HEAD
-=======
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -21,4 +20,4 @@
 .usermotto {
   margin-top: 200px;
 }
->>>>>>> 6b4bc5e08f7d9eebd3bff5170d31c034669808b2
+
