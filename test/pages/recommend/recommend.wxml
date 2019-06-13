@@ -1,0 +1,27 @@
+<!--pages/recommend/recommend.wxml-->
+<view class="newWrap">
+  <view class="newBox">
+    <view class="boxLeft">
+      <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
+    </view>
+    <view class="boxCenter"></view>
+    <view class="boxRight">
+      <view class="box-r-t">
+        <text class="detail">2019新款波西米亚蕾丝仙女沙滩裙网纱一字肩吊带刺绣</text>
+        <text class="seller">君子健居家日用旗舰店</text>
+      </view>
+      <view class="box-r-b">
+        <text class="ranking">本周打火机烟具畅销前十</text>
+        <view class="pic">
+          <text class="money">
+          <text class="sizesmall">￥</text>
+            <text class="sizebig">8.88</text>
+          </text>
+          <text class="num">已拼十万+件</text>
+          <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
+          <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

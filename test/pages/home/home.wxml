@@ -1,75 +1,29 @@
-<!--pages/home/home.wxml-->
-<!-- tab选项 -->
-<swiper interval="1000" duration="500" class="tab" display-multiple-items="6">
-  <block wx:for="{{text}}" wx:key="index">
-    <swiper-item class="swiper-item1">
-    {{item}}
-      <!-- <navigator url="{{item.navigator}}"  class="text" hover-class="nav">{{item}}</navigator> -->
-    </swiper-item>
-  </block>
-</swiper>
-<!-- 轮播图 -->
-<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" circular="true" indicator-color="rgba(255, 255, 255, .5)" indicator-active-color="#fff" class="slider" next-margin='0rpx'>
-  <block wx:for="{{imgUrls}}" wx:key="index">
-    <swiper-item class='back center'>
-      <image src="{{item}}" width="750" height="200" class='back'/>
-    </swiper-item>
-  </block>
-</swiper>
-<!-- 拼团 -->
-<view class="spell">
-  <view class="title-box">
-    <text class="title-b-l">这些人刚刚购买成功，可插队拼单</text>
-    <text class="title-b-r">查看更多></text>
-  </view>
-  <swiper autoplay="auto" duration="500" class="spellPlay" vertical="true" circular="true">
-    <block>
-      <swiper-item class="autoplay" wx:for="{{text}}">
-        <image src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" class="img"></image>
-        <text class="spellTitle">{{item}}</text>
-        <view class="spellTimer">
-          <view class="short">还差1人拼成</view>
-          <view class="timer">剩余19:52:40.1</view>
-        </view>
-        <view class="goSpell">
-          <text class="goSpelltxt">去拼单</text>
-        </view>
-      </swiper-item>
-    </block>
-  </swiper>
-</view> 
-<!-- 商品列表 -->
-<<<<<<< HEAD
-<view class="list">
-  <view class="list-item">
-    <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
-    <text class="detail">2019新款波西米亚蕾丝仙女沙滩裙网纱一字肩吊带刺绣</text>
-    <view class="pic">
-      <text class="money">
-      <text class="sizesmall">￥</text>
-      
-        <text class="sizebig">149</text>
-      </text>
-      <text class="num">已拼941件</text>
-      <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
-    </view>
-  </view>
-  <view class="list-item">
-    <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="bigimg"></image>
-    <text class="detail">2019新款波西米亚蕾丝仙女沙滩裙网纱一字肩吊带刺绣</text>
-    <view class="pic">
-      <text class="money">
-      <text class="sizesmall">￥</text>
-      
-        <text class="sizebig">149</text>
-      </text>
-      <text class="num">已拼941件</text>
-      <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="smallimg"></image>
-    </view>
-  </view>
+<!-- 轮播图下面的背景 -->
+<view class="bg">
+  <image src="../homeImg/zhang-kaiyv-661828-unsplash.jpg" class="bgimg"></image>
 </view>
-=======
-
-
-
->>>>>>> eb7dca1c8b92dd4d2c4ecd212f927396552f1b2d
+<!-- 轮播图 -->
+<swiper 
+  indicator-dots="true"
+  class="swiper" 
+  autoplay="true"
+  interval="3000"
+  duration="500"
+  circular="true"
+ >
+  <swiper-item wx:for="{{imgUrl}}" wx:key="{{index}}">
+    <image src="{{item}}" class="swiperImg"></image>
+  </swiper-item>
+</swiper>
+<!-- 轮播图左右灰色竖条 -->
+<view class="suspension">
+  <view class="suspension-this suspension-l"></view>
+  <view class="suspension-this suspension-r"></view>
+</view>
+<view class="arrow">
+  <view class="arrowLeft"></view>
+  <view class="arrowRight"></view>
+</view>
+<view class="groupbg">
+  <image src="../homeImg/zhang-kaiyv-661828-unsplash.jpg" class="group-bgImg"></image>
+</view>

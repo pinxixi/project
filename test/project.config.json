@@ -10,7 +10,6 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
-		"nodeModules": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -23,14 +22,13 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wxf8d2fe133e7d6baf",
+	"appid": "wx1ad232f825b0c409",
 	"projectname": "test",
+	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -45,20 +43,33 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 2,
 			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "新品",
+					"pathName": "pages/recommend/recommend",
+					"query": "",
+					"scene": null
+				},
 				{
 					"id": -1,
 					"name": "cart",
 					"pathName": "pages/cart/cart",
 					"query": "",
-			"current": 0,
-        }
-      ]
+					"scene": null
+				}
+			]
 		}
-  }
+	}
 }
