@@ -2,9 +2,9 @@
 <view class="bg">
   <image src="../homeImg/zhang-kaiyv-661828-unsplash.jpg" class="bgimg"></image>
 </view>
-<!-- 轮播图 -->
+<!-- 轮播图1111 -->
 <swiper 
-  indicator-dots="true"
+  indicator-dots="true" 
   class="swiper" 
   autoplay="true"
   interval="3000"
