@@ -41,3 +41,52 @@ page{
   border-radius: 9rpx;
   margin: 5rpx;
 }
+.list{
+  background: #fff;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}
+.list .title{
+  color: #111;
+  display: flex;
+  justify-content: space-between;
+}
+.list .title .more{
+  color: #666;
+  font-size: 26rpx;
+}
+.list1{
+  color: #666;
+}
+.list1 .content{
+  display: flex;
+  padding: 20rpx 0;
+  justify-content: space-around;
+}
+.list1 .item{
+  flex: 1;
+  
+  position: relative;
+}
+.list1 .icon{
+  color: #c55;
+  padding: 5rpx 10rpx;
+  font-size: 20rpx;
+  line-height: 1;
+  border-radius:50%;
+  border: 1px solid #c55;
+  position: absolute;
+  top: -10rpx;
+  right: 25rpx;
+}
+.list1 .img{
+  width: 50rpx;
+  height:50rpx;
+  margin: 0 auto;
+  display: block;
+}
+.list1 .name{
+  font-size: 20rpx;
+  line-height: 1.5;
+  text-align:center;
+}

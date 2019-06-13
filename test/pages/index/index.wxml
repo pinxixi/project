@@ -11,4 +11,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
-
+<view class="page" wx:if="{{!pageShow}}">
+  index.wxml
+</view>
