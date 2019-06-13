@@ -64,6 +64,7 @@
 			"list": [
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "cart",
 					"pathName": "pages/cart/cart",
 					"query": "",
@@ -82,6 +83,11 @@
 					"name": "detail",
 					"pathName": "pages/detail/detail",
 >>>>>>> 5d3ce728bbaeffa77f776be1222f3fdc47d8ba4a
+=======
+					"name": "user",
+					"pathName": "pages/user/user",
+					"query": "",
+>>>>>>> 6b4bc5e08f7d9eebd3bff5170d31c034669808b2
 					"scene": null
 				}
 			]

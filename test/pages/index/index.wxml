@@ -1,3 +1,20 @@
 <!--index.wxml-->
+<<<<<<< HEAD
 <view class="container">
+=======
+<view class="container" wx:if="{{pageShow}}">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+>>>>>>> 6b4bc5e08f7d9eebd3bff5170d31c034669808b2
+</view>
+<view class="page" wx:if="{{!pageShow}}">
+  index.wxml
 </view>

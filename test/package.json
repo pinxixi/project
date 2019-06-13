@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "pinduoduo",
   "version": "1.0.0",
   "main": "app.js",
@@ -12,4 +13,9 @@
   },
   "devDependencies": {},
   "description": ""
+=======
+  "dependencies": {
+    "vant-weapp": "^0.5.14"
+  }
+>>>>>>> 6b4bc5e08f7d9eebd3bff5170d31c034669808b2
 }
