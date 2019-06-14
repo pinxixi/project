@@ -143,13 +143,12 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 120rpx;
   margin-top: 31rpx;
   background: #fff;
 }
 .container .join text{
   width: 100%;
-  height: 120rpx;
+  font-size: 28rpx;
   margin-left: 26rpx;
 }
 .container .join1{
@@ -157,19 +156,20 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 120rpx;
   background: #fff;
+  margin-top: 47rpx;
 }
 .container .join1 image{
-  width: 80rpx;
-  height: 80rpx;
+  width: 71rpx;
+  height: 71rpx;
   border-radius: 50%;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
+  margin-left: 26rpx;
+  margin-right: 21rpx;
 }
 .container .join1 .name{
-  color: #333;
-  margin-right: 100rpx;
+  color: #353535;
+  font-size: 30rpx;
+  margin-right: 127rpx;
 }
 .container .join1 .count{
   display: flex;
@@ -179,65 +179,71 @@
   margin-right: 60rpx;
 }
 .container .join1 .count text:first-child{
-  width: 100%;
-  height: 50%;
-  text-align: center;
-  color: #333;
-  font-size: 30rpx;
+	font-size: 27rpx;
+	color: #252525;
+  margin-top: -10rpx;
 }
 .container .join1 .count view{
-  width: 100%;
-  height: 50%;
-  text-align: center;
-  color: #333;
+  color: #545454;
+  margin-top: 10rpx;
+  font-size: 18rpx;
 }
 .container .join1 .count view text:last-child{
-  color: #f00;
+  font-size: 18rpx;
+  color: #f40000;
 }
 .container .join1 .goJoin{
-  width: 130rpx;
-  height: 60rpx;
-  text-align: center;
-  line-height: 60rpx;
-  font-size: 32rpx;
+  width: 135rpx;
+  height: 59rpx;
+  line-height: 59rpx;
+	background: #fb3609;
+	border-radius: 10rpx;
+  margin-top: 33rpx;
   color: #fff;
-  background: #f00;
+  font-size: 30rpx;
+  margin-right: 43rpx;
+}
+.container .join1 .goJoin text{
+  padding: 12rpx 11rpx 13rpx 16rpx;
 }
 .container .seller{
   width: 100%;
   margin-top: 40rpx;
+  margin-left: 24rpx;
   background: #fff;
 }
 .container .seller .total{
+  display: flex;
+  justify-content: space-around;
   width: 100%;
-  height: 40rpx;
 }
-.container .seller .total text:first-child{
+.container .seller .total .seleText{
   float: left;
-  color: #333;
+  color: #3c3c3c;
+  font-size: 36rpx;
   margin-left: 20rpx;
+  margin-right: 266rpx;
 }
-.container .seller .total text:last-child{
+.container .seller .total .lookText{
   float: right;
-  color: #ccc;
-  margin-right: 20rpx;
+  color: #b1b1b1;
+  font-size: 36rpx;
+  margin-right: 8rpx;
 }
 .container .seller .btn{
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 60rpx;
+  margin-top: 36rpx;
 }
 .container .seller .btn text{
-  width: 33%;
-  height: 40rpx;
-  text-align: center;
-  line-height: 40rpx;
+  height: 49rpx;
   background: #fcd8d1;
   color: #333;
   font-size: 30rpx;
-  border-radius: 10rpx;
+  border-radius: 20rpx;
+  padding: 11rpx 21rpx 9rpx 13rpx;
 }
 .container .seller .sellers{
   display: flex;
@@ -248,40 +254,42 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 40rpx;
+  margin-top: 20rpx;
 }
 .container .seller .sellers .infos .info{
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-left: 20rpx;
+  margin-left: 23rpx;
 }
 .container .seller .sellers .infos .info image{
-  width: 80rpx;
-  height: 80rpx;
+  width: 56rpx;
+  height: 56rpx;
   border-radius: 50%;
-  margin-right: 20rpx;
+  margin-right: 14rpx;
 }
 .container .seller .sellers .infos .info .name{
-  color: #333;
-  font-size: 40rpx;
-}
-.container .seller .sellers .infos text{
-  width: 100%;
-  text-align: left;
-  margin: 0 10rpx;
+  color: #111;
   font-size: 30rpx;
 }
-.container .info{
+.container .seller .sellers .infos .text{
   width: 100%;
-  margin-top: 20rpx;
+  text-align: left;
+  margin: 18rpx 23rpx;
+  font-size: 30rpx;
+  color: #2a2929;
 }
-.container .info text{
+.container .seller .info1{
   width: 100%;
-  margin-left: 20rpx;
-  color: #333;
-  font-size: 40rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.container .seller .info1 text{
+  width: 100%;
+  margin-left: 23rpx;
+  color: #111;
+  font-size: 36rpx;
   margin-top: 20rpx;
 }
 .container .imgText{
@@ -299,7 +307,7 @@
   width: 100%;
   height: 372rpx;
   background: #fff;
-  margin-top: 10rpx;
+  margin-top: 30rpx;
 }
 .container .imgText .textImg .imgInfo{
   display: flex;
@@ -344,6 +352,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 70rpx;
 }
 .container .detailImg image{
   width: 100%;
@@ -400,10 +409,12 @@
   height: 100rpx;
 }
 .cartJoin .addCart image{
-  width: 100rpx;
-  height: 100rpx;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
+	width: 240rpx;
+	height: 240rpx;
+	background-color: #ffffff;
+	box-shadow: 9rpx -1rpx 7rpx 2rpx 
+		rgba(122, 122, 122, 0.11);
+	border-radius: 13rpx;
 }
 .cartJoin .addCart .priceStyle{
   display: flex;
