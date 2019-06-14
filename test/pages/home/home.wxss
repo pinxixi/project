@@ -46,29 +46,54 @@
 
 /* 拼团背景图 */
 .groupbg{
+  position:relative;
   width:750rpx;
   height:250rpx;
   overflow: hidden;
   margin-top:50rpx;
 }
 .group-bgImg{
+  position:absolute;
   width:750rpx;
 }
+.goodstitle{
+  position:absolute;
+  top:0;
+  left:0;
+  width:750rpx;
+  height:90rpx;
+  color:#fff;
+  line-height:90rpx;
+  text-align: center;
+  font-size:30rpx;
+}
 /* 拼团 */
+.goodswrap{
+  position:relative;
+}
 .goods{
+  position:absolute;
+  top:-165rpx;
+  left:34rpx;
   display:flex;
-  width:658rpx;
-  height:282rpx;
-
+  padding:50rpx 30rpx 30rpx 30rpx;
+  width:598rpx;/*658*/
+  height:202rpx;/*282*/
+  background: #fff;
+  border-radius: 35rpx;
+  box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
 }
 .imgbox{
-  width:240rpx;
-  height:240rpx;
+  width:280rpx;
+  height:200rpx;
 }
 .img{
-  width:240rpx;
-  height:240rpx;
+  top:0;
+  left:0;
+  width:280rpx;
+  height:200rpx;
 }
+
 .textbox{
   flex:1;
 }
@@ -97,10 +122,13 @@
   color:#cf3d1e;
   border:2rpx solid #cf3d1e;
 }
-.triangle{
+/* .triangle{
+  position
   width:0;
   height:0;
-  border-left:50rpx solid transparent;
-  border-right:50rpx solid transparent;
+  border-left:30rpx solid transparent;
+  border-right:30rpx solid transparent;
   border-top:50rpx solid #f00;
-}
+  box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
+
+} */
