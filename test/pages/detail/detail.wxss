@@ -144,13 +144,13 @@
   align-items: center;
   width: 100%;
   height: 120rpx;
-  margin-top: 20rpx;
+  margin-top: 31rpx;
   background: #fff;
 }
 .container .join text{
   width: 100%;
-  height: 20rpx;
-  margin-left: 20rpx;
+  height: 120rpx;
+  margin-left: 26rpx;
 }
 .container .join1{
   display: flex;
