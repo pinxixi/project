@@ -1,0 +1,81 @@
+/* pages/Settlement/Settlement.wxss */
+.settlement{
+  width: 100vw;
+  height: 100vh;
+  background: #f5f5f5;
+}
+/* 地址 */
+.address{
+  position: relative;
+  width: 100%;
+  height: 81rpx;
+  border-top: 1px solid #0f000000;
+  background: #fff;
+  margin-top: 35rpx;
+}
+.address .location{
+  position: absolute;
+  top: 0;
+  left: 39rpx;
+  display: inline-block;
+}
+.address text{
+  position: absolute;
+  top: 4rpx;
+  left: 107rpx;
+  font-size: 30rpx;
+}
+.address .arrow{
+  position: absolute;
+  top: 8rpx;
+  right: 28rpx;
+  display: inline-block;
+  opacity: .5;
+}
+.address image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rpx;
+}
+/* 订单 */
+.goods{
+  position: relative;
+  width: 699rpx;
+  height: 199rpx;
+  padding: 53rpx 25rpx 43rpx 26rpx;
+  background: #fff;
+}
+.goods image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.goods .title{
+  position: absolute;
+  top: 53rpx; 
+  left: 218rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.goods .title .style{
+  position: absolute;
+  top: 52rpx; 
+  /* left: 218rpx; */
+  font-size: 28rpx;
+  color: #afafaf;
+}
+.goods .num{
+  position: absolute;
+  right: 165rpx;
+  bottom: 44rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.goods .price{
+  position: absolute;
+  right: 25rpx;
+  bottom: 45rpx;
+  font-size: 30rpx;
+  color: #333;
+}

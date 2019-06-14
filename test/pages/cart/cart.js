@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    carts: [],               // 购物车列表
+    // carts: [],               // 购物车列表
     hasList: false,          // 列表是否有数据
     totalPrice: '0.00',           // 总价，初始为0
     selectAllStatus: false,    // 全选状态
@@ -179,13 +179,13 @@ Page({
     this.setData({
       hasList: true,        // 既然有数据了，那设为true
       carts: [
-        { id: 1, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 66, ischecked: false, num: 1 },
-        { id: 2, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 10, ischecked: false, num: 1 },
-        { id: 3, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 },
-        { id: 4, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
-        { id: 5, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
-        { id: 6, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
-        { id: 7, title: '卡兰德的魔镜', image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 },
+        { id: 1, title: '卡兰德的魔镜', color:"白色", image: "/pages/images/镜子.jpg", price: 66, ischecked: false, num: 1 },
+        { id: 2, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 10, ischecked: false, num: 1 },
+        { id: 3, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 },
+        { id: 4, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
+        { id: 5, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
+        { id: 6, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 }, 
+        { id: 7, title: '卡兰德的魔镜', color: "白色", image: "/pages/images/镜子.jpg", price: 55, ischecked: false, num: 1 },
       ]
     });
 

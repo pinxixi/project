@@ -49,13 +49,26 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "cart",
 					"pathName": "pages/cart/cart",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Settlement",
+					"pathName": "pages/Settlement/Settlement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "gopay",
+					"pathName": "pages/gopay/gopay",
 					"scene": null
 				}
 			]

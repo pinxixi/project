@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/cart/cart",
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/gopay/gopay",
+    "pages/Settlement/Settlement"
   ],
   "permission": {
     "scope.userLocation": {
