@@ -74,7 +74,7 @@
 .goods{
   position:absolute;
   top:-165rpx;
-  left:34rpx;
+  left:44rpx;
   display:flex;
   padding:50rpx 30rpx 30rpx 30rpx;
   width:598rpx;/*658*/
@@ -86,6 +86,7 @@
 .imgbox{
   width:280rpx;
   height:200rpx;
+  margin-right:20rpx;
 }
 .img{
   top:0;
@@ -132,3 +133,64 @@
   box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
 
 } */
+/* 拼团圆头像 */
+.iconImgWrap{
+  display:flex;
+  width:440rpx;
+  height:72rpx;
+  margin:0 auto;
+}
+
+.iconImgBok{
+  position:relative;
+  margin:200rpx 9rpx 0;
+  width:68rpx;
+  height:69rpx;
+  border-radius: 50%;
+}
+.regimental{
+  position:absolute;
+  top:50rpx;
+  left:18rpx;
+  padding:3rpx 6rpx;
+  font-size:14rpx;
+  color:#fff;
+  background: rgb(255,33,0);
+}
+.iconImg{
+  width:68rpx;
+  height:69rpx;
+  border-radius: 50%;
+}
+.emptyImg{
+  line-height:69rpx;
+  text-align:center;
+  font-size:40rpx;
+  color:#fafafa;
+  background: #bababa;
+  border:2rpx dashed #484848;
+}
+/* 仅剩 */
+.remain{
+  font-size:26rpx;
+  text-align: center;
+  margin:40rpx auto 30rpx;
+}
+.remainRed{
+  color:#cd0202;
+}
+/* 倒计时 */
+.countdownWrap{
+  width:750rpx;
+  height:30rpx;
+  font-size:24rpx;
+}
+.line{
+  width:214rpx;
+  height:2rpx;
+  background: #c7c7c7;
+}
+.countdown{
+  color:#545454;
+
+}

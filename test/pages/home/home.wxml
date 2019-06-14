@@ -49,3 +49,39 @@
 
 <!-- 三角形 -->
 <!-- <view class="triangle"></view> -->
+
+<!-- 拼团圆头像 -->
+<view class="pintuanBox">
+  <view class="iconImgWrap">
+    <view class="iconImgBok">
+      <image src="../homeImg/i0.jpg" class="iconImg"></image>
+      <text class="regimental">团长</text>
+    </view>
+    <view class="iconImgBok">
+      <image src="../homeImg/i1.jpg" class="iconImg"></image>
+    </view>
+    <view class="iconImgBok emptyImg">
+    ?
+      <!-- <image src="../homeImg/i0.jpg"></image> -->
+    </view>
+    <view class="iconImgBok emptyImg">
+    ?
+      <!-- <image src="../homeImg/i0.jpg"></image> -->
+    </view>
+    <view class="iconImgBok emptyImg">
+    ?
+      <!-- <image src="../homeImg/i0.jpg"></image> -->
+    </view>
+  </view>
+  <view style="height:200rpx"></view>
+  <!-- 仅剩 -->
+  <view class="remain">仅剩<text class="remainRed">3</text>人，快呼唤小伙伴来参加吧!</view>
+  <!-- 倒计时 -->
+  <view class="countdownWrap">
+    <view class="line"></view>
+    <view class="countdown">
+      剩余<text class="timer">23</text>:<text class="timer">23</text>:<text class="timer">34</text>结束
+    </view>
+    <view class="line"></view>
+  </view>
+</view>
