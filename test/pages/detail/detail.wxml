@@ -4,22 +4,27 @@
   <view class='img'>
     <image src='../img/1.jpg'></image>
   </view>
+  <!--描述-->
+  <view class='description'>
+    <text class='des'>新款正品万泰林/煊赫乳胶枕/泰国正品波浪枕60*40cm</text>
+    <view class='share'>
+      <text class='iconfont icon-fenxiang' style='font-size: 50rpx;color: #3f3f3f;'></text>
+      <text class='text'>分享</text>
+    </view>
+  </view>
   <!--价格-->
   <view class='countPrice'>
     <view class='price'>
-      <text class='nowPrice'>￥29.8</text>
-      <text class='oldPrice'>￥139</text>
-    </view>
-    <view class='count'>
-      <text>已拼单1.6万</text>
+      <text class='logo'>￥</text>
+      <text class='nowPrice'>118-159</text>
     </view>
   </view>
-  <!--描述-->
-  <view class='description'>
-    <view>123</view>
-    <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
-    <view class='share'>分享</view>
+  <!--拼单数量-->
+  <view class='count'>
+    <text class='fast'>快递:免运费</text>
+    <text class='num'>已拼单1.6万</text>
   </view>
+  <!--优惠-->
   <view class='discounts'>
     <text>返现</text>
     <text class='discount'>店铺内消费满40返2元</text>
@@ -151,12 +156,16 @@
   <!--底部导航-->
   <view class='bottom'>
     <view class='icon'>
+      <text class='iconfont icon-shouye' style='font-size: 46rpx'></text>
       <text>首页</text>
     </view>
     <view class='icon'>
+      <text class='iconfont icon-shoucang'
+      style='font-size:46rpx'></text>
       <text>收藏</text>
     </view>
     <view class='icon'>
+      <text class='iconfont icon-kefu' style='font-size: 46rpx'></text>
       <text>客服</text>
     </view>
     <view class='goSpell' bindtap='goSize'>
@@ -168,7 +177,7 @@
   </view>
 </view>
 <!--加入购物车-->
-<view class='cartJoin'>
+<view class='cartJoin' wx:show='{{show}}'>
   <van-popup show='{{show}}' position='bottom' bind:close='goSize'>
     <view class='addCart'>
       <image src='../img/1.jpg'></image>

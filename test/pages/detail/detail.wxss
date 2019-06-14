@@ -1,17 +1,15 @@
 /* pages/detail/detail.wxss */
-/* pages/detail/detail.wxss */
 /**index.wxss**/
 .container{
   width: 100%;
   height: 100%;
-  background: #ccc;
 }
 .container .img{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
-  height: 600rpx;
+  width: 750rpx;
+  height: 750rpx;
 }
 .container .img image{
   width: 100%;
@@ -27,47 +25,68 @@
   background: #fff;
 }
 .container .countPrice .price{
-  margin-left: 20rpx;
+  margin-left: 27rpx;
   margin-right: 360rpx;
 }
+.container .countPrice .price .logo{
+  font-size: 33rpx;
+  color: #fa380a; 
+}
 .container .countPrice .price .nowPrice{
-  font-size: 36rpx;
-  color: #f00;
+  font-size: 58rpx;
+  color: #fa380a;
   margin-right: 8rpx;
 }
-.container .countPrice .price .oldPrice{
-  font-size: 28rpx;
-  color: rgb(138,138,138);
-  text-decoration: line-through;
-}
 .container .count{
-  font-size: 28rpx;
-  color: rgb(138,138,138);
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+  font-size: 26rpx;
+}
+.container .count .fast{
+	font-size: 26rpx;
+	color: #505050;
+  margin-bottom: 26rpx;
+  margin-right: 51rpx;
+}
+.container .count .num{
+  font-size: 26rpx;
+  color: #505050;
 }
 .container .description{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   color: rgb(74,74,74);
   font-size: 34rpx;
-  margin-top: 40rpx;
+  margin-top: 22rpx;
+  margin-left: 25rpx;
   background: #fff;
 }
-.container .description view{
-  width: 100rpx;
-  height: 50rpx;
-  text-align: center;
-  line-height: 50rpx;
+.container .description .des{
+	width: 554rpx;
+	height: 74rpx;
+	font-family: SimHei;
+	font-size: 30rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32rpx;
+	letter-spacing: 0rpx;
+  margin-right: 86rpx;
+	color: #404040;
 }
 .container .description .share{
-  color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
 }
-.container .description text{
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  flex: 1;
+.container .description .share .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
 }
 .container .discounts{
   display: flex;
@@ -77,6 +96,7 @@
   height: 40rpx;
   margin-top: 20rpx;
   background: #fff;
+  margin-left: 35rpx;
 }
 .container .discounts text:first-child{
   width: 80rpx;
@@ -87,11 +107,11 @@
   background: #f00;
   color: #fff;
   margin-left: 20rpx;
-  margin-right: 30rpx;
+  margin-right: 20rpx;
 }
 .container .discounts .discount{
-  font-size: 32rpx;
-  color: #ccc;
+	font-size: 26rpx;
+	color: #434343;
 }
 .container .success{
   position: fixed;
@@ -99,24 +119,24 @@
   left: 0;
   display: flex;
   align-items: center;
-  width: 80%;
-  height: 100rpx;
-  text-align: left;
-  background: rgba(0,0,0,.1);
-  margin-left: 20rpx;
-  border-radius: 20rpx;
+  width: 433rpx;
+	height: 65rpx;
+	background-color: #383838;
+	border-radius: 12rpx;
+	opacity: 0.71;
+  margin-left: 35rpx;
+  margin-top: 39rpx;
 }
 .container .success image{
-  width: 80rpx;
-  height: 80rpx;
+  width: 48rpx;
+  height: 56rpx;
   border-radius: 50%;
-  margin-left: 10rpx;
-  margin-right: 20rpx;
+  margin-right: 43rpx;
+  margin-left: 9rpx;
 }
 .container .success text{
-  height: 100rpx;
-  line-height: 100rpx;
   color: #fff;
+  font-size: 26rpx;
 }
 .container .join{
   display: flex;
@@ -346,7 +366,7 @@
   align-items: center;
   width: 10%;
   height: 100%;
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 .container .bottom .goSpell{
   display: flex;

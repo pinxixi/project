@@ -9,7 +9,8 @@
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-    "pages/recommend/recommend"
+    "pages/recommend/recommend",
+    "pages/refund/refund"
   ],
   "permission": {
     "scope.userLocation": {
