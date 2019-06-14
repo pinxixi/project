@@ -100,9 +100,12 @@
 </view>
 <!-- 镇店之宝 Town store -->
 <view class="town">
+  <view class="townbgbox">
+    <image src="../homeImg/1.png" class="townbg"></image>
+  </view>
   <view class="townTitle">
     <image src="../homeImg/asRight.jpg" class="tTitleImg"></image>
-    <text>镇店之宝 任君挑选</text>
+    <text class="tTitleTxt">镇店之宝 任君挑选</text>
     <image src="../homeImg/asLeft.jpg" class="tTitleImg"></image>
   </view>
   <view class="townBody">
@@ -123,7 +126,7 @@
   <view class="townpic">
     <view class="picWrap">
       <view class="logimgbox">
-        <image src="logimg"></image>
+        <image src="../homeImg/log3.jpg" class="logimg"></image>
       </view>
       <view class="picbox">
         <text class="smallTred">￥</text>
@@ -131,7 +134,12 @@
         <text class="smallTred">.00</text>
       </view>
     </view>
-    <view class=""></view>
+    <view class="buyBox">
+      <text class="buyTxt">立即购买</text>
+      <icon class="icon"></icon>
+    </view>
   </view> 
 </view>
-
+<view class="taImgBox">
+  <image src="../homeImg/ta.gif" class="taImg"></image>
+</view>
