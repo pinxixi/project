@@ -85,3 +85,53 @@
     <view class="line"></view>
   </view>
 </view>
+
+<!-- 玩趣 分享 -->
+<view class="funBox">
+  <view class="sign"><image class="funimg" src="../homeImg/sign.jpg"></image></view>
+  <view class="fun">玩趣加购 分享有礼</view>
+  <view class="ticketTxt">先领券 再购物</view>
+  <view class="ticket">
+    <image class="ticketimg" src="../homeImg/rmb10.jpg"></image>
+    <image class="ticketimg" src="../homeImg/rmb20.jpg"></image>
+    <image class="ticketimg" src="../homeImg/rmb50.jpg"></image>
+    <image class="ticketimg" src="../homeImg/rmb100.jpg"></image>
+  </view>
+</view>
+<!-- 镇店之宝 Town store -->
+<view class="town">
+  <view class="townTitle">
+    <image src="../homeImg/asRight.jpg" class="tTitleImg"></image>
+    <text>镇店之宝 任君挑选</text>
+    <image src="../homeImg/asLeft.jpg" class="tTitleImg"></image>
+  </view>
+  <view class="townBody">
+    <view class="signImBoxg">
+      <image src="../homeImg/sign.jpg" class="signIm"></image>
+    </view>
+    <view class="towntxt">
+      泰国平面波浪枕
+    </view>
+    <view class="townbigImgBox">
+      <image src="../homeImg/波浪平面枕.jpg" class="townbigImg"></image>
+    </view>
+    <view class="pngImg">
+      <!-- <image></image> -->
+    </view>
+    <view class=""></view>
+  </view>
+  <view class="townpic">
+    <view class="picWrap">
+      <view class="logimgbox">
+        <image src="logimg"></image>
+      </view>
+      <view class="picbox">
+        <text class="smallTred">￥</text>
+        <text class="bigTred">228</text>
+        <text class="smallTred">.00</text>
+      </view>
+    </view>
+    <view class=""></view>
+  </view> 
+</view>
+

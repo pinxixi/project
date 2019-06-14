@@ -181,16 +181,137 @@
 }
 /* 倒计时 */
 .countdownWrap{
+  display:flex;
   width:750rpx;
   height:30rpx;
   font-size:24rpx;
 }
 .line{
   width:214rpx;
+  margin:14rpx 0;
   height:2rpx;
   background: #c7c7c7;
 }
 .countdown{
+  flex:1;
   color:#545454;
+  text-align: center;
+ 
+}
+.timer{
+  display:inline-block;
+  width:34rpx;
+  height:31rpx;
+  margin:4rpx;
+  text-align: center;
+  color:#f40000;
+  background: #fd897d;
+}
+/* 玩趣 分享 */
+.funBox{
+  width:750rpx;
+  text-align: center;
+  padding:50rpx 24rpx 104rpx;
+}
+.sign{
+  width:344rpx;
+  height: 40rpx;
+  margin:0 auto 30rpx;
+}
+.funimg{
+  width:344rpx;
+  height: 30rpx;
+}
+.fun{
+  height:60rpx;
+  line-height:60rpx;
+  font-size:36rpx;
+  color:#333;
+}
+.ticketTxt{
+  height:56rpx;
+  margin-bottom:30rpx;
+  line-height:56rpx;
+  font-size:32rpx;
+  color:#9e9e9e;
+}
+.ticket{
+  display:flex;
+  width:702rpx;
+  justify-content: space-between;
+
+}
+.ticketimg{
+  width:166rpx;
+  height:344rpx;
+}
+
+/* 镇店之宝 */
+
+.town{
+  width:750rpx;
+}
+/*  */
+.townTitle{
+  width:612rpx;
+  height:105rpx;
+  font-size:32rpx;
+  margin:0 auto;
+}
+.tTitleImg{
+  width:92rpx;
+}
+/*  */
+.townBody{
+  width:750rpx;
+}
+.signImBoxg{
+  width:344rpx;
+  height: 30rpx;
+  margin:0 auto;
+}
+.signIm{
+  width:344rpx;
+  height: 30rpx;
+}
+.towntxt{
+  margin: 22rpx auto 37rpx;
+  font-size:36rpx;
+}
+.townbigImgBox{
+  width:666rpx;
+  height:392rpx;
+}
+.townbigImg{
+  width:666rpx;
+  height:392rpx;
+}
+.pngImg{
+  width:450rpx;
+  height:320rpx;
+}
+.townpic{
+  width:226rpx;
+  height:33rpx;
+}
+.picWrap{
+  
+}
+.logimgbox{
+  
+}
+.logimg{
+  
+}
+.picbox{
+  
+}
+.smallTred{
+  
+}
+.bigTred{
+
+}
+.smallTred{
 
 }
