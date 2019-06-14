@@ -21,24 +21,38 @@
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
   </view>
-  <view class='discounts'>
-    <text class='num'>优惠</text>
+  <view class='totalprice'>
+    <text class='num'>商品总额</text>
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
   </view>
-  <view class='discounts'>
-    <text class='num'>优惠</text>
+  <view class='freight'>
+    <text class='num'>运费</text>
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
   </view>
-  <view class='discounts'>
-    <text class='num'>优惠</text>
+  <view class='message'>
+    <text class='num'>留言</text>
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
   </view>
-  <view class='discounts'>
-    <text class='num'>优惠</text>
+  <view class='WeChaPay'>
+    <text class='num'>微信支付</text>
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <view class='WeChatFriendPayment'>
+    <text class='num'>微信好友支付</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <!-- footer -->
+  <view class="bottom_total" >
+    <view class="bottom_line"></view>
+    <view class="row">
+      <text class='text'>应付款: </text>
+      <text class="price">￥0.00</text>
+      <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
+    </view>
   </view>
 </view>
