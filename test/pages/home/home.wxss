@@ -378,3 +378,75 @@
   width:420rpx;
   height:195rpx;
 }
+/* 泰国平面乳胶枕 */
+.planewrap{
+  display:flex;
+  width:750rpx;
+  height:373rpx;
+}
+.planeleft{
+  width:474rpx;
+  height:373rpx;
+}
+.planeleftImg{
+  width:474rpx;
+  height:373rpx;
+}
+/* 右边盒子 */
+.planeright{
+  flex:1;
+  margin-left:25rpx;
+}
+.planerightLogImg{
+  width:156rpx;
+  height:15rpx;
+}
+.planerightTxt{
+  display:block;
+  font-size:26rpx;
+  margin:8rpx 0 20rpx;
+}
+.planerightImgBox{
+  width:198rpx;
+  height:170rpx;
+  border:4rpx solid #d7d7d7;
+
+}
+.planerightImg{
+  width:198rpx;
+  height:170rpx;
+}
+/* 价格 */
+.planepic{
+  color:#df0000;      
+}
+.smallred{
+  font-size:21rpx;
+}
+.bigred{
+  font-size:33rpx;
+}
+
+/* 立即购买 */
+.purchase{
+  width:108rpx;
+  height:33rpx;
+  line-height:33rpx;
+  font-size:14rpx;
+  color:#fff;
+  background: #df0000;
+}
+.purchaseTxt{
+  display:block;
+  width:108rpx;
+  height:33rpx;
+  line-height:33rpx;
+}
+.purchaseBorder{
+  width:14rpx;
+  height:14rpx;
+  border:1rpx solod #fff;
+}
+.purchaseIcon{
+  font-size:10rpx;
+}

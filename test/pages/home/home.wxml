@@ -143,3 +143,32 @@
 <view class="taImgBox">
   <image src="../homeImg/ta.gif" class="taImg"></image>
 </view>
+<!-- 泰国平面乳胶枕 -->
+<view class="planewrap">
+<!-- 左边大图片 -->
+  <view class="planeleft">
+    <image src="../homeImg/plane.gif" class="planeleftImg"></image>
+  </view>
+  <!-- 右边盒子 -->
+  <view class="planeright">
+    <image  src="../homeImg/log2.gif" class="planerightLogImg"></image>
+    <text class="planerightTxt">泰国平面乳胶枕</text>
+    <view class="planerightImgBox">
+      <image src="../homeImg/material.gif" class="planerightImg"></image>
+    </view>
+    
+    <!-- 价格 -->
+    <view class="planepic">
+      <text class="smallred">￥</text>
+      <text class="bigred">228</text>
+      <text class="smallred">.00</text>
+    </view>
+    <!-- 立即购买 -->
+    <view class="purchase">
+      <text class="purchaseTxt">立即购买</text>
+      <view class="purchaseBorder">
+        <icon class-="purchaseIcon"></icon>
+      </view>
+    </view>
+  </view>
+</view>
