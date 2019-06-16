@@ -531,21 +531,153 @@
 .waveWrapBox{
   margin:10rpx 0 0 26rpx;
 }
-.{
-  
+/* 口碑店长推荐 */
+.recommendBox{
+  position:relative;
+  width:750rpx;
 }
-.{
-  
+.recommendBg{
+  width:750rpx;
+  height:152rpx;
 }
-.{
-  
+.recommendBgImg{
+  width:750rpx;
+  height:152rpx;
 }
-.{
-  
+.recommendTitle{
+  position:absolute;
+  top:52rpx;
+  left:68rpx;
 }
-.{
-  
+.recommendlist{
+  display:flex;
+  justify-content: space-between;
 }
-.{
-  
+.waveSign1{
+  margin:0 auto 10rpx;
+}
+.waveTxt1{
+  margin-bottom: 40rpx;
+}
+.recommendImg{
+  display:block;
+  width:750rpx;
+  height:494rpx;
+  margin-top:60rpx;
+}
+
+/*  */
+.sellerListBox{
+  background: #f2f6f5;
+  padding-bottom: 20rpx;
+
+}
+.rankingBtnBig{
+  height:100rpx;
+  line-height:100rpx;
+  margin :20rpx 320rpx 10rpx 46rpx;
+}
+.rankingBtnsmall{
+  font-size:20rpx;
+  margin-right:40rpx;
+  border-bottom:4rpx solid transparent;
+}
+.active{
+  border-color:#2c500d;
+}
+.rankingList{
+  display:flex;
+  justify-content: space-around;
+  width:750rpx;
+  height:290rpx;
+}
+.rankingListItem{
+  width:228rpx;
+  height:290rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;             
+}
+.rankingImg{
+  width:228rpx;
+  height: 170rpx;
+}
+.rankingNumber{
+  display:block;
+  width:40rpx;
+  height:40rpx;
+  line-height:40rpx;
+  margin:0 auto;
+  font-size:25rpx;
+  text-align: center;
+  color:#fff;
+  background: #278c58;
+  border-radius: 50%;
+  transform: translateY(-20rpx);
+}
+.rankingDetail{
+  display:block;
+  font-size:20rpx;
+  margin:-8rpx 0 12rpx 18rpx;
+}
+.payment{
+  display:block;
+  font-size:14rpx;
+  color:#848484;
+  margin-left:18rpx; 
+
+}
+/*like  */
+.likeList{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width:750rpx;
+  padding:0 21rpx;
+}
+.likeTxt{
+  height:100rpx;
+  line-height:100rpx;
+  margin-left:46rpx;
+}
+.likeListItem{
+  width:340rpx;
+  height:480rpx;
+  background: #fff;
+  margin:11rpx 0;
+  border-radius: 12rpx;
+  overflow: hidden;             
+}
+.likeImg{
+  width:340rpx;
+  height:282rpx;
+}
+.likeListItem text{
+  display:block;
+  margin-left:20rpx;
+}
+.likeTitle{
+  font-size:32rpx;
+  margin:20rpx 0 10rpx;
+}
+.likeDetail{
+  font-size:23rpx;
+  color:#999;
+  margin-bottom: 20rpx;
+}
+.money{
+  font-size: 26rpx;
+  color:#df0000;
+}
+.LookAll{
+  display:block;
+  width:696rpx;
+  height:86rpx;
+  margin:18rpx auto 0;
+  line-height:86rpx;
+  font-size: 27rpx;
+  text-align:center;
+  border-radius:  7rpx;         
+  background: #fff;
 }

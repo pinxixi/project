@@ -5,7 +5,65 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrl: ["../homeImg/222.jpg", "../homeImg/222.jpg", "../homeImg/222.jpg"]
+    imgUrl: ["../homeImg/222.jpg", "../homeImg/222.jpg", "../homeImg/222.jpg"],
+    ranking:[
+      {
+        imgUrl:"../homeImg/wave.gif",
+        name:"泰国乳胶狼牙按摩枕",
+        payment:199,
+        index:1
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国乳胶平面波浪枕",
+        payment: 189,
+        index:2
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国乳胶美容按摩枕",
+        payment: 189,
+        index:3
+      }
+    ],
+    like: [
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国波浪平面枕",
+        detail: "泰国天然乳胶原料",
+        money:228
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国狼牙按摩枕",
+        detail: "泰国天然乳胶原料",
+        money: 228
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国美容波浪枕",
+        detail: "泰国天然乳胶原料",
+        money: 228
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国薄款波浪枕",
+        detail: "泰国天然乳胶原料",
+        money: 228
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国波浪平面枕",
+        detail: "泰国天然乳胶原料",
+        money: 228
+      },
+      {
+        imgUrl: "../homeImg/wave.gif",
+        name: "泰国薄款波浪枕",
+        detail: "泰国天然乳胶原料",
+        money: 228
+      }
+    ]
   },
 
   /**
