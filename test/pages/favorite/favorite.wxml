@@ -1,0 +1,18 @@
+<!--pages/favorite/favorite.wxml-->
+<view class="favorite">
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="{{index}}">
+      <view class="img-box">
+        <image class="img" src="{{item.img}}"></image>
+      </view>
+      <view class="content">
+        <view class="name">{{item.name}}</view>
+        <view class="price-info">比收藏时降价20.00元</view>
+        <view class="price">
+          <text class="icon">￥</text><text>{{item.price}}</text>
+        </view>
+      </view>
+      <view class="favorite-info">已有{{item.favorite}}人收藏</view>
+    </view>
+  </view>
+</view>

@@ -1,6 +1,5 @@
 {
-  "usingComponents": {
-    "jag": "/pages/component/jag/jag"
-  },
-  "navigationBarBackgroundColor": "#1ca95e"
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#1ca95e",
+  "navigationBarTitleText": "个人中心"
 }

@@ -23,6 +23,9 @@ page{
 .list-title .num{
   color: #f75f6a;
 }
+.list{
+  position: relative;
+}
 .item{
   color: #fff;
   display: flex;
@@ -57,7 +60,7 @@ page{
   line-height: 1;
 }
 .modul1 .l{
-  padding: 38rpx 19rpx 10rpx;
+  padding: 38rpx 19rpx 20rpx;
 }
 .modul1 .num-box{
   margin-bottom: 28rpx;
@@ -101,4 +104,17 @@ page{
 }
 .jag-r{
   left: 100%
+}
+.popup .img-box{
+  width: 220rpx;
+  height: 220rpx;
+  transform: translateY(-50%)
+}
+.van-popup{
+  overflow-y: none;
+}
+.popup .img-box .img{
+  width: 100%;
+  height: 100%;
+  display: block;
 }

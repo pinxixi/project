@@ -10,7 +10,7 @@
     </view>
   </view>
   <view class="list list1">
-    <view class="title">
+    <view class="title" data-pathName="order" bindtap='toPage'>
       <view class="title-name">我的订单</view>
       <view class='more'>查看全部<text class="icon">></text></view>
     </view>

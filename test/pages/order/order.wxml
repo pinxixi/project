@@ -1,0 +1,34 @@
+<!--pages/order/order.wxml-->
+<view class="order">
+  <view class="list">
+    <view class="item {{item.orderType}}" wx:for="{{list}}" wx:key="{{index}}" >
+      <view class="title" wx:if='{{item.orderType=="achieve"}}'>
+        <text class="order-code">订单编号:{{item.orderCode}}</text>
+        <text class="order-info">交易完成</text>
+      </view>
+      <view class="goods">
+        <view class="good" wx:for="{{item.goods}}" wx:key="{{index}}">
+          <image class="img" src="{{item.img}}"></image>
+          <view class="content">
+            <view class="name">
+              {{item.name}}
+              <text class="price">
+                ￥<text class="num">{{item.price}}</text>
+              </text>
+            </view>
+            <view class="good-info">
+              {{item.goodInfo}}<text class="good-num">x{{item.goodNum}}</text>
+              </view>
+          </view>
+          <view class="payment">待付款</view>
+        </view>
+      </view>
+      <view class="clearing">
+        共计{{item.allNum}}件商品 合计<text class="icon">￥</text><text class="num">{{item.allPrice}}</text>(含运费￥{{item.freight}})
+      </view>
+      <view class="control">
+        <view class="btn {{item.type}}" wx:for="{{item.control}}" wx:key="{{index}}">{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+</view>

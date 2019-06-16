@@ -65,7 +65,7 @@ Page({
           icon: "/pages/image/icon8.gif"
         }, {
           name: "商品售后",
-          pathName: "afterSale",
+          pathName: "refund",
           icon: "/pages/image/icon9.gif"
         }
       ]

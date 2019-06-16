@@ -29,8 +29,13 @@
           <text class="text">购物券</text>
         </view>
       </view>
-      <view class="r"><view class="btn">立即使用</view></view>
+      <view class="r"><view class="btn" bindtap='showPopup'>立即使用</view></view>
       <jag num="10" class="jag jag-r"/>
     </view>
   </view>
+  <van-popup class="popup" show="{{isShow}}" position="bottom" bind:close="showPopup">
+    <view class="img-box">
+      <image class="img" src="/pages/images/shop.jpg"></image>
+    </view>
+  </van-popup>
 </view>

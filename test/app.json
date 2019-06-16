@@ -9,7 +9,10 @@
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-    "pages/ticket/ticket"
+    "pages/ticket/ticket",
+    "pages/favorite/favorite",
+    "pages/order/order",
+    "pages/history/history"
   ],
   "permission": {
     "scope.userLocation": {

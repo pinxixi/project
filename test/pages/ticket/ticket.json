@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "jag": "/pages/component/jag/jag"
-  }
+    "jag": "/pages/component/jag/jag",
+    "van-popup":"/miniprogram_npm/vant-weapp/popup/index"
+  },
+  "navigationBarTitleText": "领券中心"
 }

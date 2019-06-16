@@ -1,0 +1,121 @@
+/* pages/order/order.wxss */
+page{
+  background: #f2f2f2;
+}
+.item{
+  background: #fff;
+  margin-bottom: 30rpx;
+}
+.item .title{
+  display: flex;
+  height: 79rpx;
+  padding: 0 20rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.item .title .order-code{
+  color: #8d8d8d;
+  font-size: 24rpx;
+}
+.item .title .order-info{
+  color: #24ab63;
+  font-size: 26rpx;
+}
+.item .good{
+  display: flex;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  padding: 23rpx 22rpx 22rpx;
+  position: relative;
+}
+.item .good .img{
+  width: 163rpx;
+  height: 173rpx;
+  display: block;
+  background: #eee;
+  margin-right: 39rpx;
+}
+.item .good .content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item .good .name{
+  color: #383a3a;
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+}
+.unpaid .good .name{
+  color: #626262;
+}
+.item .good .price{
+  color: #dc3025;
+  font-size: 24rpx;
+}
+.item .good .num{
+  font-size: 32rpx;
+}
+.item .good .good-info{
+  color: #bebebe;
+  font-size: 22rpx;
+}
+.item .good .good-num{
+  font-size: 24rpx;
+  float: right;
+}
+.item .good .payment{
+  display: none;
+  color: #ff3f3f;
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 10rpx;
+  right: 22rpx;
+}
+.unpaid .good .payment{
+  display: block;
+}
+.item .clearing{
+  display: flex;
+  height: 80rpx;
+  color: #8b8b8b;
+  font-size: 24rpx;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid #ccc;
+  padding-right: 27rpx;
+}
+.item .clearing .icon{
+  color: #dc3025;
+  font-size: 26rpx;
+}
+.item .clearing .num{
+  color: #dc3025;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.item .control{
+  display: flex;
+  height: 97rpx;
+  font-size: 26rpx;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 21rpx;
+}
+.item .control .btn{
+  margin-left: 11rpx;
+  border: 1px solid #ccc;
+  padding: 15rpx 46rpx;
+  border-radius: 55rpx; 
+}
+.item .control .speak{
+  color: #1ca95e;
+  border-color: #1ca95e;
+}
+.item .control .pay{
+  color: #fff;
+  border-color: #dc3025;
+  background: #dc3025;
+}

@@ -1,0 +1,21 @@
+<!--pages/history/history.wxml-->
+<view class="history">
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="{{index}}">
+      <image class="img" src="{{item.img}}"></image>
+      <view class="content">
+        <view class="name">{{item.name}}</view>
+        <view class="info">
+          <view class="price"><text class="icon">￥</text>{{item.price}}</view>
+          <view class="good-info">
+            <text class="pay-num">已有{{item.buyName}}人购买</text>
+            <text class="site">{{item.site}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="more">
+    加载更多<image class="icon" src="/pages/images/shop.jpg"></image>
+  </view>
+</view>
