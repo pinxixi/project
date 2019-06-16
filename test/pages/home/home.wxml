@@ -104,7 +104,7 @@
     <image src="../homeImg/1.png" class="townbg"></image>
   </view>
   <view class="townTitle">
-    <image src="../homeImg/asRight.jpg" class="tTitleImg"></image>
+    <image src="../homeImg/asRight.jpg" class="tTitleImg tTitleImg1"></image>
     <text class="tTitleTxt">镇店之宝 任君挑选</text>
     <image src="../homeImg/asLeft.jpg" class="tTitleImg"></image>
   </view>
@@ -168,6 +168,65 @@
       <text class="purchaseTxt">立即购买</text>
       <view class="purchaseBorder">
         <icon class-="purchaseIcon"></icon>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 泰国波浪按摩枕 -->
+<view class="waveWrap">
+  <image src="../homeImg/sign.jpg" class="waveSign"></image>
+  <text class="waveTxt">泰国波浪按摩枕</text>
+  <!-- 定位的图片 -->
+  <!-- <view class=""><image src="" class=""></image></view> -->
+  <image src="../homeImg/icon1.gif" class="waveIcon1"></image>
+  <!-- <view class=""><image src="" class=""></image></view> -->
+  <image src="../homeImg/coco.gif" class="coco"></image>
+  <!-- 图片 -->
+  <view>
+    <image src="../homeImg/lineimg.gif" class="lineimg"></image>
+  </view>
+  <!-- 波浪、狼牙按摩枕 -->
+  <view class="pillow">
+    <view class="pillowBox">
+      <text class="pillowTxt">波浪按摩枕</text>
+      <image src="../homeImg/wave.gif" class="pillowImg"></image>
+      <view class="pillowpicBox">
+        <!-- 小log -->
+        <image src="../homeImg/log3.jpg" class="smallLog"></image>
+        <!-- 价格 -->
+        <view class="planepic">
+          <text class="smallred">￥</text>
+          <text class="bigred">238</text>
+          <text class="smallred">.00</text>
+        </view>
+        <!-- 立即购买 -->
+        <view class="purchase waveWrapBox">
+          <text class="purchaseTxt">立即购买</text>
+          <view class="purchaseBorder">
+            <icon class-="purchaseIcon"></icon>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="pillowBox">
+      <text class="pillowTxt">狼牙按摩枕</text>
+      <image src="../homeImg/wolf-tooth.gif" class="pillowImg"></image>
+      <view class="pillowpicBox">
+        <!-- 小log -->
+        <image src="../homeImg/log3.jpg" class="smallLog"></image>
+        <!-- 价格 -->
+        <view class="planepic">
+          <text class="smallred">￥</text>
+          <text class="bigred">238</text>
+          <text class="smallred">.00</text>
+        </view>
+        <!-- 立即购买 -->
+        <view class="purchase waveWrapBox">
+          <text class="purchaseTxt">立即购买</text>
+          <view class="purchaseBorder">
+            <icon class-="purchaseIcon"></icon>
+          </view>
+        </view>
       </view>
     </view>
   </view>

@@ -287,7 +287,8 @@
   width:91rpx;
   height:56rpx;
 }
-.tTitleTxt{
+.tTitleImg1{
+  margin-left:20rpx;
 }
 /*  */
 .townBody{
@@ -352,16 +353,18 @@
 .buyBox{
   width:154rpx;
   height:47rpx;
+  line-height:47rpx;
   box-sizing: border-box;
-  padding:14rpx 15rpx 13rpx 16rpx;
+  padding-left:16rpx;
   font-size:20rpx;
   color:#fff;
   transform: translateX(24rpx);
   background: #df0000;
-  border-radius: 5rpx;
+  border-radius: 10rpx;
 }
 .buyTxt{
   font-size:20rpx;
+  margin-right:15rpx;
 }
 .icon{
   width:21rpx;
@@ -435,12 +438,14 @@
   font-size:14rpx;
   color:#fff;
   background: #df0000;
+  border-radius: 10rpx;
 }
 .purchaseTxt{
   display:block;
   width:108rpx;
   height:33rpx;
   line-height:33rpx;
+  margin-left:10rpx;
 }
 .purchaseBorder{
   width:14rpx;
@@ -449,4 +454,98 @@
 }
 .purchaseIcon{
   font-size:10rpx;
+}
+/* 泰国波浪按摩枕 */
+.waveWrap{
+  position:relative;
+  width:750rpx;
+  margin-bottom: 88rpx;
+}
+.waveSign{
+  display:block;
+  width:344rpx;
+  height:30rpx;
+  margin:56rpx auto 0;
+}
+.waveTxt{
+  display:block;
+  font-size:32rpx;
+  text-align:center;
+}
+.waveIcon1{
+  position:absolute;
+  width:108rpx;
+  height:108rpx;
+  top:30rpx;
+  right:0;
+}
+.coco{
+  position:absolute;
+  width:81rpx;
+  height:138rpx;
+  top:115rpx;
+  left:0;
+}
+.lineimg{
+  display:block;
+  width:502rpx;
+  height:219rpx;
+  margin:0 auto;
+}
+/* 波浪、狼牙按摩枕 */
+.pillow{
+  display:flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width:750rpx;
+  margin-top:119rpx;
+  padding:0 15rpx;
+}
+.pillowBox{
+  width:343rpx;
+}
+.pillowTxt{
+  display:block;
+  width:343rpx;
+  font-size:22rpx;
+  text-align: center;
+  margin-bottom:16rpx;
+}
+.pillowImg{
+  width:343rpx;
+  height:210rpx;
+}
+.pillowpicBox{
+  display:flex;
+  width:343rpx;
+  height:41rpx;
+  margin-top:26rpx;
+}
+.smallLog{
+  width:50rpx;
+  height:15rpx;
+  margin-top:25rpx;
+  margin-right:25rpx;
+}
+
+.waveWrapBox{
+  margin:10rpx 0 0 26rpx;
+}
+.{
+  
+}
+.{
+  
+}
+.{
+  
+}
+.{
+  
+}
+.{
+  
+}
+.{
+  
 }
