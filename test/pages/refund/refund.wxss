@@ -1,0 +1,57 @@
+/* pages/refund/refund.wxss */
+.top{
+	width: 750rpx;
+	height: 130rpx;
+  text-align: center;
+  line-height: 130rpx;
+	background-color: #ffffff;
+	box-shadow: -3px 0px 7px 0px 
+		rgba(0, 0, 0, 0.06), 
+		inset -1px 0px 2px 0px 
+		rgba(228, 228, 228, 0.35);
+}
+.shop{
+	width: 702rpx;
+	height: 442rpx;
+	background-color: #ffffff;
+	border-radius: 20rpx;
+}
+.shop .topText{
+  margin-top: 49rpx;
+  margin-left: 65rpx;
+}
+.shop .topText text{
+	width: 237rpx;
+	height: 28rpx;
+	font-family: PingFang-SC-Medium;
+	font-size: 26rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30rpx;
+	letter-spacing: 0rpx;
+	color: #333333;
+}
+.shop .imgText{
+  display: flex;
+  margin-left: 19rpx;
+  margin-top: 62rpx;
+  width: 100%;
+}
+.shop .imgText image{
+	width: 181rpx;
+	height: 181rpx;
+	background-color: #ffc13c;
+	border-radius: 10rpx;
+}
+.shop .imgText .shopText{
+	width: 452rpx;
+	height: 62rpx;
+	font-family: PingFang-SC-Medium;
+	font-size: 26rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 21rpx;
+	letter-spacing: 0rpx;
+  margin-left: 20rpx;
+	color: #383a3a;
+}

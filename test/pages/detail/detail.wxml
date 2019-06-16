@@ -1,33 +1,44 @@
 <!--index.wxml-->
 <view class="container">
+  <!--轮播-->
   <view class='img'>
     <image src='../img/1.jpg'></image>
   </view>
+  <!--描述-->
+  <view class='description'>
+    <text class='des'>新款正品万泰林/煊赫乳胶枕/泰国正品波浪枕60*40cm</text>
+    <view class='share'>
+      <text class='iconfont icon-fenxiang' style='font-size: 50rpx;color: #3f3f3f;'></text>
+      <text class='text'>分享</text>
+    </view>
+  </view>
+  <!--价格-->
   <view class='countPrice'>
     <view class='price'>
-      <text class='nowPrice'>￥29.8</text>
-      <text class='oldPrice'>￥139</text>
-    </view>
-    <view class='count'>
-      <text>已拼单1.6万</text>
+      <text class='logo'>￥</text>
+      <text class='nowPrice'>118-159</text>
     </view>
   </view>
-  <view class='description'>
-    <view>123</view>
-    <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
-    <view class='share'>分享</view>
+  <!--拼单数量-->
+  <view class='count'>
+    <text class='fast'>快递:免运费</text>
+    <text class='num'>已拼单1.6万</text>
   </view>
+  <!--优惠-->
   <view class='discounts'>
     <text>返现</text>
     <text class='discount'>店铺内消费满40返2元</text>
   </view>
+  <!--拼单1-->
   <view class='success'>
     <image src='../img/2.jpg'></image>
     <text>lorem 24分前拼单成功</text>
   </view>
+  <!--拼单2-->
   <view class='join'>
     <text>2人在拼单，可直接参与</text>
   </view>
+  <!--拼单3-->
   <view class='join1'>
     <image src='../img/1.jpg'></image>
     <text class='name'>Lorem</text>
@@ -35,8 +46,9 @@
       <text>差三人拼成</text>
       <view>剩余<text>2天</text>结束</view>
     </view>
-    <text class='goJoin'>去拼单</text>
+    <text class='goJoin' bindtap='goSize'>去拼单</text>
   </view>
+  <!--评价-->
   <view class='seller'>
     <view class='total'>
       <text>商品评价(8888)</text>
@@ -47,5 +59,163 @@
       <text>质量好(215)</text>
       <text>服务态度好(999)</text>
     </view>
+    <view class='sellers'>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/2.jpg'></image>
+          <text class='name'>Lorem</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/3.jpg'></image>
+          <text class='name'>墨城</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+      <view class='infos'>
+        <view class='info'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>陌城</text>
+        </view>
+        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+      </view>
+    </view>
+    <view class='info'>
+      <text>商品详情</text>
+    </view>
+    <view class='imgText'>
+      <view class='textImg'>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+      </view>
+      <view class='textImg'>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+        <view class='imgInfo'>
+          <image src='../img/1.jpg'></image>
+          <text class='name'>网纱裙</text>
+          <view class='btnPrice'>
+            <text class='price'>￥238.0</text>
+            <text class='btn'>立即购买</text>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
+  <!--商品详情-->
+  <view class='detailImg'>
+    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/3.jpg'></image>
+    <image src='../img/4.jpg'></image>
+    <image src='../img/5.jpg'></image>
+    <image src='../img/6.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/4.jpg'></image>
+    <image src='../img/6.jpg'></image>
+    <image src='../img/1.jpg'></image>
+  </view>
+  <!--底部导航-->
+  <view class='bottom'>
+    <view class='icon'>
+      <text class='iconfont icon-shouye' style='font-size: 46rpx'></text>
+      <text>首页</text>
+    </view>
+    <view class='icon'>
+      <text class='iconfont icon-shoucang'
+      style='font-size:46rpx'></text>
+      <text>收藏</text>
+    </view>
+    <view class='icon'>
+      <text class='iconfont icon-kefu' style='font-size: 46rpx'></text>
+      <text>客服</text>
+    </view>
+    <view class='goSpell' bindtap='goSize'>
+      <text>发起拼单</text>
+    </view>
+    <van-button bindtap='goSize' class='goBuy' size='large' type='danger'>
+      单独购买
+    </van-button>
+  </view>
+</view>
+<!--加入购物车-->
+<view class='cartJoin' wx:show='{{show}}'>
+  <van-popup show='{{show}}' position='bottom' bind:close='goSize'>
+    <view class='addCart'>
+      <image src='../img/1.jpg'></image>
+      <view class='priceStyle'>
+        <text class='price'>￥8.8-18.8</text>
+        <text class='select'>请选择：组合 颜色</text>
+      </view>
+    </view>
+     <scroll-view scroll-y="true" scroll-into-view="" scroll-with-animation='true'>
+      <view class='mainInfo'>
+        <view class='group'>
+          <text>组合</text>
+          <view class='sel'>
+            <text>单件装</text>
+            <text>套装</text>
+          </view>
+        </view>
+        <view class='color'>
+          <text>颜色</text>
+          <view class='sele'>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+            <text>黑色黑色</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class='count'>
+      <text class='countText'>数量</text>
+      <view class='btnCount'>
+        <text>-</text>
+        <text>1</text>
+        <text>+</text>
+      </view>
+    </view>
+    <view class='sureBtn'>确定</view>
+  </van-popup>
 </view>

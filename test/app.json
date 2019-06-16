@@ -9,7 +9,8 @@
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-    "pages/recommend/recommend"
+    "pages/recommend/recommend",
+    "pages/refund/refund"
   ],
   "permission": {
     "scope.userLocation": {
@@ -19,7 +20,6 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "生态家居馆",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },

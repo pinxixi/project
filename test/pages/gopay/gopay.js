@@ -1,11 +1,11 @@
-// pages/detail/detail.js
+// pages/gopay/gopay.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    show: false
+
   },
 
   /**
@@ -21,11 +21,7 @@ Page({
   onReady: function () {
 
   },
-  goSize:function(){
-    this.setData({
-      show: !this.data.show
-    });
-  },
+
   /**
    * 生命周期函数--监听页面显示
    */

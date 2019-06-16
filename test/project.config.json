@@ -10,6 +10,7 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -22,7 +23,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wx1ad232f825b0c409",
+	"appid": "wxf030878b5e45aa63",
 	"projectname": "test",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
@@ -52,15 +53,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "首页",
-					"pathName": "pages/home/home",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 1,
-					"name": "新品",
-					"pathName": "pages/recommend/recommend",
+					"name": "detail",
+					"pathName": "pages/detail/detail",
 					"query": "",
 					"scene": null
 				},
@@ -69,6 +63,12 @@
 					"name": "cart",
 					"pathName": "pages/cart/cart",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "refund",
+					"pathName": "pages/refund/refund",
 					"scene": null
 				}
 			]
