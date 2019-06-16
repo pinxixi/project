@@ -31,7 +31,7 @@ Page({
         {
           name: "待付款",
           icon: "/pages/image/icon1.gif",
-          num: "3"
+          num: "2"
         }, {
           name: "待分享",
           icon: "/pages/image/icon2.gif",
