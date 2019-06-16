@@ -49,7 +49,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -70,17 +70,25 @@
 <<<<<<< HEAD
 					"name": "refund",
 					"pathName": "pages/refund/refund",
+<<<<<<< HEAD
 =======
 					"name": "Settlement",
 					"pathName": "pages/Settlement/Settlement",
+=======
+>>>>>>> b3dd244dd02baa9a958cefa451e5f03ba16660be
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "gopay",
 					"pathName": "pages/gopay/gopay",
 >>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
+=======
+					"name": "recommend",
+					"pathName": "pages/recommend/recommend",
+>>>>>>> b3dd244dd02baa9a958cefa451e5f03ba16660be
 					"scene": null
 				}
 			]

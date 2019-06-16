@@ -44,15 +44,18 @@
     <text class='name'>Lorem</text>
     <view class='count'>
       <text>差三人拼成</text>
-      <view>剩余<text>2天</text>结束</view>
+      <view>剩余<text>23:23:34</text>结束</view>
     </view>
-    <text class='goJoin' bindtap='goSize'>去拼单</text>
+    <view class='goJoin' bindtap='goSize'>
+      <text>去拼单</text>
+    </view>
   </view>
   <!--评价-->
   <view class='seller'>
     <view class='total'>
-      <text>商品评价(8888)</text>
-      <text>查看更多</text>
+      <text class='seleText'>商品评价(8888)</text>
+      <text class='lookText'>查看更多</text>
+      <text class='iconfont icon-fanhui1' style='font-size: 36rpx;color: #b1b1b1;margin-top: 7rpx;'></text>
     </view>
     <view class='btn'>
       <text>便宜(111)</text>
@@ -65,24 +68,24 @@
           <image src='../img/2.jpg'></image>
           <text class='name'>Lorem</text>
         </view>
-        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+        <text class='text'>商品质量特别的好晚上睡觉用它-夜到亮，睡得很踏实没有异味收到货，柔软度还是不错的，枕头本身的味道是很自然的味道。挺好的，有香味，也不贵。枕头买回来枕了两天发现很舒服而且没有道快递也很快包装的也很好不错告诉包装精美乳胶枕头摸起来软软的，但枕起来又超级有弹性。值得回购呢。</text>
       </view>
       <view class='infos'>
         <view class='info'>
-          <image src='../img/3.jpg'></image>
-          <text class='name'>墨城</text>
+          <image src='../img/2.jpg'></image>
+          <text class='name'>Lorem</text>
         </view>
-        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+        <text class='text'>商品质量特别的好晚上睡觉用它-夜到亮，睡得很踏实没有异味收到货，柔软度还是不错的，枕头本身的味道是很自然的味道。挺好的，有香味，也不贵。枕头买回来枕了两天发现很舒服而且没有道快递也很快包装的也很好不错告诉包装精美乳胶枕头摸起来软软的，但枕起来又超级有弹性。值得回购呢。</text>
       </view>
       <view class='infos'>
         <view class='info'>
-          <image src='../img/1.jpg'></image>
-          <text class='name'>陌城</text>
+          <image src='../img/2.jpg'></image>
+          <text class='name'>Lorem</text>
         </view>
-        <text class='text'>商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服商品质量很好，没有异味，穿着很舒服</text>
+        <text class='text'>商品质量特别的好晚上睡觉用它-夜到亮，睡得很踏实没有异味收到货，柔软度还是不错的，枕头本身的味道是很自然的味道。挺好的，有香味，也不贵。枕头买回来枕了两天发现很舒服而且没有道快递也很快包装的也很好不错告诉包装精美乳胶枕头摸起来软软的，但枕起来又超级有弹性。值得回购呢。</text>
       </view>
     </view>
-    <view class='info'>
+    <view class='info1'>
       <text>商品详情</text>
     </view>
     <view class='imgText'>
@@ -177,45 +180,43 @@
   </view>
 </view>
 <!--加入购物车-->
-<view class='cartJoin' wx:show='{{show}}'>
-  <van-popup show='{{show}}' position='bottom' bind:close='goSize'>
-    <view class='addCart'>
-      <image src='../img/1.jpg'></image>
-      <view class='priceStyle'>
-        <text class='price'>￥8.8-18.8</text>
-        <text class='select'>请选择：组合 颜色</text>
-      </view>
+<van-popup class='cartJoin' show='{{show}}' position='bottom' bind:close='goSize'>
+  <view class='addCart'>
+    <image src='../img/1.jpg'></image>
+    <view class='priceStyle'>
+      <text class='price'>￥8.8-18.8</text>
+      <text class='select'>请选择：组合 颜色</text>
     </view>
-     <scroll-view scroll-y="true" scroll-into-view="" scroll-with-animation='true'>
-      <view class='mainInfo'>
-        <view class='group'>
-          <text>组合</text>
-          <view class='sel'>
-            <text>单件装</text>
-            <text>套装</text>
-          </view>
-        </view>
-        <view class='color'>
-          <text>颜色</text>
-          <view class='sele'>
-            <text>黑色黑色</text>
-            <text>黑色黑色</text>
-            <text>黑色黑色</text>
-            <text>黑色黑色</text>
-            <text>黑色黑色</text>
-            <text>黑色黑色</text>
-          </view>
+  </view>
+    <scroll-view scroll-y="true" scroll-into-view="" scroll-with-animation='true'>
+    <view class='mainInfo'>
+      <view class='group'>
+        <text>组合</text>
+        <view class='sel'>
+          <text>单件装</text>
+          <text>套装</text>
         </view>
       </view>
-    </scroll-view>
-    <view class='count'>
-      <text class='countText'>数量</text>
-      <view class='btnCount'>
-        <text>-</text>
-        <text>1</text>
-        <text>+</text>
+      <view class='color'>
+        <text>颜色</text>
+        <view class='sele'>
+          <text>黑色黑色</text>
+          <text>黑色黑色</text>
+          <text>黑色黑色</text>
+          <text>黑色黑色</text>
+          <text>黑色黑色</text>
+          <text>黑色黑色</text>
+        </view>
       </view>
     </view>
-    <view class='sureBtn'>确定</view>
-  </van-popup>
-</view>
+  </scroll-view>
+  <view class='count'>
+    <text class='countText'>数量</text>
+    <view class='btnCount'>
+      <text>-</text>
+      <text>1</text>
+      <text>+</text>
+    </view>
+  </view>
+  <view class='sureBtn'>确定</view>
+</van-popup>
