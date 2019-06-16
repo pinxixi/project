@@ -67,8 +67,20 @@
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "refund",
 					"pathName": "pages/refund/refund",
+=======
+					"name": "Settlement",
+					"pathName": "pages/Settlement/Settlement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "gopay",
+					"pathName": "pages/gopay/gopay",
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
 					"scene": null
 				}
 			]

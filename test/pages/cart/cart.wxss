@@ -44,14 +44,23 @@
   position: relative;
 }
 .title {
-  font-size: 38rpx;
+  font-size: 34rpx;
   margin-top: 40rpx;
   width:350rpx;
   display: block;
   line-height: 40rpx;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
   text-overflow:ellipsis;
+  position: relative;
+}
+.title .color {
+  position: absolute;
+  font-size: 28rpx;
+  margin-top: 52rpx;
+  width:50rpx;
+  top: 0rpx;
+  left: 0rpx;
 
 }
 .small_text {
@@ -100,12 +109,13 @@
 margin-top: 15px;
 }
 .select_icon{
-  margin-top:88rpx;
+  margin-top:129rpx;
+  margin-left: 24rpx;
 }
 .item-image {
   width: 180rpx;
   height: 180rpx;
-  margin: 20rpx ;
+  margin: 57rpx 37rpx 51rpx 33rpx;
 }
 .mm{
   display:inline-block;
@@ -132,6 +142,10 @@ margin-top: 15px;
   display: flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
 .noOne{
   width: 284rpx;
   height: 385rpx;
@@ -155,4 +169,8 @@ margin-top: 15px;
   font-size: 30rpx;
   color: #fff;
   background: #278c58;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49

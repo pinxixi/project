@@ -1,0 +1,44 @@
+<!--pages/Settlement/Settlement.wxml-->
+<!-- <text>pages/Settlement/Settlement.wxml</text> -->
+<view class='settlement'>
+
+  <view class='address'>
+    <van-icon name="location" size='30rpx' color='green' class='location'/>
+    <text>请选择收货地址</text>
+    <van-icon name="arrow" size='22rpx' class='arrow'/>
+    <image src='../images/彩条.png' ></image>
+  </view>
+  <view class='goods'>
+    <image src='../images/崇高.jpg'></image>
+    <text class='title'> 崇高
+      <text class='style'>金色</text>
+    </text>
+    <text class='num'>共1件</text>
+    <text class='price'>￥0.00</text>
+  </view>
+  <view class='discounts'>
+    <text class='num'>优惠</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <view class='discounts'>
+    <text class='num'>优惠</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <view class='discounts'>
+    <text class='num'>优惠</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <view class='discounts'>
+    <text class='num'>优惠</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+  <view class='discounts'>
+    <text class='num'>优惠</text>
+    <text class='num'>0张可用</text>
+    <van-icon name="arrow" size='17rpx' class='arrow'/>
+  </view>
+</view>
