@@ -1,0 +1,120 @@
+/* pages/ticket/ticket.wxss */
+page{
+  background: #f7f7f7;
+}
+.ticket{
+  padding: 0 37px;
+  margin-top: 49rpx;
+  margin-bottom: 33rpx;
+}
+.list-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 28rpx;
+  color: #333;
+  font-size: 32rpx;
+}
+.list-title .icon{
+  width: 6rpx;
+  height: 53rpx;
+  margin-right: 21rpx;
+  background: #f75f6a;
+}
+.list-title .num{
+  color: #f75f6a;
+}
+.list{
+  position: relative;
+}
+.item{
+  color: #fff;
+  display: flex;
+  background: red;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+  box-shadow: 10rpx 10rpx 10rpx #eee;
+  position: relative;
+}
+
+.item .l{
+  flex: 1;
+  padding: 23rpx 19rpx;
+}
+.item .r{
+  display: flex;
+  padding: 0 26rpx;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.item .btn{
+  color: #fff;
+  display: inline;
+  font-size: 36rpx;
+  padding: 9rpx 26rpx;
+  background: #fe002f;
+  border-radius: 5rpx;
+}
+.modul1{
+  text-align: center;
+  line-height: 1;
+}
+.modul1 .l{
+  padding: 38rpx 19rpx 20rpx;
+}
+.modul1 .num-box{
+  margin-bottom: 28rpx;
+}
+.modul1 .num-box .i{
+  font-size: 45rpx;
+}
+.modul1 .num-box .num{
+  font-size: 86rpx;
+  margin-right: 26rpx;
+}
+.modul1 .num-box .text{
+  font-size: 32rpx;
+}
+.modul1 .title{
+  font-size: 46rpx;
+}
+.modul2 .title{
+  font-size: 36rpx;
+  margin-bottom: 19rpx;
+}
+.modul2 .num-box{
+  display: flex;
+  justify-content: space-around;
+}
+.modul2 .num-box .i{
+  font-size: 45rpx;
+}
+.modul2 .num-box .num{
+  font-size: 85rpx;
+}
+.modul2 .num-box .text{
+  font-size: 32rpx;
+  line-height: 3.8;
+}
+.jag{
+  height: 190rpx;
+  transform: translate3d(-50%,-50%,0);
+  position: absolute;
+  top: 50%;
+}
+.jag-r{
+  left: 100%
+}
+.popup .img-box{
+  width: 220rpx;
+  height: 220rpx;
+  transform: translateY(-50%)
+}
+.van-popup{
+  overflow-y: none;
+}
+.popup .img-box .img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}

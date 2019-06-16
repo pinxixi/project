@@ -1,0 +1,62 @@
+/* pages/history/history.wxss */
+page{
+  background: #f2f2f2;
+}
+.list{
+  margin-bottom: 30rpx;
+}
+.item{
+  display: flex;
+  box-shadow: 0 0 5rp #eee;
+  padding: 17rpx 41rpx 17rpx 46rpx;
+  margin-top: 32rpx;
+  background: #fff;
+}
+.item .img{
+  width: 209rpx;
+  height: 218rpx;
+  display: block;
+  margin-right: 29rpx;
+}
+.item .content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+.item .name{
+  color: #383a3a;
+  font-size: 26rpx;
+  line-height: 38rpx;
+}
+.item .price{
+  line-height: 1;
+  color: #ff3f3f;
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+.item .price .icon{
+  font-size: 24rpx;
+}
+.item .good-info{
+  font-size: 24rpx;
+  color: #9c9f9e;
+  line-height: 1;
+}
+.item .pay-num{
+  font-size: 22rpx;
+}
+.item .site{
+  float: right;
+}
+.more{
+  display: flex;
+  color: #bacdc3;
+  font-size: 22rpx;
+  justify-content: center;
+  align-items: flex-end;
+}
+.more .icon{
+  width: 76rpx;
+  height: 46rpx;
+}

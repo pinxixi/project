@@ -1,0 +1,13 @@
+/* pages/component/jag/jag.wxss */
+.jag{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jag .i{
+  width: 10rpx;
+  height: 10rpx;
+  background: #f3f7f9;
+  border-radius: 50%;
+}

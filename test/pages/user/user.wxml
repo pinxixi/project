@@ -3,27 +3,33 @@
   <view class="header">
     <view class="image-box">
       <image class="image" src='/pages/image/user.jpg'></image>
+      <view class="icon">v0</view>
     </view>
     <view class="content">
       <view class='name'>霊夢</view> 
-      <view class='info'>
-        <button open-type='getUserInfo' bindgetuserinfo='getuserinfo' class="i">获取信息</button>
-        <view class="i">更新资料</view>
-        <button class="i" bindtap='getLocation'></button>
-      </view>
     </view>
   </view>
   <view class="list list1">
-    <view class="title">
-      <view class="title">我的订单</view>
-      <view class='more'>查看全部></view>
+    <view class="title" data-pathName="order" bindtap='toPage'>
+      <view class="title-name">我的订单</view>
+      <view class='more'>查看全部<text class="icon">></text></view>
     </view>
     <view class="content">
       <view class="item" wx:for="{{listData.list1}}" wx:key="{{index}}">
         <view class="icon" wx:if="{{item.num>0}}">{{item.num}}</view>
-        <!-- <image src="/pages/image/icon1.gif" class="img"></image> -->
         <image src="{{item.icon}}" class="img"></image>
         <view class="name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="list list2">
+    <view class="content">
+      <view class="item" wx:for="{{listData.list2}}" wx:key="{{index}}" bindtap='toPage' data-pathName="{{item.pathName}}">
+        <view class="l">
+          <image src="{{item.icon}}" class="img"></image>
+          <view class="name">{{item.name}}</view>
+        </view>
+        <view class="more">></view>
       </view>
     </view>
   </view>
