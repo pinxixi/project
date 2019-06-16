@@ -17,10 +17,17 @@
             <text class='color'>{{item.color}}</text>
           </text>
           
-          <view  class='ljt'>
-          <image class='ljt1' wx-if="{{item.ischecked}}" src='../images/delete.png' bindtap='deleteList' data-index="{{index}}"></image> 
+          <view  class='ljt' wx-if="{{item.ischecked}}">
+            <!-- <image class='ljt1' wx-if="{{item.ischecked}}" src='../images/delete.png' bindtap='deleteList' data-index="{{index}}"></image> -->
+            <van-icon name="delete" size='44rpx'  class='delete' />
+            <text class='text'>删除</text>
           
-        </view>
+          </view>
+          <view class='sku' wx-if="{{!item.ischecked}}">
+             <view class='cut'  bindtap="minusCount" data-index="{{index}}">-</view>
+               <view class='mm'>{{item.num}}</view>
+             <view class='add' bindtap="addCount" data-index="{{index}}">+</view>
+          </view>
         </view>
         
   
@@ -28,11 +35,7 @@
           <text class="sku-price">￥</text>
           <text class="sku-price1">{{item.price}}</text>
         </view> 
-          <view class='sku'>
-             <view class='mm'  bindtap="minusCount" data-index="{{index}}">-</view>
-               <view class='mm'>{{item.num}}</view>
-             <view class='mm' bindtap="addCount" data-index="{{index}}">+</view>
-          </view>
+          
       </view>
     </view>
     <view class="separate"></view>
@@ -49,8 +52,7 @@
         <icon wx:else type="circle" bindtap="selectAll" data-index="{{index}}"/>
     </view>
     <text class="small_text">全选</text>
-    <text>合计:￥ </text>
-    <text class="price">{{totalPrice}}</text>
+    <text class="price">￥{{totalPrice}}</text>
     <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
   </view>
 </view>
