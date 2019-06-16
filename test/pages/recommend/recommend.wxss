@@ -3,7 +3,67 @@
   width:750rpx;
   height:auto;
 }
-.newBox{
+.newWrap .top{
+  width: 100%;
+  height: 128rpx;
+  text-align: center;
+  line-height: 128rpx;
+  color: #333;
+  font-size: 36rpx;
+}
+.newWrap .img{
+  width: 100%;
+  height: 340rpx;
+}
+.newWrap .img image{
+  width: 100%;
+  height: 100%;
+}
+.newWrap .list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 702rpx;
+  margin: 34rpx auto;
+}
+.newWrap .list view{
+  display: flex;
+  width: 100%;
+}
+.newWrap .list view .single{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+	width: 340rpx;
+	height: 520rpx;
+	background: #fff;
+	box-shadow: 1rpx 3rpx 7rpx 0rpx 
+		rgba(0, 0, 0, 0.06);
+	border-radius: 6rpx;
+  margin-right: 22rpx;
+}
+.newWrap .list view .single image{
+  width: 340rpx;
+  height: 300rpx;
+}
+.newWrap .list view .single .name{
+  font-size: 34rpx;
+  margin-left: 9rpx;
+  color: #333;
+  margin-top: 31rpx;
+}
+.newWrap .list view .single .material{
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 9rpx;
+  margin-top: 17rpx;
+}
+.newWrap .list view .single .price{
+  font-size: 32rpx;
+  color: #df0000;
+  margin-top: 48rpx;
+}
+/* .newBox{
   position:relative;
   display: flex;
   box-sizing: border-box;
@@ -70,4 +130,4 @@
   height:50rpx;
   border-radius: 50%;
   margin:10rpx;
-}
+} */
