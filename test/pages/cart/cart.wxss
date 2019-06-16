@@ -142,7 +142,10 @@ margin-top: 15px;
   display: flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
 .noOne{
   width: 284rpx;
   height: 385rpx;
@@ -166,4 +169,8 @@ margin-top: 15px;
   font-size: 30rpx;
   color: #fff;
   background: #278c58;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49

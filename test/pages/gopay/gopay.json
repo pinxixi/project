@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "usingComponents": {}
+=======
   "usingComponents": {
     "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
   }
+>>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
 }

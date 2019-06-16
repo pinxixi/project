@@ -1,0 +1,50 @@
+<!--pages/refund/refund.wxml-->
+<view class='refund'>
+  <view class='top'>
+    <text>退款/售后</text>
+  </view>
+  <view class='shop'>
+    <view class='topText'>
+      <text>neodpillo海外旗舰店</text>
+    </view>
+    <view class='imgText'>
+      <image src='../img/1.jpg'></image>
+      <view class='shopText'>
+        <text class='description'>NeoDPillo印尼邓禄普官方正品原装进口 天然乳胶枕头波浪颈椎枕...</text>
+        <text class='count'>共1件商品</text>
+      </view>
+    </view>
+    <view class='shopRefund'>
+      <text class='refundSuccess'>仅退款，退款成功</text>
+      <view>
+        退款金额：￥<text class='refundMoney'>299.00</text>
+      </view>
+    </view>
+    <view class='line'></view>
+    <view class='lookshop'>查看详情</view>
+  </view>
+  <view class='shop'>
+    <view class='topText'>
+      <text>恒源祥苏恒专卖店</text>
+    </view>
+    <view class='imgText'>
+      <image src='../img/2.jpg'></image>
+      <view class='shopText'>
+        <text class='description'>泰国乳胶枕头平枕头低薄枕进口护颈天然 橡胶矮枕芯儿童学生颈椎枕...</text>
+        <text class='count'>共1件商品</text>
+      </view>
+    </view>
+    <view class='shopRefund'>
+      <text class='refundSuccess'>仅退款，退款成功</text>
+      <view>
+        退款金额：￥<text class='refundMoney'>88.00</text>
+      </view>
+    </view>
+    <view class='line'></view>
+    <view class='lookshop'>查看详情</view>
+  </view>
+  <view class='bottomText'>
+    <text>没有更多了</text>
+    <image src='../img/shop.jpg'></image>
+  </view>
+</view>

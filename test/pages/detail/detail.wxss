@@ -1,0 +1,539 @@
+/* pages/detail/detail.wxss */
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+}
+.container .img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 750rpx;
+  height: 750rpx;
+}
+.container .img image{
+  width: 100%;
+  height: 100%;
+}
+.container .countPrice{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  margin-top: 20rpx;
+  background: #fff;
+}
+.container .countPrice .price{
+  margin-left: 27rpx;
+  margin-right: 360rpx;
+}
+.container .countPrice .price .logo{
+  font-size: 33rpx;
+  color: #fa380a; 
+}
+.container .countPrice .price .nowPrice{
+  font-size: 58rpx;
+  color: #fa380a;
+  margin-right: 8rpx;
+}
+.container .count{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+  font-size: 26rpx;
+}
+.container .count .fast{
+	font-size: 26rpx;
+	color: #505050;
+  margin-bottom: 26rpx;
+  margin-right: 51rpx;
+}
+.container .count .num{
+  font-size: 26rpx;
+  color: #505050;
+}
+.container .description{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(74,74,74);
+  font-size: 34rpx;
+  margin-top: 22rpx;
+  margin-left: 25rpx;
+  background: #fff;
+}
+.container .description .des{
+	width: 554rpx;
+	height: 74rpx;
+	font-family: SimHei;
+	font-size: 30rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32rpx;
+	letter-spacing: 0rpx;
+  margin-right: 86rpx;
+	color: #404040;
+}
+.container .description .share{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .description .share .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.container .discounts{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  margin-top: 20rpx;
+  background: #fff;
+  margin-left: 35rpx;
+}
+.container .discounts text:first-child{
+  width: 80rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  background: #f00;
+  color: #fff;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.container .discounts .discount{
+	font-size: 26rpx;
+	color: #434343;
+}
+.container .success{
+  position: fixed;
+  top: 800rpx;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 433rpx;
+	height: 65rpx;
+	background-color: #383838;
+	border-radius: 12rpx;
+	opacity: 0.71;
+  margin-left: 35rpx;
+  margin-top: 39rpx;
+}
+.container .success image{
+  width: 48rpx;
+  height: 56rpx;
+  border-radius: 50%;
+  margin-right: 43rpx;
+  margin-left: 9rpx;
+}
+.container .success text{
+  color: #fff;
+  font-size: 26rpx;
+}
+.container .join{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 31rpx;
+  background: #fff;
+}
+.container .join text{
+  width: 100%;
+  font-size: 28rpx;
+  margin-left: 26rpx;
+}
+.container .join1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  margin-top: 47rpx;
+}
+.container .join1 image{
+  width: 71rpx;
+  height: 71rpx;
+  border-radius: 50%;
+  margin-left: 26rpx;
+  margin-right: 21rpx;
+}
+.container .join1 .name{
+  color: #353535;
+  font-size: 30rpx;
+  margin-right: 127rpx;
+}
+.container .join1 .count{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200rpx;
+  margin-right: 60rpx;
+}
+.container .join1 .count text:first-child{
+	font-size: 27rpx;
+	color: #252525;
+  margin-top: -10rpx;
+}
+.container .join1 .count view{
+  color: #545454;
+  margin-top: 10rpx;
+  font-size: 18rpx;
+}
+.container .join1 .count view text:last-child{
+  font-size: 18rpx;
+  color: #f40000;
+}
+.container .join1 .goJoin{
+  width: 135rpx;
+  height: 59rpx;
+  line-height: 59rpx;
+	background: #fb3609;
+	border-radius: 10rpx;
+  margin-top: 33rpx;
+  color: #fff;
+  font-size: 30rpx;
+  margin-right: 43rpx;
+}
+.container .join1 .goJoin text{
+  padding: 12rpx 11rpx 13rpx 16rpx;
+}
+.container .seller{
+  width: 100%;
+  margin-top: 40rpx;
+  margin-left: 24rpx;
+  background: #fff;
+}
+.container .seller .total{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.container .seller .total .seleText{
+  float: left;
+  color: #3c3c3c;
+  font-size: 36rpx;
+  margin-left: 20rpx;
+  margin-right: 266rpx;
+}
+.container .seller .total .lookText{
+  float: right;
+  color: #b1b1b1;
+  font-size: 36rpx;
+  margin-right: 8rpx;
+}
+.container .seller .btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 36rpx;
+}
+.container .seller .btn text{
+  height: 49rpx;
+  background: #fcd8d1;
+  color: #333;
+  font-size: 30rpx;
+  border-radius: 20rpx;
+  padding: 11rpx 21rpx 9rpx 13rpx;
+}
+.container .seller .sellers{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container .seller .sellers .infos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.container .seller .sellers .infos .info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 23rpx;
+}
+.container .seller .sellers .infos .info image{
+  width: 56rpx;
+  height: 56rpx;
+  border-radius: 50%;
+  margin-right: 14rpx;
+}
+.container .seller .sellers .infos .info .name{
+  color: #111;
+  font-size: 30rpx;
+}
+.container .seller .sellers .infos .text{
+  width: 100%;
+  text-align: left;
+  margin: 18rpx 23rpx;
+  font-size: 30rpx;
+  color: #2a2929;
+}
+.container .seller .info1{
+  width: 100%;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.container .seller .info1 text{
+  width: 100%;
+  margin-left: 23rpx;
+  color: #111;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+.container .imgText{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 760rpx;
+  background: #fff;
+}
+.container .imgText .textImg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 372rpx;
+  background: #fff;
+  margin-top: 30rpx;
+}
+.container .imgText .textImg .imgInfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+.container .imgText .textImg .imgInfo image{
+  width: 230rpx;
+  height: 280rpx;
+}
+.container .imgText .textImg .imgInfo .name{
+  color: #333;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.container .imgText .textImg .imgInfo .btnPrice{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 30rpx;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.container .imgText .textImg .imgInfo .btnPrice .price{
+  color: #f00;
+  font-size: 26rpx;
+}
+.container .imgText .textImg .imgInfo .btnPrice .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100rpx;
+  height: 50rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 20rpx;
+}
+.container .detailImg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 70rpx;
+}
+.container .detailImg image{
+  width: 100%;
+}
+.container .bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+}
+.container .bottom .icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  font-size: 28rpx;
+}
+.container .bottom .goSpell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  font-size: 30rpx;
+  background: #ffcec9;
+  color: #fff;
+}
+.container .bottom .goBuy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  font-size: 30rpx;
+  background: #fb3609;
+  color: #fff;
+}
+.cartJoin{
+  width: 100%;
+  height: 835rpx;
+}
+.cartJoin .addCart{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.cartJoin .addCart image{
+	width: 240rpx;
+	height: 240rpx;
+	background-color: #ffffff;
+	box-shadow: 9rpx -1rpx 7rpx 2rpx 
+		rgba(122, 122, 122, 0.11);
+	border-radius: 13rpx;
+  margin-left: 30rpx;
+  margin-right: 60rpx;
+}
+.cartJoin .addCart .priceStyle{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  margin-top: 60rpx;
+}
+.cartJoin .addCart .priceStyle .price{
+  display: flex;
+	height: 29rpx;
+  line-height: 29rpx;
+	font-size: 38rpx;
+	color: #d60e15;
+}
+.cartJoin .addCart .priceStyle .select{
+  font-size: 30rpx;
+  color: #343434;
+}
+.cartJoin .mainInfo{
+  width: 100%;
+  height: 300rpx;
+  margin-top: 44rpx;
+}
+.cartJoin .mainInfo .group{
+  width: 100%;
+  height: 100rpx;
+  margin-left: 20rpx;
+  margin-top: 34rpx;
+  font-size: 36rpx;
+  color: #343434;
+}
+.cartJoin .mainInfo .group .sel{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  font-size: 36rpx;
+  color: #343434;
+  margin-top: 20rpx;
+}
+.cartJoin .mainInfo .group .sel text{
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  margin-right: 30rpx;
+  background: #bfbfbf;
+  color: #2e2e2e;
+  padding: 11rpx 31rpx 10rpx 36rpx;
+  border-radius: 10rpx;
+}
+.cartJoin .mainInfo .color{
+  width: 100%;
+  height: 300rpx;
+  font-size: 36rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.cartJoin .mainInfo .color .sele{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-size: 34rpx;
+}
+.cartJoin .mainInfo .color .sele text{
+  font-size: 30rpx;
+  color: #2e2e2e;
+  background: #bfbfbf;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  padding: 8rpx 8rpx 7rpx 37rpx;
+  border-radius: 10rpx;
+}
+.cartJoin .count{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+}
+.cartJoin .count .countText{
+  margin-left: 23rpx;
+  font-size: 30rpx;
+  margin-right: 380rpx;
+}
+.cartJoin .count .btnCount{
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+}
+.cartJoin .count .btnCount text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80rpx;
+  height: 100%;
+}
+.cartJoin .count .btnCount text:nth-child(1){
+  background: #eee;
+  color: rgb(7,17,27);
+}
+.cartJoin .count .btnCount text:nth-child(2){
+  background: #fff;
+  color: #333;
+}
+.cartJoin .count .btnCount text:nth-child(3){
+  background: #ccc;
+  color: #333;
+}
+.cartJoin .sureBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  background: #f00;
+  color: #fff;
+  font-size: 36rpx;
+}
