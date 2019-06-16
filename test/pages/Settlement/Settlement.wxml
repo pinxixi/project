@@ -17,34 +17,33 @@
     <text class='price'>￥0.00</text>
   </view>
   <view class='discounts'>
-    <text class='num'>优惠</text>
+    <text>优惠</text>
     <text class='num'>0张可用</text>
     <van-icon name="arrow" size='17rpx' class='arrow'/>
   </view>
   <view class='totalprice'>
-    <text class='num'>商品总额</text>
-    <text class='num'>0张可用</text>
-    <van-icon name="arrow" size='17rpx' class='arrow'/>
+    <text >商品总额</text>
+    <text class='num'>￥0.00</text>
+    
   </view>
   <view class='freight'>
-    <text class='num'>运费</text>
-    <text class='num'>0张可用</text>
-    <van-icon name="arrow" size='17rpx' class='arrow'/>
+    <text >运费</text>
+    <text class='num'>￥0.00</text>
+    
   </view>
   <view class='message'>
-    <text class='num'>留言</text>
-    <text class='num'>0张可用</text>
-    <van-icon name="arrow" size='17rpx' class='arrow'/>
+    <text >留言</text>
+    <input placeholder="给卖家留言" class='text' />
   </view>
   <view class='WeChaPay'>
-    <text class='num'>微信支付</text>
-    <text class='num'>0张可用</text>
-    <van-icon name="arrow" size='17rpx' class='arrow'/>
+    <van-icon name="wechat" size='24rpx' color='#278c58' class='wechat'/>
+    <text class='text'>微信支付</text>
+    <van-icon name="success" size='24rpx' class='success'/>
   </view>
   <view class='WeChatFriendPayment'>
-    <text class='num'>微信好友支付</text>
-    <text class='num'>0张可用</text>
-    <van-icon name="arrow" size='17rpx' class='arrow'/>
+    <van-icon name="friends" size='24rpx' color='#278c58' class='friends'/>
+    <text class='text'>微信好友支付</text>
+    <van-icon name="success" size='24rpx' class='success' />
   </view>
   <!-- footer -->
   <view class="bottom_total" >

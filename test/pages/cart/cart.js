@@ -5,11 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // carts: [],               // 购物车列表
+    carts: [],               // 购物车列表
     hasList: false,          // 列表是否有数据
     totalPrice: '0.00',           // 总价，初始为0
     selectAllStatus: false,    // 全选状态
-    isShow:false,             //删除图片的显示隐藏
+    // isShow:false,             //删除图片的显示隐藏更改为选择状态
   },
   //获取用户信息
   getUser:function (e){

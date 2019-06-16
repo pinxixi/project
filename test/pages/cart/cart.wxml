@@ -18,7 +18,7 @@
           </text>
           
           <view  class='ljt'>
-          <image class='ljt1' wx-if="{{isShow}}" src='../images/delete.png' bindtap='deleteList' data-index="{{index}}"></image> 
+          <image class='ljt1' wx-if="{{item.ischecked}}" src='../images/delete.png' bindtap='deleteList' data-index="{{index}}"></image> 
           
         </view>
         </view>

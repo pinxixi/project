@@ -89,7 +89,13 @@
   background: #fff;
   font-size: 26rpx;
 }
-
+.discounts .num{
+  position: absolute;
+  right: 55rpx;
+}
+.discounts .arrow{
+  float: right;
+}
 /* 商品总额 */
 .totalprice{
   position: relative;
@@ -101,6 +107,9 @@
   font-size: 26rpx;
   border-bottom: 1px solid #f5f5f5;
 }
+.totalprice .num{
+  float: right;
+}
 /* 运费 */
 .freight{
   position: relative;
@@ -110,6 +119,9 @@
   /* margin-top: 10rpx; */
   background: #fff;
   font-size: 26rpx;
+}
+.freight .num{
+  float: right;
 }
 /* 留言 */
 .message{
@@ -121,6 +133,13 @@
   background: #fff;
   font-size: 26rpx;
 }
+.message .text{
+  position: absolute;
+  top: 12rpx;
+  left: 138rpx;
+  height: 26rpx;
+
+}
 /* 微信支付 */
 .WeChaPay{
   position: relative;
@@ -131,6 +150,19 @@
   background: #fff;
   font-size: 26rpx;
   border-bottom: 1px solid #f5f5f5;
+  color: #333;
+}
+.WeChaPay .wechat{
+  margin-top: 25rpx;
+}
+.WeChaPay .text{
+  margin-left: 24rpx;
+  margin-top: 23rpx;
+}
+.WeChaPay .success{
+  position: absolute;
+  right: 25rpx;
+  top: 25rpx;
 }
 /* 微信好友支付 */
 .WeChatFriendPayment{
@@ -141,6 +173,18 @@
   /* margin-top: 10rpx; */
   background: #fff;
   font-size: 26rpx;
+}
+.WeChatFriendPayment .friends{
+  margin-top: 25rpx;
+}
+.WeChatFriendPayment .text{
+  margin-left: 24rpx;
+  margin-top: 23rpx;
+}
+.WeChatFriendPayment .success{
+  position: absolute;
+  right: 25rpx;
+  top: 25rpx;
 }
 /* 结算 */
 .bottom_line {
