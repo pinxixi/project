@@ -89,8 +89,10 @@
   margin-right:20rpx;
 }
 .img{
+  
   top:0;
   left:0;
+  
   width:280rpx;
   height:200rpx;
 }
