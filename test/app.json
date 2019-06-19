@@ -4,28 +4,19 @@
     "pages/logs/logs",
     "pages/cart/cart",
     "pages/demo/demo",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ee4fee21e7203f25e64c690da9a50951c014577e
     "pages/home/home",
     "pages/detail/detail",
     "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
-<<<<<<< HEAD
     "pages/recommend/recommend",
-    "pages/refund/refund"
-=======
+    "pages/refund/refund",
     "pages/gopay/gopay",
-    "pages/Settlement/Settlement"
->>>>>>> 10dbd5db26d03f409c872f3b608ab91947555a49
-=======
+    "pages/Settlement/Settlement",
     "pages/ticket/ticket",
     "pages/favorite/favorite",
     "pages/order/order",
     "pages/history/history"
->>>>>>> ee4fee21e7203f25e64c690da9a50951c014577e
   ],
   "permission": {
     "scope.userLocation": {
@@ -58,10 +49,5 @@
         "text": "购物车"
       }
     ]
-<<<<<<< HEAD
   }
-=======
-  },
-  "sitemapLocation": "sitemap.json"
->>>>>>> ee4fee21e7203f25e64c690da9a50951c014577e
 }
