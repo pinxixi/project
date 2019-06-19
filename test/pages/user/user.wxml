@@ -2,11 +2,11 @@
 <view class="page" wx:if="{{!pageShow}}">
   <view class="header">
     <view class="image-box">
-      <image class="image" src='/pages/image/user.jpg'></image>
+      <image class="image" src='{{user.avatarUrl||"/pages/image/user.jpg"}}'></image>
       <view class="icon">v0</view>
     </view>
     <view class="content">
-      <view class='name'>霊夢</view> 
+      <view class='name'>{{user.nickName||"user"}}</view> 
     </view>
   </view>
   <view class="list list1">

@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "test",
   "version": "1.0.0",
   "main": "app.js",
@@ -7,22 +6,9 @@
     "vant-weapp": "^0.5.14"
   },
   "devDependencies": {},
-=======
-  "name": "pinduoduo",
-  "version": "1.0.0",
-  "main": "app.js",
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-<<<<<<< HEAD
-=======
-  "dependencies": {
-    "vant-weapp": "^0.5.14"
-  },
-  "devDependencies": {},
->>>>>>> 0b7eaf1109948bfe33d30e167bed27f6f6a475f4
-  "description": ""
+  "license": "ISC"
 }

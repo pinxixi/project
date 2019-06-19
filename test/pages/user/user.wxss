@@ -1,8 +1,7 @@
 /* pages/user/user.wxss */
 .header{
-  padding: 10rpx 0;
+  padding: 48rpx 0;
   background:#1ca95e;
-  padding-bottom: 48rpx;
   margin-bottom: 19rpx;
 }
 .image-box{
@@ -29,7 +28,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: red;
+  background: #1ca95e;
   display: block;
 }
 .header .content{

@@ -2,7 +2,11 @@
   "pages": [
     "pages/home/home",
     "pages/cart/cart",
+<<<<<<< HEAD
     "pages/demo/demo",
+=======
+    "pages/home/home",
+>>>>>>> 069cedbeab2fdbf23a894025296fc235858d2594
     "pages/detail/detail",
     "pages/news/news",
     "pages/buycar/buycar",
