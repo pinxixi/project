@@ -134,9 +134,10 @@
         <text class="smallTred">.00</text>
       </view>
     </view>
-    <view class="buyBox">
+    <view class="buyBox" bindtap='toDetail'>
       <text class="buyTxt">立即购买</text>
-      <icon class="icon"></icon>
+      <text class="buyBorder">></text>
+      <!-- <icon class="icon">></icon> -->
     </view>
   </view> 
 </view>
@@ -164,7 +165,7 @@
       <text class="smallred">.00</text>
     </view>
     <!-- 立即购买 -->
-    <view class="purchase">
+    <view class="purchase" bindtap='toDetail'>
       <text class="purchaseTxt">立即购买</text>
       <view class="purchaseBorder">
         <icon class-="purchaseIcon"></icon>
@@ -200,7 +201,7 @@
           <text class="smallred">.00</text>
         </view>
         <!-- 立即购买 -->
-        <view class="purchase waveWrapBox">
+        <view class="purchase waveWrapBox" bindtap='toDetail'>
           <text class="purchaseTxt">立即购买</text>
           <view class="purchaseBorder">
             <icon class-="purchaseIcon"></icon>
@@ -221,7 +222,7 @@
           <text class="smallred">.00</text>
         </view>
         <!-- 立即购买 -->
-        <view class="purchase waveWrapBox">
+        <view class="purchase waveWrapBox" bindtap='toDetail'>
           <text class="purchaseTxt">立即购买</text>
           <view class="purchaseBorder">
             <icon class-="purchaseIcon"></icon>
@@ -257,7 +258,7 @@
           <text class="smallred">.00</text>
         </view>
         <!-- 立即购买 -->
-        <view class="purchase waveWrapBox">
+        <view class="purchase waveWrapBox" bindtap='toDetail'>
           <text class="purchaseTxt">立即购买</text>
           <view class="purchaseBorder">
             <icon class-="purchaseIcon"></icon>
@@ -278,10 +279,10 @@
           <text class="smallred">.00</text>
         </view>
         <!-- 立即购买 -->
-        <view class="purchase waveWrapBox">
+        <view class="purchase waveWrapBox" bindtap='toDetail'>
           <text class="purchaseTxt">立即购买</text>
           <view class="purchaseBorder">
-            <icon class-="purchaseIcon"></icon>
+            <icon class-="purchaseIcon">></icon>
           </view>
         </view>
       </view>
