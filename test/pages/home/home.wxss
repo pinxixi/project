@@ -22,7 +22,7 @@
 }
 .swiperImg{
   width:700rpx;
-  height:40r0px;
+  height:400rpx;
 }
 /* 轮播图左右灰色竖条 */
 .suspension{
