@@ -1,7 +1,7 @@
 // pages/user/user.js
 Page({
-
   data: {
+    user: {},
     map: null,
     mapData:{},
     data:{
@@ -79,6 +79,10 @@ Page({
     this.data.map = wx.createMapContext("map");
     wx.getUserInfo({
       success:res=>{
+        this.data.user=res.userInfo;
+        this.setData({
+          user: this.data.user
+        })
         console.log(res.userInfo)
       }
     })

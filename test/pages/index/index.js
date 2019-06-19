@@ -22,6 +22,9 @@ Page({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
+      wx.navigateTo({
+        url: '/pages/home/home',
+      })
       console.log(1)
     } else if (this.data.canIUse){
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
@@ -49,6 +52,9 @@ Page({
     setTimeout(()=>{                      
       this.setData({
         pageShow: !this.data.pageShow
+      })
+      wx.navigateTo({
+        url: '/pages/home/home',
       })
     },2000)
   },
