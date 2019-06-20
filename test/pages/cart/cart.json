@@ -1,11 +1,6 @@
 {
   "usingComponents": {
-<<<<<<< HEAD
-    
-  },
-  "navigationBarTitleText": "购物车"
-=======
+    "navigationBarTitleText": "购物车",
     "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
   }
->>>>>>> f7982ab2e5ecf2a7a12a93aa0db28e6558e0408e
 }

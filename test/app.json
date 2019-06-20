@@ -2,15 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/cart/cart",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "pages/demo/demo",
-=======
-=======
-    "pages/demo/demo",
->>>>>>> f7982ab2e5ecf2a7a12a93aa0db28e6558e0408e
-    "pages/home/home",
->>>>>>> 069cedbeab2fdbf23a894025296fc235858d2594
     "pages/detail/detail",
     "pages/news/news",
     "pages/buycar/buycar",
@@ -63,9 +55,5 @@
         "text": "我的"
       }
     ]
-<<<<<<< HEAD
-=======
-  
->>>>>>> f7982ab2e5ecf2a7a12a93aa0db28e6558e0408e
   }
 }

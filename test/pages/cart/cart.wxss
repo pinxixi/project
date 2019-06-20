@@ -162,8 +162,6 @@
   display: flex;
   flex-direction: row;
 }
-<<<<<<< HEAD
-=======
 /* 商品数量 */
 .sku{
   position: absolute;
@@ -212,7 +210,6 @@
 
 
 /* 空购物车 */
->>>>>>> f7982ab2e5ecf2a7a12a93aa0db28e6558e0408e
 .noOne{
   width: 284rpx;
   height: 385rpx;
@@ -236,8 +233,4 @@
   font-size: 30rpx;
   color: #fff;
   background: #278c58;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f7982ab2e5ecf2a7a12a93aa0db28e6558e0408e
