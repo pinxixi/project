@@ -1,6 +1,6 @@
 {
+  "navigationBarTitleText": "购物车",
   "usingComponents": {
-    "navigationBarTitleText": "购物车",
     "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
   }
 }
