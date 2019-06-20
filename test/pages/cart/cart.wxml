@@ -19,7 +19,7 @@
           
           <view  class='ljt' wx-if="{{item.ischecked}}">
             <!-- <image class='ljt1' wx-if="{{item.ischecked}}" src='../images/delete.png' bindtap='deleteList' data-index="{{index}}"></image> -->
-            <van-icon name="delete" size='44rpx'  class='delete' />
+            <van-icon name="delete" size='44rpx'  class='delete' bindtap='deleteList'/>
             <text class='text'>删除</text>
           
           </view>
