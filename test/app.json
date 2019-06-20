@@ -1,10 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/home/home",
     "pages/cart/cart",
     "pages/demo/demo",
-    "pages/home/home",
     "pages/detail/detail",
     "pages/news/news",
     "pages/buycar/buycar",
