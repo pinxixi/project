@@ -41,25 +41,25 @@
       {
         "pagePath": "pages/home/home",
         "iconPath": "pages/img/shouye.jpg",
-        "selectedIconPath": "pages/img/shouye.jpg",
+        "selectedIconPath": "pages/img/shouye1.jpg",
         "text": "首页"
       },
       {
         "pagePath": "pages/recommend/recommend",
         "iconPath": "pages/img/recommend.jpg",
-        "selectedIconPath": "pages/img/recommend.jpg",
+        "selectedIconPath": "pages/img/recommend1.jpg",
         "text": "推荐"
       },
       {
         "pagePath": "pages/cart/cart",
         "iconPath": "pages/img/cart.jpg",
-        "selectedIconPath": "pages/img/cart.jpg",
+        "selectedIconPath": "pages/img/cart1.jpg",
         "text": "购物车"
       },
       {
         "pagePath": "pages/user/user",
         "iconPath": "pages/img/my.jpg",
-        "selectedIconPath": "pages/img/my.jpg",
+        "selectedIconPath": "pages/img/my1.jpg",
         "text": "我的"
       }
     ]
