@@ -300,7 +300,11 @@
       <text class="rankingBtnsmall">销量排行</text>
     </view>
     <view class="rankingList">
+<<<<<<< HEAD
       <view class="rankingListItem" wx:for="{{ranking}}" wx:key='{{index}}'>
+=======
+      <view class="rankingListItem" wx:for="{{ranking}}" wx:key="{{index}}">
+>>>>>>> 97f51ee4c5cf1fe9bb2eb67d295b7a05d914c035
         <image src="{{item.imgUrl}}" class="rankingImg"></image>
         <text class="rankingNumber">{{item.index}}</text>
         <text class="rankingDetail">{{item.name}}</text>
@@ -312,7 +316,11 @@
   <view class="like">
     <text class="likeTxt">猜你喜欢</text>
     <view class="likeList">
+<<<<<<< HEAD
       <view class="likeListItem" wx:for="{{like}}" wx:key='{{index}}'>
+=======
+      <view class="likeListItem" wx:for="{{like}}" wx:key="{{index}}">
+>>>>>>> 97f51ee4c5cf1fe9bb2eb67d295b7a05d914c035
         <image class="likeImg" src="{{item.imgUrl}}"></image>
         <text class="likeTitle">{{item.name}}</text>
         <text class="likeDetail">{{item.detail}}</text>

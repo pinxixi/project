@@ -65,16 +65,45 @@ Page({
       }
     ]
   },
+<<<<<<< HEAD
   toDetail(){
     wx.navigateTo({
       url: `/pages/detail/detail`,
+=======
+  getIndex(){
+    wx.request({
+      url: 'http://www.puzhentec.com/www/api/public/index.php?s=api/v1/index',
+      method:"GET",
+      header:{
+        "content-type":"application/json"
+      },
+      success(res){
+        console.log(res)
+      },
+      fail(err){
+        console.log("err",err);
+      }
+>>>>>>> 97f51ee4c5cf1fe9bb2eb67d295b7a05d914c035
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // getIndex();
+    wx.request({
+      url: 'http://www.puzhentec.com/www/api/public/index.php?s=api/v1/index',
+      method: "GET",
+      header: {
+        "content-type": "application/json"
+      },
+      success(res) {
+        console.log(res)
+      },
+      fail(err) {
+        console.log("err", err);
+      }
+    })
   },
 
   /**
