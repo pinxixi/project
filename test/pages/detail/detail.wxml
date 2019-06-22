@@ -1,12 +1,17 @@
 <!--index.wxml-->
 <view class="container">
   <!--轮播-->
+  <!-- <swiper indicator-dots="true" class="img" autoplay="true" interval="3000" duration="500" circular="true">
+    <swiper-item wx:for='{{gallery}}' wx:key='{{index}}'>
+      <image src="{{item.img_url}}" class="swiperImg"></image>
+    </swiper-item>
+  </swiper> -->
   <view class='img'>
-    <image src='../img/1.jpg'></image>
+    <image src='{{gallery.goods_thumb}}'></image>
   </view>
   <!--描述-->
   <view class='description'>
-    <text class='des'>新款正品万泰林/煊赫乳胶枕/泰国正品波浪枕60*40cm</text>
+    <text class='des'>{{gallery.goods_name}}</text>
     <view class='share'>
       <text class='iconfont icon-fenxiang' style='font-size: 50rpx;color: #3f3f3f;'></text>
       <text class='text'>分享</text>
@@ -16,7 +21,7 @@
   <view class='countPrice'>
     <view class='price'>
       <text class='logo'>￥</text>
-      <text class='nowPrice'>118-159</text>
+      <text class='nowPrice'>{{gallery.shop_price}}</text>
     </view>
   </view>
   <!--拼单数量-->
@@ -174,13 +179,13 @@
     <view class='goSpell' bindtap='goSize'>
       <text>发起拼单</text>
     </view>
-    <van-button bindtap='goSize' class='goBuy' size='large' type='danger'>
+    <view bindtap='goSize' class='goBuy'>
       单独购买
-    </van-button>
+    </view>
   </view>
 </view>
 <!--加入购物车-->
-<van-popup class='cartJoin' show='{{show}}' position='bottom' bind:close='goSize'>
+<!-- <van-popup class='cartJoin' show='{{show}}' position='bottom' bind:close='goSize'>
   <view class='addCart'>
     <image src='../img/1.jpg'></image>
     <view class='priceStyle'>
@@ -219,4 +224,4 @@
     </view>
   </view>
   <view class='sureBtn'>确定</view>
-</van-popup>
+</van-popup> -->

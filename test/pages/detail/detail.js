@@ -1,20 +1,33 @@
 // pages/detail/detail.js
+//引入公共的js
+import { Config } from '../../utils/config'
+//引入index模块的js
+import { Detail } from './detail-module.js'
+let home = new Detail();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    show: false
+    show: false,
+    gallery: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.getDetail(options);
   },
-
+  getDetail(options){
+    let detail = home.getRatings(options.id,res=>{
+      console.log(res);
+      this.setData({
+        gallery: res.goods
+      })
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
