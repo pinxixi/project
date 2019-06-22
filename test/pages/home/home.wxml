@@ -101,10 +101,6 @@
       <view class="townbigImgBox">
         <image src="../img/波浪平面枕.jpg" class="townbigImg"></image>
       </view>
-      <view class="pngImg">
-        <!-- <image></image> -->
-      </view>
-      <view class=""></view>
     </view>
     <view class="townpic">
       <view class="picWrap">
