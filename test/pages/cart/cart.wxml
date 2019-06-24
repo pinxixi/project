@@ -5,7 +5,7 @@
   <view wx:for="{{carts}}" wx:key="id">
     <view class="cart_container">
       <view class='select_icon'>
-        <icon  wx:if="{{item.ischecked}}" type="success" color="red" bindtap="judge_checked" data-index="{{index}}" />
+        <icon  wx:if="{{item.ischecked}}" type="success" color="green" bindtap="judge_checked" data-index="{{index}}" />
         <icon wx:else type="circle" bindtap="judge_checked" data-index="{{index}}"/>
        </view>
 
