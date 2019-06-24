@@ -147,14 +147,17 @@ Page({
 
   //去结算
   toBuy() {
-    wx.showToast({
-      title: '去结算',
-      icon: 'success',
-      duration: 3000
-    });
-    this.setData({
-      showDialog: !this.data.showDialog
-    });
+    // wx.showToast({
+    //   title: '去结算',
+    //   icon: 'success',
+    //   duration: 3000
+    // });
+    // this.setData({
+    //   showDialog: !this.data.showDialog
+    // });
+    wx.navigateTo({
+      url: '../Settlement/Settlement',
+    })
   },
 
 
