@@ -15,7 +15,7 @@ Component({
    */
   data: {
     style:{
-      dispaly: "flex"
+      dispaly: "block"
     }
   },
 
@@ -24,7 +24,10 @@ Component({
    */
   methods: {
     resetStyle(){
-      console.log(1)
+      let str = '';
+      this.data.style.forEach((item,key) => {
+        console.log(key+":"+item+";")
+      })
     }
   }
 })

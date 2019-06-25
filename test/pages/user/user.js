@@ -1,4 +1,6 @@
 // pages/user/user.js
+import {User} from "./module.js";
+let user=new User()
 Page({
   data: {
     user: {},
@@ -76,6 +78,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    user.getData(1,data => {
+      console.log(data)
+    })
+
     this.data.map = wx.createMapContext("map");
     wx.getUserInfo({
       success:res=>{
@@ -83,7 +89,7 @@ Page({
         this.setData({
           user: this.data.user
         })
-        console.log(res.userInfo)
+        // console.log(res.userInfo)
       }
     })
     this.setData({

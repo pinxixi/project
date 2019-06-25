@@ -27,7 +27,7 @@
         共计{{item.allNum}}件商品 合计<text class="icon">￥</text><text class="num">{{item.allPrice}}</text>(含运费￥{{item.freight}})
       </view>
       <view class="control">
-        <view class="btn {{item.type}}" wx:for="{{item.control}}" wx:key="{{index}}">{{item.text}}</view>
+        <view class="btn {{item.type}}" wx:for="{{item.control}}" wx:key="{{index}}" bindtap="btn{{btn.type}}">{{item.text}}</view>
       </view>
     </view>
   </view>

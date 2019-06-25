@@ -1,4 +1,4 @@
 <!--pages/component/jag/jag.wxml-->
-<view class="jag" style="{{style}}">
+<view class="jag" style="resetStyle()">
   <view class="i" wx:for="{{num}}" wx:key="{{index}}"></view>
 </view>
