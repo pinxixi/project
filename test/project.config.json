@@ -15,11 +15,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-<<<<<<< HEAD
-	"appid": "wx1ad232f825b0c409",
-=======
 	"appid": "wxe1868fb18005aa84",
->>>>>>> 069cedbeab2fdbf23a894025296fc235858d2594
 	"projectname": "test",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
@@ -45,7 +41,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -63,24 +59,22 @@
 				},
 				{
 					"id": -1,
-<<<<<<< HEAD
-					"name": "refund",
-					"pathName": "pages/refund/refund",
-=======
 					"name": "user",
 					"pathName": "pages/user/user",
->>>>>>> 069cedbeab2fdbf23a894025296fc235858d2594
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-<<<<<<< HEAD
-					"name": "首页",
-=======
 					"name": "home",
->>>>>>> 069cedbeab2fdbf23a894025296fc235858d2594
 					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ticket",
+					"pathName": "pages/ticket/ticket",
 					"scene": null
 				}
 			]
