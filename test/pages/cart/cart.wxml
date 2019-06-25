@@ -48,7 +48,7 @@
   <view class="bottom_line"></view>
   <view class="row">
     <view class='iconAll'>
-      <icon  wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" data-index="{{index}}" />
+      <icon  wx:if="{{selectAllStatus}}" type="success" color="green" bindtap="selectAll" data-index="{{index}}" />
         <icon wx:else type="circle" bindtap="selectAll" data-index="{{index}}"/>
     </view>
     <text class="small_text">全选</text>
