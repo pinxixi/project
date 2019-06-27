@@ -45,7 +45,7 @@
   </view>
   <!--拼单3-->
   <view class='join1'>
-    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
     <text class='name'>Lorem</text>
     <view class='count'>
       <text>差三人拼成</text>
@@ -96,7 +96,7 @@
     <view class='imgText'>
       <view class='textImg'>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -104,7 +104,7 @@
           </view>
         </view>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -112,7 +112,7 @@
           </view>
         </view>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -122,7 +122,7 @@
       </view>
       <view class='textImg'>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -130,7 +130,7 @@
           </view>
         </view>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -138,7 +138,7 @@
           </view>
         </view>
         <view class='imgInfo'>
-          <image src='../img/1.jpg'></image>
+          <image src='../img/2.jpg'></image>
           <text class='name'>网纱裙</text>
           <view class='btnPrice'>
             <text class='price'>￥238.0</text>
@@ -150,16 +150,16 @@
   </view>
   <!--商品详情-->
   <view class='detailImg'>
-    <image src='../img/1.jpg'></image>
     <image src='../img/2.jpg'></image>
-    <image src='../img/3.jpg'></image>
-    <image src='../img/4.jpg'></image>
-    <image src='../img/5.jpg'></image>
-    <image src='../img/6.jpg'></image>
     <image src='../img/2.jpg'></image>
-    <image src='../img/4.jpg'></image>
-    <image src='../img/6.jpg'></image>
-    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
   </view>
   <!--底部导航-->
   <view class='bottom'>

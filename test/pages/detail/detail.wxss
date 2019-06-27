@@ -1,5 +1,8 @@
 /* pages/detail/detail.wxss */
 /**index.wxss**/
+image{
+  background: #ccc;
+}
 .container{
   width: 100%;
   height: 100%;

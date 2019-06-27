@@ -15,7 +15,7 @@
 .container .title{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 25rpx;
   width: 100%;
   color: #fff;
   font-size: 38rpx;
@@ -24,7 +24,7 @@
 .swiper{
   position: absolute;
   top: 98rpx;
-  left: 56rpx;
+  left: 62rpx;
   width:629rpx;
   height:360rpx;
   margin:10rpx auto;
@@ -77,7 +77,7 @@
 /*开始拼团*/
 .startJoin{
   position: absolute;
-  top: 668rpx;
+  top: 768rpx;
   left: 50%;
   transform: translateX(-50%);
   width: 658rpx;
@@ -287,7 +287,7 @@
 }
 .townTitle{
   position:relative;
-  top:42rpx;
+  top:43rpx;
   left:69rpx;
   box-sizing: border-box;
   display:flex;

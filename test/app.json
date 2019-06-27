@@ -7,7 +7,6 @@
     "pages/user/user",
     "pages/recommend/recommend",
     "pages/refund/refund",
-    "pages/gopay/gopay",
     "pages/Settlement/Settlement",
     "pages/ticket/ticket",
     "pages/favorite/favorite",

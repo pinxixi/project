@@ -1,7 +1,6 @@
 <!--pages/Settlement/Settlement.wxml-->
 <!-- <text>pages/Settlement/Settlement.wxml</text> -->
 <view class='settlement'>
-
   <view class='address'>
     <van-icon name="location" size='30rpx' color='green' class='location'/>
     <text>请选择收货地址</text>
@@ -51,7 +50,10 @@
     <view class="row">
       <text class='text'>应付款: </text>
       <text class="price">￥0.00</text>
-      <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
+      <button class="button-red" bindtap="toBuy" formType="submit">提交订单</button>
     </view>
   </view>
+</view>
+<view class="">
+  
 </view>
