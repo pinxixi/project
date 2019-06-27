@@ -9,27 +9,13 @@
   <view class='list'>
     <view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>
       </view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
-        <text class='name'>泰国波浪平面枕</text>
-        <text class='material'>泰国天然乳胶原料</text>
-        <text class='price'>￥228.0</text>
-      </view>
-    </view>
-    <view>
-      <view class='single'>
-        <image src='../img/3.jpg'></image>
-        <text class='name'>泰国波浪平面枕</text>
-        <text class='material'>泰国天然乳胶原料</text>
-        <text class='price'>￥228.0</text>
-      </view>
-      <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>
@@ -37,13 +23,13 @@
     </view>
     <view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>
       </view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>
@@ -51,13 +37,27 @@
     </view>
     <view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>
       </view>
       <view class='single'>
-        <image src='../img/3.jpg'></image>
+        <image src='../img/2.jpg'></image>
+        <text class='name'>泰国波浪平面枕</text>
+        <text class='material'>泰国天然乳胶原料</text>
+        <text class='price'>￥228.0</text>
+      </view>
+    </view>
+    <view>
+      <view class='single'>
+        <image src='../img/2.jpg'></image>
+        <text class='name'>泰国波浪平面枕</text>
+        <text class='material'>泰国天然乳胶原料</text>
+        <text class='price'>￥228.0</text>
+      </view>
+      <view class='single'>
+        <image src='../img/2.jpg'></image>
         <text class='name'>泰国波浪平面枕</text>
         <text class='material'>泰国天然乳胶原料</text>
         <text class='price'>￥228.0</text>

@@ -1,17 +1,12 @@
 <!--index.wxml-->
 <view class="container">
   <!--轮播-->
-  <!-- <swiper indicator-dots="true" class="img" autoplay="true" interval="3000" duration="500" circular="true">
-    <swiper-item wx:for='{{gallery}}' wx:key='{{index}}'>
-      <image src="{{item.img_url}}" class="swiperImg"></image>
-    </swiper-item>
-  </swiper> -->
   <view class='img'>
-    <image src='{{gallery.goods_thumb}}'></image>
+    <image src='{{imgUrl}}'></image>
   </view>
   <!--描述-->
   <view class='description'>
-    <text class='des'>{{gallery.goods_name}}</text>
+    <text class='des'>新款正品万泰林/煊赫乳胶枕/泰国正品波浪枕60*40cm</text>
     <view class='share'>
       <text class='iconfont icon-fenxiang' style='font-size: 50rpx;color: #3f3f3f;'></text>
       <text class='text'>分享</text>
@@ -21,7 +16,7 @@
   <view class='countPrice'>
     <view class='price'>
       <text class='logo'>￥</text>
-      <text class='nowPrice'>{{gallery.shop_price}}</text>
+      <text class='nowPrice'>118-159</text>
     </view>
   </view>
   <!--拼单数量-->
@@ -152,13 +147,13 @@
   <view class='detailImg'>
     <image src='../img/1.jpg'></image>
     <image src='../img/2.jpg'></image>
-    <image src='../img/3.jpg'></image>
-    <image src='../img/4.jpg'></image>
-    <image src='../img/5.jpg'></image>
-    <image src='../img/6.jpg'></image>
+    <image src='../img/1.jpg'></image>
     <image src='../img/2.jpg'></image>
-    <image src='../img/4.jpg'></image>
-    <image src='../img/6.jpg'></image>
+    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/2.jpg'></image>
+    <image src='../img/1.jpg'></image>
+    <image src='../img/2.jpg'></image>
     <image src='../img/1.jpg'></image>
   </view>
   <!--底部导航-->
@@ -176,16 +171,16 @@
       <text class='iconfont icon-kefu' style='font-size: 46rpx'></text>
       <text>客服</text>
     </view>
-    <view class='goSpell' bindtap='goSize'>
+    <view class='goSpell' bindtap='goSize' data-index='0'>
       <text>发起拼单</text>
     </view>
-    <view bindtap='goSize' class='goBuy'>
+    <van-button bindtap='goSize' class='goBuy' size='large' type='danger' data-index='1'>
       单独购买
-    </view>
+    </van-button>
   </view>
 </view>
 <!--加入购物车-->
-<!-- <van-popup class='cartJoin' show='{{show}}' position='bottom' bind:close='goSize'>
+<van-popup class='cartJoin' show='{{show}}' position='bottom' bind:close='goSize'>
   <view class='addCart'>
     <image src='../img/1.jpg'></image>
     <view class='priceStyle'>
@@ -223,5 +218,5 @@
       <text>+</text>
     </view>
   </view>
-  <view class='sureBtn'>确定</view>
-</van-popup> -->
+  <view class='sureBtn' bindtap='gopay'>确定</view>
+</van-popup>

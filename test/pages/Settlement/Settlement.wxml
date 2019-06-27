@@ -51,7 +51,29 @@
     <view class="row">
       <text class='text'>应付款: </text>
       <text class="price">￥0.00</text>
-      <button class="button-red" bindtap="toBuy" formType="submit">去结算</button>
+      <button class="button-red" bindtap="onClose" formType="submit">提交订单</button>
     </view>
   </view>
 </view>
+<van-popup show="{{ show }}" bind:close='onClose' class='selectAccount'>
+   <view class="center">
+    <view class="top">
+      <text class="remove"bindtap='toBuy'>X</text>
+      <text class="iconfont icon-sself" style="font-size:55rpx;margin-top:22rpx;color:#666;margin-right:11rpx;"></text>
+      <text class="password">确认支付密码</text>
+    </view>
+    <view class="centerText">
+      <text class="name">煊赫</text>
+      <text class="price">￥<text>{{data.shop_price}}</text></text>
+      <view class="logo">
+        <text class="iconfont icon-gongshangyinhang" style='font-size:54rpx;color:#dc3025;'></text>
+        <text class="yhName">工商银行储蓄卡（****）</text>
+      </view>
+      <view class="btn">
+        <text>确认支付</text>
+      </view>
+    </view>
+  </view>
+
+  
+</van-popup>

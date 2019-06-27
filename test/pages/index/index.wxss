@@ -1,0 +1,683 @@
+/**index.wxss**/
+.container .arrow-left{
+  position: fixed;
+  top: 67rpx;
+  left: 38rpx;
+  color: #fff;
+}
+.container >image{
+  width: 100%;
+  margin-top: -200rpx;
+}
+.container .title{
+  position: fixed;
+  top: 67rpx;
+  color: #FFF;
+  font-size: 36rpx;
+
+}
+/* 轮播图 */
+.swiper{
+  position:absolute;
+  top:147rpx;
+  left:60rpx;
+  width:629rpx;
+  height:360rpx;
+  margin:10rpx auto;
+  border-radius: 30rpx;
+  overflow: hidden;
+  margin-bottom:103rpx;
+
+}
+.swiperImg{
+  width:700rpx;
+  height:550rpx;
+}
+/* 轮播图左右灰色竖条 */
+.suspension{
+  position:absolute;
+  width:750rpx;
+}
+.suspension-this{
+  position:absolute;
+  top:-47rpx;
+  width:73rpx;
+  height:360rpx;
+  border-radius:30rpx; 
+  background: #bfbfbf;
+}
+.suspension-l{
+  left:-36rpx;
+}
+.suspension-r{
+  right:-36rpx;
+}
+/* 拼团 */
+.assemble{
+  position:relative;
+  margin-top:103rpx;
+}
+/* 拼团背景图 */
+.groupbg{
+  position:relative;
+  width:750rpx;
+  height:250rpx;
+  overflow: hidden;
+  
+}
+.group-bgImg{
+  position:absolute;
+  width:750rpx;
+}
+.goodstitle{
+  position:absolute;
+  top:0;
+  left:0;
+  width:750rpx;
+  height:90rpx;
+  color:#fff;
+  line-height:90rpx;
+  text-align: center;
+  font-size:30rpx;
+}
+/* 商品 */
+.goodswrap{
+  position:absolute;
+  top: 100rpx;
+  left: 43rpx;
+  padding:50rpx 30rpx 30rpx 30rpx;
+  width:598rpx;/*658*/
+  height:202rpx;/*282*/
+  background: #fff; 
+  border-radius: 35rpx;
+  box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
+}
+.goods{
+  position:absolute;
+  width:598rpx;
+  height: 202rpx;
+  top: 50rpx;
+  left:30rpx;
+  display:flex;
+  
+}
+.goods .imgbox{
+  /* position: relative; */
+  /* top:0rpx; */
+  /* left:0rpx; */
+  width:280rpx;
+  height:200rpx;
+  margin-right:20rpx;
+  
+}
+.container .goods .imgbox image{
+  /* position: absolute; */
+  /* top:0rpx; */
+  /* left:0rpx; */
+  width:280rpx;
+  height:200rpx;
+}
+.container .goods .textbox{
+  font-size: 25rpx;
+}
+.container .goods .textbox .pic{
+  font-size: 20rpx;
+  color: #f00;
+}
+.container .goods .textbox .pic .gray{
+  font-size: 20rpx;
+  color: #ccc;
+}
+.container .goods .textbox .limit{
+  font-size: 20rpx;
+  color: #f00;
+  border: 1px solid #f00;
+}
+/* 拼团圆头像 */
+.iconImgWrap{
+  display:flex;
+  width:440rpx;
+  height:72rpx;
+  margin:0 auto;
+}
+
+.iconImgBok{
+  position:relative;
+  margin:200rpx 9rpx 0;
+  width:68rpx;
+  height:69rpx;
+  border-radius: 50%;
+}
+.regimental{
+  position:absolute;
+  top:50rpx;
+  left:18rpx;
+  padding:3rpx 6rpx;
+  font-size:14rpx;
+  color:#fff;
+  background: rgb(255,33,0);
+}
+.iconImg{
+  width:68rpx;
+  height:69rpx;
+  border-radius: 50%;
+}
+.emptyImg{
+  line-height:69rpx;
+  text-align:center;
+  font-size:40rpx;
+  color:#fafafa;
+  background: #bababa;
+  border:2rpx dashed #484848;
+}
+/* 仅剩 */
+.remain{
+  font-size:26rpx;
+  text-align: center;
+  margin:40rpx auto 30rpx;
+}
+.remainRed{
+  color:#cd0202;
+}
+/* 倒计时 */
+.countdownWrap{
+  display:flex;
+  width:750rpx;
+  height:30rpx;
+  font-size:24rpx;
+}
+.line{
+  width:214rpx;
+  margin:14rpx 0;
+  height:2rpx;
+  background: #c7c7c7;
+}
+.countdown{
+  flex:1;
+  color:#545454;
+  text-align: center;
+ 
+}
+.timer{
+  display:inline-block;
+  width:34rpx;
+  height:31rpx;
+  margin:4rpx;
+  text-align: center;
+  color:#f40000;
+  background: #fd897d;
+}
+/* 玩趣 分享 */
+.funBox{
+  width:750rpx;
+  text-align: center;
+  padding:50rpx 24rpx 104rpx;
+}
+.sign{
+  width:344rpx;
+  height: 40rpx;
+  margin:0 auto 30rpx;
+}
+.funimg{
+  width:344rpx;
+  height: 30rpx;
+}
+.fun{
+  height:60rpx;
+  line-height:60rpx;
+  font-size:36rpx;
+  color:#333;
+}
+.ticketTxt{
+  height:56rpx;
+  margin-bottom:30rpx;
+  line-height:56rpx;
+  font-size:32rpx;
+  color:#9e9e9e;
+}
+.ticket{
+  display:flex;
+  width:702rpx;
+  justify-content: space-between;
+
+}
+.ticketimg{
+  width:166rpx;
+  height:344rpx;
+}
+
+/* 镇店之宝 */
+
+.town{
+  position:relative;
+  width:750rpx;
+}
+.townbgbox{
+  position:absolute;
+  top:-270rpx;
+  left:0;
+  width:750rpx;
+  height:774rpx;
+  z-index:-100;
+}
+.townbg{
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:0;
+  left:0;
+  width:750rpx;
+  height:774rpx;
+
+}
+/*  */
+.townTitle{
+  position:relative;
+  top:42rpx;
+  left:69rpx;
+  box-sizing: border-box;
+  display:flex;
+  width:612rpx;
+  height:100rpx;
+  padding:26rpx 60rpx 21rpx 66rpx; 
+  font-size:32rpx;
+  background: #fff;
+}
+.tTitleImg{
+  width:91rpx;
+  height:56rpx;
+}
+.tTitleImg1{
+  margin-left:20rpx;
+}
+/*  */
+.townBody{
+  width:750rpx;
+  margin-top:43rpx;
+  background: #fff;
+}
+.signImBoxg{
+  width:344rpx;
+  height: 30rpx;
+  margin:0 auto;
+}
+.signIm{
+  width:344rpx;
+  height: 30rpx;
+}
+.towntxt{
+  margin: 22rpx auto 37rpx;
+  text-align:center;
+  font-size:36rpx;
+}
+.townbigImgBox{
+  width:666rpx;
+  height:392rpx;
+  margin:0 auto;
+}
+.townbigImg{
+  width:666rpx;
+  height:392rpx;
+}
+/* 这个等有png图再调试位置 */
+.pngImg{
+  position:absolute;
+  width:450rpx;
+  height:320rpx;
+}
+.townpic{
+  width:226rpx;
+  height:33rpx;
+  transform: translateX(524rpx);
+
+}
+.picWrap{
+  display:flex;
+}
+.logimgbox{
+  
+}
+.logimg{
+  width:64rpx;
+  height:21rpx;
+}
+.picbox{
+  color:#df0000;
+}
+.smallTred{
+  font-size:24rpx;
+}
+.bigTred{
+  font-size:34rpx;
+}
+.buyBox{
+  width:154rpx;
+  height:47rpx;
+  line-height:47rpx;
+  box-sizing: border-box;
+  padding-left:16rpx;
+  font-size:20rpx;
+  color:#fff;
+  transform: translateX(24rpx);
+  background: #df0000;
+  border-radius: 10rpx;
+}
+.buyTxt{
+  font-size:20rpx;
+  margin-right:15rpx;
+}
+.icon{
+  width:21rpx;
+  height:21rpx;
+  border:1rpx solid #fff;
+}
+/* 塔图片 */
+.taImgBox{
+  width:420rpx;
+  height:195rpx;
+  margin-top:100rpx;
+}
+.taImg{
+  width:420rpx;
+  height:195rpx;
+}
+/* 泰国平面乳胶枕 */
+.planewrap{
+  display:flex;
+  width:750rpx;
+  height:373rpx;
+}
+.planeleft{
+  width:474rpx;
+  height:373rpx;
+}
+.planeleftImg{
+  width:474rpx;
+  height:373rpx;
+}
+/* 右边盒子 */
+.planeright{
+  flex:1;
+  margin-left:25rpx;
+}
+.planerightLogImg{
+  width:156rpx;
+  height:15rpx;
+}
+.planerightTxt{
+  display:block;
+  font-size:26rpx;
+  margin:8rpx 0 20rpx;
+}
+.planerightImgBox{
+  width:198rpx;
+  height:170rpx;
+  border:4rpx solid #d7d7d7;
+
+}
+.planerightImg{
+  width:198rpx;
+  height:170rpx;
+}
+/* 价格 */
+.planepic{
+  color:#df0000;      
+}
+.smallred{
+  font-size:21rpx;
+}
+.bigred{
+  font-size:33rpx;
+}
+
+/* 立即购买 */
+.purchase{
+  width:108rpx;
+  height:33rpx;
+  line-height:33rpx;
+  font-size:14rpx;
+  color:#fff;
+  background: #df0000;
+  border-radius: 10rpx;
+}
+.purchaseTxt{
+  display:block;
+  width:108rpx;
+  height:33rpx;
+  line-height:33rpx;
+  margin-left:10rpx;
+}
+.purchaseBorder{
+  width:14rpx;
+  height:14rpx;
+  border:1rpx solod #fff;
+}
+.purchaseIcon{
+  font-size:10rpx;
+}
+/* 泰国波浪按摩枕 */
+.waveWrap{
+  position:relative;
+  width:750rpx;
+  margin-bottom: 88rpx;
+}
+.waveSign{
+  display:block;
+  width:344rpx;
+  height:30rpx;
+  margin:56rpx auto 0;
+}
+.waveTxt{
+  display:block;
+  font-size:32rpx;
+  text-align:center;
+}
+.waveIcon1{
+  position:absolute;
+  width:108rpx;
+  height:108rpx;
+  top:30rpx;
+  right:0;
+}
+.coco{
+  position:absolute;
+  width:81rpx;
+  height:138rpx;
+  top:115rpx;
+  left:0;
+}
+.lineimg{
+  display:block;
+  width:502rpx;
+  height:219rpx;
+  margin:0 auto;
+}
+/* 波浪、狼牙按摩枕 */
+.pillow{
+  display:flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width:750rpx;
+  margin-top:119rpx;
+  padding:0 15rpx;
+}
+.pillowBox{
+  width:343rpx;
+}
+.pillowTxt{
+  display:block;
+  width:343rpx;
+  font-size:22rpx;
+  text-align: center;
+  margin-bottom:16rpx;
+}
+.pillowImg{
+  width:343rpx;
+  height:210rpx;
+}
+.pillowpicBox{
+  display:flex;
+  width:343rpx;
+  height:41rpx;
+  margin-top:26rpx;
+}
+.smallLog{
+  width:50rpx;
+  height:15rpx;
+  margin-top:25rpx;
+  margin-right:25rpx;
+}
+
+.waveWrapBox{
+  margin:10rpx 0 0 26rpx;
+}
+/* 口碑店长推荐 */
+.recommendBox{
+  position:relative;
+  width:750rpx;
+}
+.recommendBg{
+  width:750rpx;
+  height:152rpx;
+}
+.recommendBgImg{
+  width:750rpx;
+  height:152rpx;
+}
+.recommendTitle{
+  position:absolute;
+  top:52rpx;
+  left:68rpx;
+}
+.recommendlist{
+  display:flex;
+  justify-content: space-between;
+}
+.waveSign1{
+  margin:0 auto 10rpx;
+}
+.waveTxt1{
+  margin-bottom: 40rpx;
+}
+.recommendImg{
+  display:block;
+  width:750rpx;
+  height:494rpx;
+  margin-top:60rpx;
+}
+
+/*  */
+.sellerListBox{
+  background: #f2f6f5;
+  padding-bottom: 20rpx;
+
+}
+.rankingBtnBig{
+  height:100rpx;
+  line-height:100rpx;
+  margin :20rpx 320rpx 10rpx 46rpx;
+}
+.rankingBtnsmall{
+  font-size:20rpx;
+  margin-right:40rpx;
+  border-bottom:4rpx solid transparent;
+}
+.active{
+  border-color:#2c500d;
+}
+.rankingList{
+  display:flex;
+  justify-content: space-around;
+  width:750rpx;
+  height:290rpx;
+}
+.rankingListItem{
+  width:228rpx;
+  height:290rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;             
+}
+.rankingImg{
+  width:228rpx;
+  height: 170rpx;
+}
+.rankingNumber{
+  display:block;
+  width:40rpx;
+  height:40rpx;
+  line-height:40rpx;
+  margin:0 auto;
+  font-size:25rpx;
+  text-align: center;
+  color:#fff;
+  background: #278c58;
+  border-radius: 50%;
+  transform: translateY(-20rpx);
+}
+.rankingDetail{
+  display:block;
+  font-size:20rpx;
+  margin:-8rpx 0 12rpx 18rpx;
+}
+.payment{
+  display:block;
+  font-size:14rpx;
+  color:#848484;
+  margin-left:18rpx; 
+
+}
+/*like  */
+.likeList{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width:750rpx;
+  padding:0 21rpx;
+}
+.likeTxt{
+  height:100rpx;
+  line-height:100rpx;
+  margin-left:46rpx;
+}
+.likeListItem{
+  width:340rpx;
+  height:480rpx;
+  background: #fff;
+  margin:11rpx 0;
+  border-radius: 12rpx;
+  overflow: hidden;             
+}
+.likeImg{
+  width:340rpx;
+  height:282rpx;
+}
+.likeListItem text{
+  display:block;
+  margin-left:20rpx;
+}
+.likeTitle{
+  font-size:32rpx;
+  margin:20rpx 0 10rpx;
+}
+.likeDetail{
+  font-size:23rpx;
+  color:#999;
+  margin-bottom: 20rpx;
+}
+.money{
+  font-size: 26rpx;
+  color:#df0000;
+}
+.LookAll{
+  display:block;
+  width:696rpx;
+  height:86rpx;
+  margin:18rpx auto 0;
+  line-height:86rpx;
+  font-size: 27rpx;
+  text-align:center;
+  border-radius:  7rpx;         
+  background: #fff;
+}

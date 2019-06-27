@@ -1,212 +1,203 @@
-/**index.wxss**/
-.container{
-  width: 750rpx;
-  height: 100%;
+/*轮播图下面的背景 */
+.bg{
+  position:relative;
+  top:-120rpx;
+  width:750rpx;
 }
-/*轮播图背景*/
-.container .bg{
-  position: relative;
-  width: 100%;
+.bgimg{
+  width:750rpx;
 }
-.container .bg image{
-  width: 100%;
-}
-/*名字*/
-.container .title{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  color: #fff;
-  font-size: 38rpx;
-}
-/*轮播图*/
+/* 轮播图 */
 .swiper{
-  position: absolute;
-  top: 98rpx;
-  left: 56rpx;
+  position:absolute;
+  top:45rpx;
+  left:60rpx;
   width:629rpx;
   height:360rpx;
   margin:10rpx auto;
   border-radius: 30rpx;
   overflow: hidden;
   margin-bottom:103rpx;
+
 }
-.swiper .swiperImg{
+.swiperImg{
   width:700rpx;
-  height:400rpx;
+  height:40r0px;
 }
-/*轮播左右两边的竖条*/
-.vertical{
-  position: absolute;
-  top: 90rpx;
-  width: 32rpx;
-  height: 390rpx;
+/* 轮播图左右灰色竖条 */
+.suspension{
+  position:absolute;
+  width:750rpx;
+}
+.suspension-this{
+  position:absolute;
+  top:-440rpx;
+  width:73rpx;
+  height:360rpx;
+  border-radius:30rpx; 
   background: #bfbfbf;
 }
-.verticalBarL{
-  left: 0;
-  border-radius: 0 30rpx 30rpx 0;
+.suspension-l{
+  left:-36rpx;
 }
-.verticalBarR{
-  right: 0;
-  border-radius:  30rpx 0 0 30rpx;
+.suspension-r{
+  right:-36rpx;
 }
-/*拼团信息*/
-.join{
-  width: 100%;
-  margin-top: 104rpx;
+
+/* 拼团背景图 */
+.groupbg{
+  position:relative;
+  width:750rpx;
+  height:250rpx;
+  overflow: hidden;
+  margin-top:50rpx;
 }
-.joinBg{
-  position: relative;
-  width: 100%;
-  height: 257rpx;
+.group-bgImg{
+  position:absolute;
+  width:750rpx;
 }
-.joinBg image{
-  width: 100%;
-  height: 100%;
+.goodstitle{
+  position:absolute;
+  top:0;
+  left:0;
+  width:750rpx;
+  height:90rpx;
+  color:#fff;
+  line-height:90rpx;
+  text-align: center;
+  font-size:30rpx;
 }
-.joinBg text{
-  position: absolute;
-  top: 30rpx;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-size: 30rpx;
+/* 拼团 */
+.goodswrap{
+  position:relative;
 }
-/*开始拼团*/
-.startJoin{
-  position: absolute;
-  top: 668rpx;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 658rpx;
-  height: 284rpx;
-  text-align: left;
+.goods{
+  position:absolute;
+  top:-165rpx;
+  left:44rpx;
+  display:flex;
+  padding:50rpx 30rpx 30rpx 30rpx;
+  width:598rpx;/*658*/
+  height:202rpx;/*282*/
   background: #fff;
-  border-radius: 23rpx;
-  padding-top: 56rpx;
+  border-radius: 35rpx;
   box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
 }
-.joinInfo image{
-  float: left;
-  width: 280rpx;
-  height: 200rpx;
-  margin-left: 10rpx;
-  margin-right: 10rpx;
+.imgbox{
+  width:280rpx;
+  height:200rpx;
+  margin-right:20rpx;
 }
-.joinInfo .info{
-  height: 284rpx;
+.img{
+  top:0;
+  left:0;
+  
+  width:280rpx;
+  height:200rpx;
 }
-.joinInfo .info .infoDes{
-  width: 100%;
-  font-size: 26rpx;
+
+.textbox{
+  flex:1;
 }
-.price{
-  width: 100%;
-  margin-top: 24rpx;
+.detail{
+  width:100%;
+  font-size:26rpx;
 }
-.price .newPrice{
-  font-size: 14rpx;
-  color: #ff3000;
-  margin-right: 8rpx;
+.pic{
+  font-size:24rpx;
+  color:rgb(255,31,0);
 }
-.price .newPrice text{
-  font-size: 24rpx;
+.redsmall{
+  
 }
-.price .oldPrice{
-  font-size: 14rpx;
-  color: #b4b4b4;
+.redbig{
+  font-size:40rpx;
+}
+.gray{
+  font-size:20rpx;
   text-decoration: line-through;
+  color:#b5b5b5;
 }
-.info .timeShop{
-  float: left;
-  width: 109rpx;
-  height: 32rpx;
-  text-align: center;
-  line-height: 32rpx;
-  margin-top: 28rpx;
-  padding: 5rpx;
-  font-size: 20rpx;
-  color: #ff4c22;
-  border: 2rpx solid #ff4c22;
+.limit{
+  padding:5rpx;
+  font-size:20rpx;
+  color:#cf3d1e;
+  border:2rpx solid #cf3d1e;
 }
-/*团长信息*/
-.imgJoin{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 230rpx;
+/* .triangle{
+  position
+  width:0;
+  height:0;
+  border-left:30rpx solid transparent;
+  border-right:30rpx solid transparent;
+  border-top:50rpx solid #f00;
+  box-shadow: 3rpx 5rpx 15rpx 10rpx rgba(0,0,0,.4);
+
+} */
+/* 拼团圆头像 */
+.iconImgWrap{
+  display:flex;
+  width:440rpx;
+  height:72rpx;
+  margin:0 auto;
 }
-.imgJoin view:first-child{
-  position: relative;
-}
-.imgJoin view:first-child text{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 42rpx;
-  height: 14rpx;
-  text-align: center;
-  line-height: 14rpx;
-  font-size: 14rpx;
-  color: #fff;
-  padding: 2rpx 10rpx 2rpx 10rpx;
-  border-radius: 20rpx;
-  background: #ff3000;
-}
-.imgJoin view{
-  width: 70rpx;
-  height: 70rpx;
-  margin-right: 20rpx;
-}
-.imgJoin view image{
-  width: 100%;
-  height: 100%;
+
+.iconImgBok{
+  position:relative;
+  margin:200rpx 9rpx 0;
+  width:68rpx;
+  height:69rpx;
   border-radius: 50%;
 }
-.imgJoin .emptyImg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70rpx;
-  height: 70rpx;
+.regimental{
+  position:absolute;
+  top:50rpx;
+  left:18rpx;
+  padding:3rpx 6rpx;
+  font-size:14rpx;
+  color:#fff;
+  background: rgb(255,33,0);
+}
+.iconImg{
+  width:68rpx;
+  height:69rpx;
+  border-radius: 50%;
+}
+.emptyImg{
+  line-height:69rpx;
+  text-align:center;
+  font-size:40rpx;
+  color:#fafafa;
   background: #bababa;
-  color: #fff;
-  border-radius: 50%;
-  border: 1rpx dashed #5e5e5e;
+  border:2rpx dashed #484848;
 }
-/*剩余数量*/
-.count{
-  width: 100%;
-  margin-top: 44rpx;
+/* 仅剩 */
+.remain{
+  font-size:26rpx;
   text-align: center;
-  font-size: 23rpx;
-  color: #252525;
+  margin:40rpx auto 30rpx;
 }
-.count text text{
-  color: #cd0202;
+.remainRed{
+  color:#cd0202;
 }
-/*剩余时间*/
-.time{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 31rpx;
-  margin-top: 38rpx;
-  font-size: 23rpx;
+/* 倒计时 */
+.countdownWrap{
+  display:flex;
+  width:750rpx;
+  height:30rpx;
+  font-size:24rpx;
 }
-.time .line{
-  width: 208rpx;
-  height: 2rpx;
+.line{
+  width:214rpx;
+  margin:14rpx 0;
+  height:2rpx;
   background: #c7c7c7;
 }
 .countdown{
   flex:1;
   color:#545454;
   text-align: center;
+ 
 }
 .timer{
   display:inline-block;
@@ -217,56 +208,50 @@
   color:#f40000;
   background: #fd897d;
 }
-/*玩趣加购*/
-.play{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 80rpx;
+/* 玩趣 分享 */
+.funBox{
+  width:750rpx;
+  text-align: center;
+  padding:50rpx 24rpx 104rpx;
 }
-.play .img{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.sign{
+  width:344rpx;
+  height: 40rpx;
+  margin:0 auto 30rpx;
 }
-.play .img image{
-  width: 344rpx;
+.funimg{
+  width:344rpx;
   height: 30rpx;
 }
-.play .playText{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 40rpx;
-  font-size: 36rpx;
-  color: #333;
+.fun{
+  height:60rpx;
+  line-height:60rpx;
+  font-size:36rpx;
+  color:#333;
 }
-.play .text{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 26rpx;
-  font-size: 32rpx;
-  color: #b9b9b9;
+.ticketTxt{
+  height:56rpx;
+  margin-bottom:30rpx;
+  line-height:56rpx;
+  font-size:32rpx;
+  color:#9e9e9e;
 }
-/*图片*/
-.pic{
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 40rpx;
-  margin-left: 2%;
+.ticket{
+  display:flex;
+  width:702rpx;
+  justify-content: space-between;
+
 }
-.pic image{
-  width: 166rpx;
-  height: 344rpx;
-  margin-right: 13rpx;
+.ticketimg{
+  width:166rpx;
+  height:344rpx;
 }
-/*镇店之宝*/
+
+/* 镇店之宝 */
+
 .town{
   position:relative;
   width:750rpx;
-  margin-top: 103rpx;
 }
 .townbgbox{
   position:absolute;
@@ -284,7 +269,9 @@
   left:0;
   width:750rpx;
   height:774rpx;
+
 }
+/*  */
 .townTitle{
   position:relative;
   top:42rpx;
@@ -304,6 +291,7 @@
 .tTitleImg1{
   margin-left:20rpx;
 }
+/*  */
 .townBody{
   width:750rpx;
   margin-top:43rpx;
@@ -342,9 +330,13 @@
   width:226rpx;
   height:33rpx;
   transform: translateX(524rpx);
+
 }
 .picWrap{
   display:flex;
+}
+.logimgbox{
+  
 }
 .logimg{
   width:64rpx;
@@ -380,16 +372,15 @@
   height:21rpx;
   border:1rpx solid #fff;
 }
-/*背景图片*/
-.container .bgImg{
+/* 塔图片 */
+.taImgBox{
   width:420rpx;
   height:195rpx;
-  margin-left: 0;
   margin-top:100rpx;
 }
-.container .bgImg image{
-  width: 100%;
-  height: 100%;
+.taImg{
+  width:420rpx;
+  height:195rpx;
 }
 /* 泰国平面乳胶枕 */
 .planewrap{
@@ -537,6 +528,7 @@
   margin-top:25rpx;
   margin-right:25rpx;
 }
+
 .waveWrapBox{
   margin:10rpx 0 0 26rpx;
 }
@@ -574,10 +566,12 @@
   height:494rpx;
   margin-top:60rpx;
 }
+
 /*  */
 .sellerListBox{
   background: #f2f6f5;
   padding-bottom: 20rpx;
+
 }
 .rankingBtnBig{
   height:100rpx;
@@ -632,6 +626,7 @@
   font-size:14rpx;
   color:#848484;
   margin-left:18rpx; 
+
 }
 /*like  */
 .likeList{

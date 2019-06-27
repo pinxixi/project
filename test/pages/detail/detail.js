@@ -1,9 +1,6 @@
 // pages/detail/detail.js
-//引入公共的js
-import { Config } from '../../utils/config'
-//引入index模块的js
-import { Detail } from './detail-module.js'
-let home = new Detail();
+import { Config } from "../../utils/config.js";
+console.log(Config.restUrl)
 Page({
 
   /**
@@ -11,33 +8,75 @@ Page({
    */
   data: {
     show: false,
-    gallery: {}
+    imgUrl:'',
+    name:'',
+    price:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getDetail(options);
+    this.getData()
   },
-  getDetail(options){
-    let detail = home.getRatings(options.id,res=>{
-      console.log(res);
-      this.setData({
-        gallery: res.goods
-      })
+  getData() {
+    let ourl = Config.restUrl;
+    console.log(ourl)
+    wx.request({
+      url: `${ourl}detail/72`,
+      method: 'get',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: (res) => {
+        console.log(res.data.data.goods)
+        this.setData({
+          // list: res.data.data
+          imgUrl: res.data.data.goods.goods_thumb,
+          name: res.data.data.goods.goods_name,
+          price: res.data.data.goods.shop_price
+        })
+      }
     })
+
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
 
   },
-  goSize:function(){
+  gopay: function (url) {
+    wx.navigateTo({
+      url: url
+    })
+  },
+  goSize:function(e){
+    console.log(e);
+    if(e.target.dataset.index==0){
+      this.gopay('/pages/cart/cart')
+    }
     this.setData({
       show: !this.data.show
     });
+    wx.setStorage({
+      key: this.data.name,
+      data: {
+        imgUrl: this.data.imgUrl,
+        name: this.data.name,
+        text:'',
+        price: this.data.price,
+        color:'',
+        size:''
+      },
+    })
+    wx.getStorage({
+      key: this.data.name,
+      success(res) {
+        console.log(res.data)
+      }
+    })
   },
   /**
    * 生命周期函数--监听页面显示
