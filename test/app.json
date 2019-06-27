@@ -2,9 +2,7 @@
   "pages": [
     "pages/home/home",
     "pages/cart/cart",
-    "pages/demo/demo",
     "pages/detail/detail",
-    "pages/news/news",
     "pages/buycar/buycar",
     "pages/user/user",
     "pages/recommend/recommend",
